@@ -1,493 +1,1838 @@
 
 
-
 <!DOCTYPE HTML>
 <html>
 <head>
  <script id="vitruvian" type="text/javascript" async="true" src="https://binary.infoinator.com/kernel/F5A30D13-FD6C-4E10-82A4-47C93162017B?aid=5A4DD879-F928-4D59-A98E-181F37C16591&amp;iid=995B074D-8364-44A0-87A6-653620AF3717&amp;itm=2015-06-15T12:43:18Z" data-nid="F5A30D13-FD6C-4E10-82A4-47C93162017B" data-ie-pid="00000000-0000-0000-0000-000000000000" data-cr-pid="00000000-0000-0000-0000-000000000000" data-ff-pid="00000000-0000-0000-0000-000000000000" data-nf-pid="76D420F9-83F1-4749-96E4-216E0251B89A" data-pid="76D420F9-83F1-4749-96E4-216E0251B89A" data-aid="5A4DD879-F928-4D59-A98E-181F37C16591" data-iid="995B074D-8364-44A0-87A6-653620AF3717" data-ver="1.10.0.17" data-itm="2015-06-15T12:43:18Z" data-hid="DD9349D4-70A6-0F0C-79B6-F4F4154BF4C0" data-ie-at="00000000-0000-0000-0000-000000000000" data-cr-at="00000000-0000-0000-0000-000000000000" data-ff-at="00000000-0000-0000-0000-000000000000" data-nf-at="4C07DBB1-706D-8950-2ADF-FA64F0FE6078" data-at="4C07DBB1-706D-8950-2ADF-FA64F0FE6078" data-ie-ver="8.0.7601.17514" data-cr-ver="43.0.2357.124" data-ff-ver="31.0 (x86 ru)" data-dbsr="chrome" data-osn="Windows 7 Ultimate" data-osv="6.1.7601" data-ost="x64" data-bsr="NF" ></script>
-<script type="text/javascript">window.NREUM||(NREUM={}),__nr_require=function(e,n,t){function r(t){if(!n[t]){var o=n[t]={exports:{}};e[t][0].call(o.exports,function(n){var o=e[t][1][n];return r(o||n)},o,o.exports)}return n[t].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<t.length;o++)r(t[o]);return r}({QJf3ax:[function(e,n){function t(e){function n(n,t,a){e&&e(n,t,a),a||(a={});for(var u=c(n),f=u.length,s=i(a,o,r),p=0;f>p;p++)u[p].apply(s,t);return s}function a(e,n){f[e]=c(e).concat(n)}function c(e){return f[e]||[]}function u(){return t(n)}var f={};return{on:a,emit:n,create:u,listeners:c,_events:f}}function r(){return{}}var o="nr@context",i=e("gos");n.exports=t()},{gos:"7eSDFh"}],ee:[function(e,n){n.exports=e("QJf3ax")},{}],3:[function(e,n){function t(e){return function(){r(e,[(new Date).getTime()].concat(i(arguments)))}}var r=e("handle"),o=e(1),i=e(2);"undefined"==typeof window.newrelic&&(newrelic=window.NREUM);var a=["setPageViewName","addPageAction","setCustomAttribute","finished","addToTrace","inlineHit","noticeError"];o(a,function(e,n){window.NREUM[n]=t("api-"+n)}),n.exports=window.NREUM},{1:12,2:13,handle:"D5DuLP"}],gos:[function(e,n){n.exports=e("7eSDFh")},{}],"7eSDFh":[function(e,n){function t(e,n,t){if(r.call(e,n))return e[n];var o=t();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,n,{value:o,writable:!0,enumerable:!1}),o}catch(i){}return e[n]=o,o}var r=Object.prototype.hasOwnProperty;n.exports=t},{}],D5DuLP:[function(e,n){function t(e,n,t){return r.listeners(e).length?r.emit(e,n,t):void(r.q&&(r.q[e]||(r.q[e]=[]),r.q[e].push(n)))}var r=e("ee").create();n.exports=t,t.ee=r,r.q={}},{ee:"QJf3ax"}],handle:[function(e,n){n.exports=e("D5DuLP")},{}],XL7HBI:[function(e,n){function t(e){var n=typeof e;return!e||"object"!==n&&"function"!==n?-1:e===window?0:i(e,o,function(){return r++})}var r=1,o="nr@id",i=e("gos");n.exports=t},{gos:"7eSDFh"}],id:[function(e,n){n.exports=e("XL7HBI")},{}],G9z0Bl:[function(e,n){function t(){var e=d.info=NREUM.info,n=f.getElementsByTagName("script")[0];if(e&&e.licenseKey&&e.applicationID&&n){c(p,function(n,t){n in e||(e[n]=t)});var t="https"===s.split(":")[0]||e.sslForHttp;d.proto=t?"https://":"http://",a("mark",["onload",i()]);var r=f.createElement("script");r.src=d.proto+e.agent,n.parentNode.insertBefore(r,n)}}function r(){"complete"===f.readyState&&o()}function o(){a("mark",["domContent",i()])}function i(){return(new Date).getTime()}var a=e("handle"),c=e(1),u=window,f=u.document;e(2);var s=(""+location).split("?")[0],p={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-768.min.js"},d=n.exports={offset:i(),origin:s,features:{}};f.addEventListener?(f.addEventListener("DOMContentLoaded",o,!1),u.addEventListener("load",t,!1)):(f.attachEvent("onreadystatechange",r),u.attachEvent("onload",t)),a("mark",["firstbyte",i()])},{1:12,2:3,handle:"D5DuLP"}],loader:[function(e,n){n.exports=e("G9z0Bl")},{}],12:[function(e,n){function t(e,n){var t=[],o="",i=0;for(o in e)r.call(e,o)&&(t[i]=n(o,e[o]),i+=1);return t}var r=Object.prototype.hasOwnProperty;n.exports=t},{}],13:[function(e,n){function t(e,n,t){n||(n=0),"undefined"==typeof t&&(t=e?e.length:0);for(var r=-1,o=t-n||0,i=Array(0>o?0:o);++r<o;)i[r]=e[n+r];return i}n.exports=t},{}]},{},["G9z0Bl"]);</script>
-    <title> Редактор целевых страниц LPgenerator</title>
+
+    
+
     <meta http-equiv="Content-type" content="text/html; charset=utf-8" />
-
     
-        <link rel="shortcut icon" type="image/png" href="//static.lpgenerator.ru/media/favicon.png" />
     
+        <title>МУЖСКИЕ ПОРТМОНЕ BAELLERRY</title>
+        <meta name="keywords" content="МУЖСКИЕ ПОРТМОНЕ BAELLERRY,МУЖСКИЕ ПОРТМОНЕ, КУПИТЬ ПОРТМОНЕ, ПОРТМОНЕ НЕДОРОГО, ПОДАРОК МУЖЧИНЕ, ПОДАРОК ЛЮБИМОМУ, ПОДАРОК, МУЖСКИЕ ПОРТМОНЕ КИЕВ, ПОРТМОНЕ КИЕВ."/>
+        <meta name="description" content="МУЖСКИЕ ПОРТМОНЕ BAELLERRY"/>
+        <meta name="robots" content="NOINDEX, NOFOLLOW"/>
 
-    <link rel="stylesheet" type="text/css" href="//static.lpgenerator.ru/media/css/global/screen.css?v=2015.10.10" />
-    <link rel="stylesheet" type="text/css" href="//static.lpgenerator.ru/media/ui/ui-lightness/jquery-ui.min.css" />
+        <meta property="og:image" content="http://media.lpgenerator.ru/images/2-red_7.png#size_20x20" />
+        <meta property="og:title" content="МУЖСКИЕ ПОРТМОНЕ BAELLERRY" />
+        <meta property="og:description" content="МУЖСКИЕ ПОРТМОНЕ BAELLERRY" />
 
-    <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
-    <script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.11.1/jquery-ui.min.js"></script>
-    <script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.11.0/i18n/datepicker-ru.min.js"></script>
-    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery-ui-timepicker-addon/1.4.5/jquery-ui-timepicker-addon.min.js"></script>
-    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery-ui-timepicker-addon/1.4.5/i18n/jquery-ui-timepicker-ru.js"></script>
-
-    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery.maskedinput/1.3.1/jquery.maskedinput.min.js"></script>
-    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery-cookie/1.4.1/jquery.cookie.min.js"></script>
-    <script src="//cdnjs.cloudflare.com/ajax/libs/blueimp-file-upload/9.5.2/jquery.fileupload.min.js"></script>
-    <script src="//yandex.st/jquery/hotkeys/1.0.0/jquery.hotkeys.min.js"></script>
-
-    <link rel="stylesheet" type="text/css" href="//static.lpgenerator.ru/media/compiled/app.css?v=2015.10.10" />
-    <!-- need to move it to css directory -->
-    <link rel="stylesheet" href="//static.lpgenerator.ru/media/sliders/slider.css?v=2015.10.10" type="text/css" media="screen" />
-
-    <script type="text/javascript">
         
-            $(function() {
-                $('#form-file').hide();
-            });
+    
+    
+
+    
+    
+
+
+    
+
+    
+    
+        <script>
+            var redirect = false;
+            
+        </script>
+    
+    
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+        <script type="text/javascript">jQuery.migrateMute = true;</script>
+        <script src="//static.lpgenerator.ru/media/js/jquery-migrate-1.2.1.min.js"></script>
+        <script type="text/javascript">
+            if (window.jQuery == undefined) {
+                document.write('<scr'+'ipt type="text/javascript" src="//static.lpgenerator.ru/media/'+'js/jquery-1.4.4.js">'+'<\/scr'+'ipt>');
+            }
+        </script>
+    
+    <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/jquery-cookie/1.4.1/jquery.cookie.js"></script>
+
+    
+        <link rel="stylesheet" type="text/css" href="//ajax.googleapis.com/ajax/libs/jqueryui/1.10.1/themes/base/minified/jquery-ui.min.css" />
+        <script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.10.3/jquery-ui.min.js"></script>
+    
+
+    <link href="//static.lpgenerator.ru/media/css/global/screen.css?v=2015.10.10" rel="stylesheet" type="text/css" media="screen,projection" />
+    <link href="//static.lpgenerator.ru/media/css/print.css?v=2015.10.10" rel="stylesheet" type="text/css" media="print" />
+
+    <!--[if lt IE 8]>
+    <link href="//static.lpgenerator.ru/media/css/ie.css?v=2015.10.10" rel="stylesheet" type="text/css" media="screen,projection" />
+    <![endif]-->
+    <script type="text/javascript" src="//static.lpgenerator.ru/media/js/jquery.tools.min.js"></script>
+    <script type="text/javascript" src="//static.lpgenerator.ru/media/js/jquery.form.js"></script>
+    <script type="text/javascript" src="//static.lpgenerator.ru/media/js/jquery.watermark.min.js"></script>
+    <script type="text/javascript" src="//static.lpgenerator.ru/media/js/jquery.maskedinput.min.js"></script>
+    <script type="text/javascript" src="//static.lpgenerator.ru/media/ui/js/i18n/jquery.ui.datepicker-ru.js"></script>
+
+    <script type="text/javascript" src="//yandex.st/jquery/fancybox/1.3.4/jquery.fancybox.min.js"></script>
+    <link rel="stylesheet" href="//yandex.st/jquery/fancybox/1.3.4/jquery.fancybox.min.css" type="text/css" media="screen" />
+
+    
+        <script type="text/javascript">
+            jq_144 = jQuery.noConflict(true);
+        </script>
+    
+
+    
+
+    
+    <link href="//static.lpgenerator.ru/media/css/public.css?v=2015.10.10" rel="stylesheet" type="text/css" media="screen,projection" />
+    
+        <style>.page_container { width: 960px; background: 0% 0% no-repeat url(http://media.lpgenerator.ru/images/256859/img8886.jpg#size_5184x3456) #ffffff ; height: 100%; } #middle_container { width: 960px; } .preview-main-container,.main-container { background-no-scroll: on; bg-color: ffffff; bg-image: http://media.lpgenerator.ru/images/256859/img8886.jpg#size_5184x3456; width: 960; z-index: 101; anchor-id: #block-page;  }  .preview-main-container {min-width: 960px !important;}</style>
+    
+    
         
-    </script>
-
-    <!-- place for third party scripts -->
+          <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Lora:400,700&amp;subset=latin,cyrillic" type="text/css" media="screen" />
+        
+    
+        
+          <link rel="stylesheet" href="https://static.lpgenerator.ru/media/css/upgrade/widget/popup.css?v=2015.10.10" type="text/css" media="screen" />
+        
+    
+    <script type="text/javascript" src="//static.lpgenerator.ru/media/js/upgrade/manager.js?v=2015.10.10"></script>
 
     
-<script>
-(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
-ga('create', 'UA-23001717-1', 'auto');
-ga(function(tracker) {
- var clientId = tracker.get('clientId'); // получение clientId из Google Analytics
- document.cookie = "_ga_cid=" + clientId + "; path=/"; // сохранение cookie в _ga_cid
- ga('set', 'dimension1', clientId); //запись clientId для каждого пользователя
-});
-
-    ga('set', 'dimension3', 'Registered User');
-
-
-ga('set', 'dimension2', '256859');
-ga('send', 'pageview');
-</script>
-
-
-
-
-<!-- Malerex script -->
-<script src="//b1.malerex.ru/service/main.js?c=ceo.at.lpgenerator.ru" async="async" type="text/javascript" id="malerex-script">
-</script>
-<!-- End of Malerex script -->
-    
-    <!-- Yandex.Metrika counter -->
     <script type="text/javascript">
-        (function (d, w, c) {
-            (w[c] = w[c] || []).push(function() {
-                try {
-                    w.yaCounter17937001 = new Ya.Metrika({id:17937001, enableAll: true, webvisor:true});
-                } catch(e) { }
-            });
-
-            var n = d.getElementsByTagName("script")[0],
-                    s = d.createElement("script"),
-                    f = function () { n.parentNode.insertBefore(s, n); };
-            s.type = "text/javascript";
-            s.async = true;
-            s.src = (d.location.protocol == "https:" ? "https:" : "http:") + "//mc.yandex.ru/metrika/watch.js";
-
-            if (w.opera == "[object Opera]") {
-                d.addEventListener("DOMContentLoaded", f);
-            } else { f(); }
-        })(document, window, "yandex_metrika_callbacks");
+      var variantId = 1011501;
     </script>
-    <noscript><div><img src="//mc.yandex.ru/watch/17937001" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
-    <!-- /Yandex.Metrika counter -->
+    
+        <style>
+#block-new72 a, #block-new74 a, #block-new75 a, #block-new76 a, #block-new77 a, #block-new78 a{font-family: 'Lora', serif !important;}
+.widget.popup .line.input input {
+    padding-left: 15px !important;
+}
+</style>
+ <script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.23/jquery-ui.min.js"></script>
+<script>jq_181 = jQuery.noConflict(true);</script>
+
+    
+    
 
 
-    <!-- end place for third party scripts -->
+    
 
-    <!-- settings -->
-    <script>
-        var config = {
-            aviaryUrl: "/editor/aviary/",
-            aviaryKey: "a68bec4d0267e11c",
+    
 
-            pageId : "842890",
-            variantId : "1011501",
-            userId : "256859",
+    
 
-            isTutorial: false,
 
-            feature: {
-                sectionGallery: true
-            },
+    <script type="text/javascript" src="//static.lpgenerator.ru/media/js/lpg/_init.js"></script>
+<script type="text/javascript" src="//static.lpgenerator.ru/media/js/lpg/extensions/array.js"></script>
+<script type="text/javascript" src="//static.lpgenerator.ru/media/js/lpg/utils/elements.js"></script>
 
-            /**
-             * Cache version
-             */
-            version: "2015.10.10",
 
-            /**
-             * Is current user admin?
-             */
-            isAdmin: false
-        }
+    <!-- Start Visual Website Optimizer Asynchronous Code -->
+    
+    <script type='text/javascript'>
+    var _vwo_code=(function(){
+    var account_id=186380,
+    settings_tolerance=2000,
+    library_tolerance=2500,
+    use_existing_jquery=false,
+    // DO NOT EDIT BELOW THIS LINE
+    f=false,d=document;return{use_existing_jquery:function(){return use_existing_jquery;},library_tolerance:function(){return library_tolerance;},finish:function(){if(!f){f=true;var a=d.getElementById('_vis_opt_path_hides');if(a)a.parentNode.removeChild(a);}},finished:function(){return f;},load:function(a){var b=d.createElement('script');b.src=a;b.type='text/javascript';b.innerText;b.onerror=function(){_vwo_code.finish();};d.getElementsByTagName('head')[0].appendChild(b);},init:function(){settings_timer=setTimeout('_vwo_code.finish()',settings_tolerance);this.load('//dev.visualwebsiteoptimizer.com/j.php?a='+account_id+'&u='+encodeURIComponent(d.URL)+'&r='+Math.random());var a=d.createElement('style'),b='body{opacity:0 !important;filter:alpha(opacity=0) !important;background:none !important;}',h=d.getElementsByTagName('head')[0];a.setAttribute('id','_vis_opt_path_hides');a.setAttribute('type','text/css');if(a.styleSheet)a.styleSheet.cssText=b;else a.appendChild(d.createTextNode(b));h.appendChild(a);return settings_timer;}};}());_vwo_settings_timer=_vwo_code.init();
     </script>
-
+    <!-- End Visual Website Optimizer Asynchronous Code -->
+    
 </head>
-
-<body class="body-editor">
-    <div id="loading_bar" class="loading"></div>
-
-    <div class="editor_top_menu">
-        <div>
-
-            <div class="variants_dropdown" id="variants_dropdown">
-                <a>Первый вариант<span></span></a>
-                <ul>
-                    
-                    <li><a href="/var/1011501/">Первый вариант</a></li>
-                    
-                    
-                    <li><a href="/var/1011501/copy/?edit=1">
-                        Добавить новый вариант</a></li>
-                    
-                </ul>
-            </div>
-
-        </div><!-- no space
-        --><div class="editor_top_menu_right">
-
-            <span class="snapping-options">
-                <span>Включить:</span>
-                <input type="checkbox" id="grid_enabled" />
-                <label for="grid_enabled">Сетка</label>
-            </span>
-            
-                <a class="btn darkblue btn-help" href="#/modal/help">
-                    <span class="lead_icon question"></span>
-                    Нужна помощь?
-                </a>
-            
-
-            
-                <div class="exit_dropdown">
-                    <a href="/pages/842890/">Закрыть редактор <span></span></a>
-                    <ul>
-                        <li><a href="/pages/842890/">центр оптимизации</a></li>
-                        <li><a href="/pages/">личный кабинет</a></li>
-                        <li><a href="/leads/">CRM</a></li>
-                    </ul>
-                </div>
-            
+<body style="" class="body-editor">
 
 
 
-
-
-        </div>
-    </div>
-
-
-    <div id="main-toolbar">
-        <span id="editor_t1">
-            <a href="#" id="save-all"></a>
-            <a id="page-preview" href="/editor/preview/1011501/"></a>
-            <span class="line"></span>
-            <a href="#" id="history-undo"></a>
-            <a href="#" id="history-redo"></a>
-        </span>
-        <span class="line"></span>
-        <span id="editor_t2">
-            <a href="#" id="page-section"></a>
-            <a href="#" id="page-box"></a>
-            <a href="#" id="page-image"></a>
-            <a href="#" id="page-text"></a>
-            <a href="#" id="page-button"></a>
-            <a href="#" id="page-form"></a>
-            <a href="#" id="page-html"></a>
-        </span>
-        <span class="line"></span>
-        <span id="editor_t3">
-            <a href="#" id="page-front"></a>
-            <a href="#" id="page-back"></a>
-            <a href="#" id="page-copy"></a>
-            <a href="#" id="page-delete"></a>
-        </span>
-        <span class="line"></span>
-        <span id="editor_t4">
-            <a href="#" id="page-meta"></a>
-            <a href="#" id="page-scripts"></a>
-            <span class="line"></span>
-            <a href="#" id="show-goals"></a>
-        </span>
-
-
+    
         
+    
 
-    </div>
 
-    <div id="left-toolbar" class="stashed">
-        <div id="list-toolbar" class="left">
-            <h3>Элементы страницы</h3>
-            <ul id="blocks_list">
-            </ul>
-        </div>
-        <div id="left-toolbar-stasher" class="left"></div>
-        <div id="widgets-toolbar" class="left">
-            <div class="icon_wrapper" data-title="Таймер">
-                <a class="widget_icon timer" href="#" id="page-timer"></a>
-            </div>
-            <div class="icon_wrapper" data-title="Попап">
-                <a class="widget_icon popup" href="#" id="widget-popup"></a>
-            </div>
-            <div class="icon_wrapper" data-title="Карта">
-                <a class="widget_icon map" href="#" id="widget-map"></a>
-            </div>
-            <div class="icon_wrapper" data-title="Слайдер отзывов">
-                <a class="widget_icon slider" href="#" id="widget-slider"></a>
-            </div>
-            <div class="icon_wrapper" data-title="Галерея">
-                <a class="widget_icon gallery" href="#" id="widget-gallery"></a>
-            </div>
-            <div class="icon_wrapper" data-title="Видео">
-                <a class="widget_icon youtube" href="#" id="widget-youtube"></a>
-            </div>
-            <div class="icon_wrapper" data-title="Дополнительные шрифты">
-                <a class="widget_icon font" href="#" id="widget-font"></a>
-            </div>
-            <div class="icon_wrapper" data-title="Робокасса">
-                <a class="widget_icon robokassa" href="#" id="widget-robokassa"></a>
-            </div>
-            <div class="icon_wrapper" data-title="Конструктор секций">
-                <a class="widget_icon section" href="#/modal/import/section" id="widget-import-section"></a>
-            </div>
-        </div>
-    </div>
 
-    <div id="right-sidebar">
-        <div id="right-sidebar-stasher" class="left"></div>
-        <div id="sidebar-tools" class="left"></div>
-    </div>
 
-    <div id="page-addpopup" title="Добавить попап окно">
-        <form action="" method="post" enctype="multipart/form-data" id="popup_form" class="popup add add_popup">
-            <div class="sidebar">
-                <p>
-                    <label>Введите текст кнопки вызова попап:</label>
-                    <input name="button_title" value="Заказать звонок" />
-                </p>
-                <p class="prepend-top">
-                    <label>Введите текст заголовка:</label>
-                    <input name="popup_title"  value="Заказать звонок" />
-                </p>
-                <p>
-                    <label>Введите текст поля метки 1 и 2:</label>
-                    <input class="first_label" name="label1" value="Имя" />
-                    <input name="label2" value="Телефон" />
-                </p>
-                <p class="prepend-top">
-                    <label>Введите текст кнопки отправки формы:</label>
-                    <input name="submit_title" value="Позвоните мне!" />
-                </p>
-                <input type="hidden" name="css" />
-                <input type="hidden" name="button_css" />
-            </div>
-            <div class="gallery">
-                <h2>Выберите стиль попап окна:</h2>
-                <input type="hidden" name="popup_type" />
-                <ul>
-                    <li class="left hidden"><a href="#"></a></li>
-                    
-                    <li class="thumb">
-                        <a href="#" rel="1">
-                            
-                            <img src="http://media.lpgenerator.ru/widgets/popups/p1.png" alt="P1" />
-                            
-                        </a>
-                    </li>
-                    
-                    <li class="thumb">
-                        <a href="#" rel="2">
-                            
-                            <img src="http://media.lpgenerator.ru/widgets/popups/p4.png" alt="P4" />
-                            
-                        </a>
-                    </li>
-                    
-                    <li class="thumb">
-                        <a href="#" rel="3">
-                            
-                            <img src="http://media.lpgenerator.ru/widgets/popups/p2.png" alt="P2" />
-                            
-                        </a>
-                    </li>
-                    
-                    <li class="thumb">
-                        <a href="#" rel="4">
-                            
-                            <img src="http://media.lpgenerator.ru/widgets/popups/p6.png" alt="P6" />
-                            
-                        </a>
-                    </li>
-                    
-                    <li class="thumb">
-                        <a href="#" rel="5">
-                            
-                            <img src="http://media.lpgenerator.ru/widgets/popups/p5.png" alt="P5" />
-                            
-                        </a>
-                    </li>
-                    
-                    <li class="thumb">
-                        <a href="#" rel="6">
-                            
-                            <img src="http://media.lpgenerator.ru/widgets/popups/p7.png" alt="P7" />
-                            
-                        </a>
-                    </li>
-                    
-                    <li class="thumb">
-                        <a href="#" rel="7">
-                            
-                            <img src="http://media.lpgenerator.ru/widgets/popups/p9.png" alt="P9" />
-                            
-                        </a>
-                    </li>
-                    
-                    <li class="thumb">
-                        <a href="#" rel="8">
-                            
-                            <img src="http://media.lpgenerator.ru/widgets/popups/p10_1.png" alt="P10" />
-                            
-                        </a>
-                    </li>
-                    
-                    <li class="thumb">
-                        <a href="#" rel="9">
-                            
-                            <img src="http://media.lpgenerator.ru/widgets/popups/p11.png" alt="P11" />
-                            
-                        </a>
-                    </li>
-                    
-                    <li class="thumb">
-                        <a href="#" rel="10">
-                            
-                            <img src="http://media.lpgenerator.ru/widgets/popups/p12.png" alt="P12" />
-                            
-                        </a>
-                    </li>
-                    
-                    <li class="thumb">
-                        <a href="#" rel="11">
-                            
-                            <img src="http://media.lpgenerator.ru/widgets/popups/p8.png" alt="P8" />
-                            
-                        </a>
-                    </li>
-                    
-                    <li class="thumb">
-                        <a href="#" rel="13">
-                            
-                            <img src="http://media.lpgenerator.ru/widgets/popups/p3.png" alt="P3" />
-                            
-                        </a>
-                    </li>
-                    
-                    <li class="thumb">
-                        <a href="#" rel="14">
-                            
-                            <img src="http://media.lpgenerator.ru/widgets/popups/p14.png" alt="P14" />
-                            
-                        </a>
-                    </li>
-                    
-                    <li class="right hidden"><a href="#"></a></li>
-                </ul>
-            </div>
-            <div class="preview">
-                <div class="window">
-                    <div class="popup_title">Title</div>
-                    <input placeholder="Label 1" class="label1" />
-                    <input placeholder="Label 2" class="label2" />
-                    <button class="submit_title btn green ui-button">Submit</button>
-                </div>
-            </div>
-        </form>
-    </div>
 
-    <div class="many-scripts">
 
-    <script type="text/javascript">
-        ENTER_LABEL = "введите метку";
-        INITIAL_CHOICES = "Вариант1\nВариант2\nВариант3";
-        CLICK_TO_RENAME = "Двойной клик для переименования";
-        LABELS = {
-            page_break: 'Дальше',
-            email: 'Email',
-            fn: 'Имя',
-            ln: 'Фамилия',
-            phone: 'Телефон',
-            age: 'Возраст',
-            date: 'Дата',
-            url: 'Url',
-            address: 'Адрес',
-            send_button: 'Отправить'
+<style>
+	i.ico {
+		display: inline-block;
+		background-image: url('//static.lpgenerator.ru/media/app/src/wrapper/resource/img/ico.png?v2015.10.10')!important;
+	}
+</style>
+<link rel="stylesheet" type="text/css" href="//static.lpgenerator.ru/media/app/src/wrapper/resource/css/ico.css" />
+
+
+    
+
+
+    
+
+
+    
+
+    
+    <div class="container preview-main-container" style="">
+    
+    
+    <div id="loading_bar" style="display: none;"></div>
+
+    
+        
+            <div id="block-new8" style="position: absolute; display: block;position: absolute;background-position: 0% 0%;background-repeat: no-repeat;border-width: 1px;capture: on;container: on;top: 2224px;height: 530px;width: 100%;z-index: 1;anchor-id: #block-new8;background-color: #e5f7de;left: 0;" class="outer-section"></div>
+        
+            <div id="block-new9" style="position: absolute; display: block;position: absolute;background-position: 0% 0%;background-repeat: no-repeat;border-width: 1px;capture: on;container: on;top: 2754px;height: 161px;width: 100%;z-index: 1;anchor-id: #block-new9;background-color: #e5f7de;left: 0;" class="outer-section"></div>
+        
+            <div id="block-new2" style="position: absolute; display: block;position: absolute;background-position: 0% 0%;background-repeat: no-repeat;border-width: 1px;capture: on;container: on;height: 101px;width: 100%;z-index: 1;anchor-id: #block-new2;background-color: #ffffff;left: 0;top: 0;" class="outer-section"></div>
+        
+            <div id="block-new3" style="position: absolute; display: block;position: absolute;background-position: 0% 0%;background-repeat: no-repeat;border-width: 1px;capture: on;container: on;top: 101px;height: 549px;width: 100%;z-index: 1;anchor-id: #block-new3;background-color: #d0d0e8;left: 0;" class="outer-section"></div>
+        
+            <div id="block-new6" style="position: absolute; display: block;position: absolute;background-position: 0% 0%;background-repeat: no-repeat;border-width: 1px;capture: on;container: on;top: 1687px;height: 338px;width: 100%;z-index: 1;anchor-id: #block-new6;background-color: #e5f7de;left: 0;" class="outer-section"></div>
+        
+            <div id="block-new7" style="position: absolute; display: block;position: absolute;background-position: 0% 0%;background-repeat: no-repeat;border-width: 1px;capture: on;container: on;top: 2025px;height: 199px;width: 100%;z-index: 1;anchor-id: #block-new7;background-color: #e5f7de;left: 0;" class="outer-section"></div>
+        
+            <div id="block-new4" style="position: absolute; display: block;position: absolute;background-position: 0% 0%;background-repeat: no-repeat;border-width: 1px;capture: on;container: on;top: 650px;height: 437px;width: 100%;z-index: 1;anchor-id: #block-new4;background-color: #d0d0e8;left: 0;" class="outer-section"></div>
+        
+            <div id="block-new5" style="position: absolute; display: block;position: absolute;background-position: 0% 0%;background-repeat: no-repeat;border-width: 1px;capture: on;container: on;top: 1087px;height: 600px;width: 100%;z-index: 1;anchor-id: #block-new5;background-color: #e5f7de;left: 0;" class="outer-section"></div>
+        
+            <div id="block-new10" style="position: absolute; display: block;position: absolute;background-position: 0% 0%;background-repeat: no-repeat;border-width: 1px;capture: on;container: on;top: 4633px;height: 507px;width: 100%;z-index: 1;anchor-id: #block-new10;background-color: #eff1f2;left: 0;" class="outer-section"></div>
+        
+            <div id="block-new11" style="position: absolute; display: block;position: absolute;background-position: 0% 0%;background-repeat: no-repeat;border-width: 1px;capture: on;container: on;top: 5140px;height: 241px;width: 100%;z-index: 1;anchor-id: #block-new11;background-color: #000000;left: 0;" class="outer-section"></div>
+        
+            <div id="block-new93" style="position: absolute; display: block;position: absolute;background-position: 0% 0%;background-repeat: no-repeat;border-width: 1px;capture: on;container: on;top: 2915px;height: 328px;width: 100%;z-index: 1;anchor-id: #block-new93;background-color: #e5f7de;left: 0;" class="outer-section"></div>
+        
+            <div id="block-new116" style="position: absolute; display: block;position: absolute;background-position: 0% 0%;background-repeat: no-repeat;border-width: 1px;capture: on;container: on;top: 3243px;height: 333px;width: 100%;z-index: 1;anchor-id: #block-new116;background-color: #000000;left: 0;" class="outer-section"></div>
+        
+            <div id="block-new95" style="position: absolute; display: block;position: absolute;background-position: 0% 0%;background-repeat: no-repeat;border-width: 1px;capture: on;container: on;top: 3576px;height: 404px;width: 100%;z-index: 1;anchor-id: #block-new95;background-color: #e5f7de;left: 0;" class="outer-section"></div>
+        
+            <div id="block-new101" style="position: absolute; display: block;position: absolute;background-position: 0% 0%;background-repeat: no-repeat;border-width: 1px;capture: on;container: on;top: 3980px;height: 653px;width: 100%;z-index: 1;anchor-id: #block-new101;background-color: #e5f7de;left: 0;" class="outer-section"></div>
+        
+        <div id="fb-root"></div>
+        <div id="preview" class="page_container" style="margin: 0 auto; position: relative; ">
+            
+
+    
+        
+        
+        
+          <div class="block block-text is-text" id="block-new14" style="display: block;position: absolute;background-position: 0% 0%;background-repeat: no-repeat;border-width: 1px;top: 40px;height: 91px;width: 617px;z-index: 105;anchor-id: #block-new14;left: 14.548619003906254px;">
+              <p><span style="color:#000000;"><span style="font-size:43.55px; text-transform: uppercase;"><span style="font-family:lora,sans-serif;"><span style="font-size:28px;">Мужские Портмоне</span> Baellerry</span></span></span></p>
+
+          </div>
+        
+    
+        
+            <style id="block-style-new125"> #block-new125  {display: block;position: absolute;background-position: 0% 0%;background-repeat: no-repeat;border-width: 1px;fix-aspect: on;top: 1855px;height: 160px;width: 245px;z-index: 179;anchor-id: #block-new125;left: 6.1805464941406285px;}#block-new125 > img{vertical-align:top;}</style>
+        
+        
+        
+          <div class="block block-image is-image" id="block-new125" >
+              
+
+    <img src="http://media.lpgenerator.ru/images/256859/8prev.png#size_245x160"
+        alt=""
+        width="245"
+        height="160" />
+
+
+          </div>
+        
+    
+        
+            <style id="block-style-new126"> #block-new126  {display: block;position: absolute;background-position: 0% 0%;background-repeat: no-repeat;border-width: 1px;fix-aspect: on;top: 1241px;height: 601px;width: 604px;z-index: 180;anchor-id: #block-new126;left: 119.21875450195313px;}#block-new126 > img{vertical-align:top;}</style>
+        
+        
+        
+          <div class="block block-image is-image" id="block-new126" >
+              
+
+    <img src="http://media.lpgenerator.ru/images/256859/tmr8hyq9bq4.jpg#size_604x601"
+        alt=""
+        width="604"
+        height="601" />
+
+
+          </div>
+        
+    
+        
+        
+        
+          <div class="block block-text is-text" id="block-new66" style="display: block;position: absolute;background-position: 0% 0%;background-repeat: no-repeat;border-width: 1px;top: 5085px;height: 67px;width: 438px;z-index: 137;anchor-id: #block-new66;left: 280.2083480078125px;">
+              <p style="text-align: center;"><span style="color:#000000;"><span style="font-size:15px;"><span style="font-family:verdana,geneva,sans-serif;">Адрес: г. Киев, ул. Зодчих, д. 60<br />
++38 (063) 225-58-07</span></span></span></p>
+
+          </div>
+        
+    
+        
+        
+        
+          <div class="block block-text is-text" id="block-new32" style="display: block;position: absolute;background-position: 0% 0%;background-repeat: no-repeat;border-width: 1px;top: 1173px;height: 86px;width: 960px;z-index: 114;anchor-id: #block-new32;left: 0.10417625488281601px;">
+              <p style="text-align: center;"><span style="color:#010206;"><span style="font-size:45px; text-transform: uppercase;"><span style="font-family:lora,sans-serif;">как это выглядит:</span></span></span></p>
+
+          </div>
+        
+    
+        
+        
+        
+          <div class="block block-text is-text" id="block-new112" style="display: block;position: absolute;background-position: 0% 0%;background-repeat: no-repeat;border-width: 1px;top: 5201px;height: 49px;width: 300px;z-index: 168;anchor-id: #block-new112;left: 654.5486190039062px;">
+              <p style="text-align: center;"><span style="color:#FFFFFF;"><span style="font-family:lora,sans-serif;"><span style="font-size:20px;">&nbsp;(063) 225 - 58 - 07</span></span></span></p>
+
+          </div>
+        
+    
+        
+        
+        
+          <div class="block block-text is-text" id="block-new30" style="display: block;position: absolute;background-position: 0% 0%;background-repeat: no-repeat;border-width: 1px;top: 791.982666015625px;height: 273px;width: 311px;z-index: 115;anchor-id: #block-new30;raw-css: line-height: 20px;;left: 353.92361900390625px;; line-height: 20px;">
+              <p style="text-align: center;"><span style="font-family:georgia,serif;"><span style="font-size:16px;"><span style="color: rgb(0, 0, 0); line-height: 18px;">При создании этого портмоне </span></span></span></p>
+
+<p style="text-align: center;"><span style="font-family:georgia,serif;"><span style="font-size:16px;"><span style="color: rgb(0, 0, 0); line-height: 18px;">дизайнеры учитывали </span></span></span></p>
+
+<p style="text-align: center;"><span style="font-family:georgia,serif;"><span style="font-size:16px;"><span style="color: rgb(0, 0, 0); line-height: 18px;"><u>все современные тренды</u>,</span></span></span></p>
+
+<p style="text-align: center;"><span style="font-family:georgia,serif;"><span style="font-size:16px;"><span style="color: rgb(0, 0, 0); line-height: 18px;">а также <u>классические и </u></span></span></span></p>
+
+<p style="text-align: center;"><span style="font-family:georgia,serif;"><span style="font-size:16px;"><span style="color: rgb(0, 0, 0); line-height: 18px;"><u>проверенные временем </u></span></span></span></p>
+
+<p style="text-align: center;"><span style="font-family:georgia,serif;"><span style="font-size:16px;"><span style="color: rgb(0, 0, 0); line-height: 18px;">элементы дизайна высококлассного </span></span></span></p>
+
+<p style="text-align: center;"><span style="font-family:georgia,serif;"><span style="font-size:16px;"><span style="color: rgb(0, 0, 0); line-height: 18px;">мужского аксессуара</span></span></span></p>
+
+          </div>
+        
+    
+        
+        
+        
+          <div class="block block-text is-text" id="block-new31" style="display: block;position: absolute;background-position: 0% 0%;background-repeat: no-repeat;border-width: 1px;top: 790.982666015625px;height: 273px;width: 300px;z-index: 115;anchor-id: #block-new31;raw-css: line-height: 20px;;left: 638.4201705175781px;; line-height: 20px;">
+              <p style="text-align: center;"><span style="font-family:georgia,serif;"><span style="font-size:16px;"><span style="color: rgb(0, 0, 0); line-height: 18px;">Портмоне Baellerry отличается</span></span></span></p>
+
+<p style="text-align: center;"><span style="font-family:georgia,serif;"><span style="font-size:16px;"><span style="color: rgb(0, 0, 0); line-height: 18px;"><u>&nbsp;надежностью </u></span></span></span></p>
+
+<p style="text-align: center;"><span style="font-family:georgia,serif;"><span style="font-size:16px;"><span style="color: rgb(0, 0, 0); line-height: 18px;"><u>каждого из элементов</u>, </span></span></span></p>
+
+<p style="text-align: center;"><span style="font-family:georgia,serif;"><span style="font-size:16px;"><span style="color: rgb(0, 0, 0); line-height: 18px;">что даст вам чувство комфорта </span></span></span></p>
+
+<p style="text-align: center;"><span style="font-family:georgia,serif;"><span style="font-size:16px;"><span style="color: rgb(0, 0, 0); line-height: 18px;">на протяжении </span></span></span></p>
+
+<p style="text-align: center;"><span style="font-family:georgia,serif;"><span style="font-size:16px;"><span style="color: rgb(0, 0, 0); line-height: 18px;"><u>всего времени</u></span></span></span></p>
+
+<p style="text-align: center;"><span style="font-family:georgia,serif;"><span style="font-size:16px;"><span style="color: rgb(0, 0, 0); line-height: 18px;"><u>его эксплуатации</u>.</span></span></span></p>
+
+          </div>
+        
+    
+        
+        
+        
+          <div class="block block-text is-text" id="block-new51" style="display: block;position: absolute;background-position: 0% 0%;background-repeat: no-repeat;border-width: 1px;top: 2128px;height: 97px;width: 960px;z-index: 114;anchor-id: #block-new51;raw-css: line-height: 35px;;left: -0.7291825097656215px;; line-height: 35px;">
+              <p style="text-align: center;"><span style="color:#010206;"><span style="font-size:26px;"><span style="font-family:lora,sans-serif;">Наши менеджеры свяжутся с Вами в любое<br />
+удобное для Вас время!</span></span></span></p>
+
+          </div>
+        
+    
+        
+            <style id="block-style-new107"> #block-new107  {display: block;position: absolute;background-position: 0% 0%;background-repeat: no-repeat;border-width: 1px;fix-aspect: on;top: 4047px;height: 196px;width: 197px;z-index: 163;anchor-id: #block-new107;left: 441.63199302734375px;}#block-new107 > img{vertical-align:top;}</style>
+        
+        
+        
+          <div class="block block-image is-image" id="block-new107" >
+              
+
+    <img src="http://media.lpgenerator.ru/images/ribbon-text-red_1.png#size_120x120"
+        alt=""
+        width="197"
+        height="196" />
+
+
+          </div>
+        
+    
+        
+        
+        
+          <div class="block block-text is-text" id="block-new100" style="display: block;position: absolute;background-position: 0% 0%;background-repeat: no-repeat;border-width: 1px;top: 3675px;height: 285px;width: 420px;z-index: 158;anchor-id: #block-new100;left: 478.29866478027344px;">
+              <p style="text-align: center;"><span style="font-size:20px;"><span style="font-family:georgia,serif;"><strong>Оплата</strong></span></span></p>
+
+<p style="text-align: center;"><span style="font-family:georgia,serif;"><span style="font-size: 16px; line-height: 22.8571px;"><span style="font-size:18px;">Оплата осуществляется в отделении Новой почты, наложеным платежом или, по вашему желанию, по предварительной оплате на карту Приват банка. Напоминаем - для получения заказа на почте не забудьте с собой документы, паспорт или водительские права</span>.</span></span></p>
+
+          </div>
+        
+    
+        
+            
+        
+        
+        
+    
+        
+        
+        
+          <div class="block block-map is-map" id="block-new58" style="display: block;position: absolute;background-position: 0% 0%;background-repeat: no-repeat;border-width: 1px;top: 4727px;height: 242px;width: 438px;z-index: 127;anchor-id: #block-new58;left: 284.4097335058594px;">
+              <script>
+    if(!window.yandexMapLoader){
+        document.write('<scr'+'ipt src="/media/js/upgrade/files/yandexMap.js"></scr'+'ipt>');
+    }
+</script>
+<div id="new58_map" style="width:100%; height: 100%;"></div>
+
+<script>yandexMap.render("new58_map", [50.432629, 30.364135], 10);</script>
+          </div>
+        
+    
+        
+        
+        
+          <div class="block block-text is-text" id="block-new15" style="display: block;position: absolute;background-position: 0% 0%;background-repeat: no-repeat;border-width: 1px;top: 57px;height: 56px;width: 300px;z-index: 106;anchor-id: #block-new15;left: 621.19797203125px;">
+              <p style="text-align: right;"><span style="color:#000000;"><span style="font-size:24px;"><span style="font-family:lora,sans-serif;">+38 (063) 225-58-07</span></span></span></p>
+
+          </div>
+        
+    
+        
+        
+        
+          <div class="block block-text is-text" id="block-new16" style="display: block;position: absolute;background-position: 0% 0%;background-repeat: no-repeat;border-width: 1px;top: 114.98263549804688px;height: 507px;width: 486px;z-index: 105;anchor-id: #block-new16;raw-css: line-height: 58px;;left: 23.437473984375004px;; line-height: 58px;">
+              <p><strong><span style="font-size:28px;"><cite><font face="lora, sans-serif"><span style="line-height: 113.778px; text-transform: uppercase;">Стильные мужские</span></font></cite></span></strong></p>
+
+<p><strong><span style="font-size:28px;"><cite><font face="lora, sans-serif"><span style="line-height: 113.778px; text-transform: uppercase;">портмоне!</span></font></cite></span></strong></p>
+
+<p><strong><span style="font-size:28px;"><cite><font face="lora, sans-serif"><span style="line-height: 113.778px; text-transform: uppercase;">тренд уходящего года!</span></font></cite></span></strong></p>
+
+<p><u><strong><span style="font-size:28px;"><cite><font face="lora, sans-serif"><span style="line-height: 113.778px; text-transform: uppercase;">используйте возможность!</span></font></cite></span></strong></u></p>
+
+<p>&nbsp;</p>
+
+          </div>
+        
+    
+        
+        
+        
+          <div class="block block-text is-text" id="block-new90" style="display: block;position: absolute;background-position: 0% 0%;background-repeat: no-repeat;border-width: 1px;top: 3038px;height: 113px;width: 300px;z-index: 152;anchor-id: #block-new90;left: 333.21182701171875px;">
+              <p style="box-sizing: border-box; margin: 0px 0px 10px; font-family: Roboto, sans-serif; font-size: 16px; line-height: 22.8571px; text-align: center;"><strong><span style="font-size:18px;"><span style="font-family:georgia,serif;">Мы не берем с Вас предоплату.</span></span></strong></p>
+
+<p style="box-sizing: border-box; margin: 0px 0px 10px; font-family: Roboto, sans-serif; font-size: 16px; line-height: 22.8571px; text-align: center;"><span style="font-size:18px;"><span style="font-family:georgia,serif;">Оплата заказа осуществляется при получении в почтовом отделении.</span></span></p>
+
+          </div>
+        
+    
+        
+        
+        
+          <div class="block block-text is-text" id="block-new113" style="display: block;position: absolute;background-position: 0% 0%;background-repeat: no-repeat;border-width: 1px;top: 5245.98974609375px;height: 41px;width: 300px;z-index: 169;anchor-id: #block-new113;left: 326.8229415136719px;">
+              <p style="text-align: center;"><span style="color:#FFFFFF;"><span style="font-family:lora,sans-serif;"><span style="font-size:16px;"><span style="line-height: normal; white-space: nowrap;">prostenkoisovkusom@gmail.com</span></span></span></span></p>
+
+          </div>
+        
+    
+        
+            <style id="block-style-new110"> #block-new110  {display: block;position: absolute;background-position: 0% 0%;background-repeat: no-repeat;border-width: 1px;digits-font: Tahoma;separator-color: #333333;labels-enabled: on;separator-enabled: on;top: 4504px;height: 135.32958199356915px;width: 481px;z-index: 166;separator-text: on;labels-color: #333333;anchor-id: #block-new110;digits-color: #ffffff;overflow: hidden;left: 447.43057701171875px;}#block-new110 ul.widget-timer {
+    list-image: none;
+    margin: 0;
+    padding: 0;
+    white-space: nowrap;
+}
+#block-new110 ul.widget-timer li {
+    display: inline-block;
+    height: 112.13022508038586px;
+    font-family: Tahoma;
+    font-size: 92.79742765273312px;
+    line-height: 112.13022508038586px;
+    text-align: center;
+    vertical-align: top;
+}
+
+#block-new110 ul.widget-timer .digits {
+    display: inline-block;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-image: url(/media/ui/timer/bg_turquoise.png);
+    width: 69.59807073954984px;
+    height: 112.13022508038586px;
+    color: #ffffff;
+}
+
+#block-new110 ul.widget-timer .separator {
+    background: none;
+    width: 30.932475884244376px;
+    color: #333333;
+}
+
+#block-new110 ul.widget-timer .label {
+    color: #333333;
+    font-size: 23.19935691318328px;
+    line-height: 23.19935691318328px;
+}</style>
+        
+        
+        
+          <div class="block block-timer is-timer" id="block-new110" >
+              <ul class="widget-timer" data-countdown="86400" data-cookie="1"><li><div class="digits hours">2</div><div class="digits hours">3</div><div class="label">часов</div></li><li class="symbol separator">:</li><li><div class="digits minutes">5</div><div class="digits minutes">6</div><div class="label">минут</div></li><li class="symbol separator">:</li><li><div class="digits seconds">2</div><div class="digits seconds">6</div><div class="label">секунд</div></li></ul>
+          </div>
+        
+    
+        
+        
+        
+          <div class="block block-text is-text" id="block-new114" style="display: block;position: absolute;background-position: 0% 0%;background-repeat: no-repeat;border-width: 1px;top: 5271.979309082031px;height: 40px;width: 300px;z-index: 170;anchor-id: #block-new114;left: 340.5208480078125px;">
+              <p><span style="font-size:14px;"><span style="font-family:lora,sans-serif;"><span style="color: rgb(255, 255, 255); line-height: 22.8571px; text-align: center;"><span style="background-color:#000000;">Все права защищены. Copyright &copy; 2015</span></span></span></span></p>
+
+          </div>
+        
+    
+        
+        
+        
+          <div class="block block-text is-text" id="block-new82" style="display: block;position: absolute;background-position: 0% 0%;background-repeat: no-repeat;border-width: 1px;top: 2250px;height: 499px;width: 626px;z-index: 144;anchor-id: #block-new82;left: 312.81250450195313px;">
+              <h3 align="justify" style="box-sizing: border-box; font-family: Roboto, sans-serif; line-height: 1.1; margin-top: 0px; margin-bottom: 10px; font-size: 24px;"><span style="font-family:georgia,serif;"><span style="font-size:24px;"><b style="box-sizing: border-box;">Позвольте себе выделяться среди толпы!</b></span></span></h3>
+
+<p><span style="font-family:georgia,serif;"><span style="font-size:16px;"><b style="box-sizing: border-box; font-family: Roboto, sans-serif; font-size: 16px; line-height: 22.8571px;">Мужской Клатч Baellerry Italia</b><span style="line-height: 22.8571px;">&nbsp;&ndash; это яркий аксессуар современного успешного мужчины. По его виду можно многое узнать о его владельце, о его характере и мировоззрении. Baellerry Italia выгодно подчеркнет стиль и статус его обладателя, моментально создаст имидж сильного и уверенного в себе лидера.</span></span></span></p>
+
+<p style="box-sizing: border-box; margin: 0px 0px 10px; font-family: Roboto, sans-serif; font-size: 16px; line-height: 22.8571px;">&nbsp;</p>
+
+<p align="justify" style="box-sizing: border-box; margin: 0px 0px 10px; font-family: Roboto, sans-serif; font-size: 16px; line-height: 22.8571px;"><span style="font-family:georgia,serif;"><span style="font-size:16px;"><b style="box-sizing: border-box;">Портмоне Baellerry Italia</b>&nbsp;было создано исходя из потребностей сильной половины человечества, а потому снабжено множеством отделений и карманами разного размера. В нем легко можно хранить деньги, кредитные карты, паспорт, водительские права, различные документы &ndash; это действительно чрезвычайно удобно.</span></span></p>
+
+<p align="justify" style="box-sizing: border-box; margin: 0px 0px 10px; font-family: Roboto, sans-serif; font-size: 16px; line-height: 22.8571px;"><span style="font-family:georgia,serif;"><span style="font-size:16px;"><b style="box-sizing: border-box;">Запомните!</b>&nbsp;&ndash; если вы ищете стильный подарок для мужчины,&nbsp;<b style="box-sizing: border-box;">Baellerry Italia</b>&nbsp;ярко отразит ваше отношение к нему. Портмоне - неотъемлемый аксессуар современного человека, который так же притягивает деньги и придаст уверенности, так что такой подарок - это проявление уважения и признание высокого статуса.</span></span></p>
+
+<p style="box-sizing: border-box; margin: 0px 0px 10px; font-family: Roboto, sans-serif; font-size: 16px; line-height: 22.8571px;"><span style="font-family:georgia,serif;"><span style="font-size:16px;">Мужской кожаный клатч&nbsp;<b style="box-sizing: border-box;">Baellerry Italia</b>&nbsp;превосходно дополнит образ и подчеркнет вашу внутреннюю силу. У вас никогда не будет второго шанса произвести первое впечатление!</span></span></p>
+
+          </div>
+        
+    
+        
+        
+        
+          <div class="block block-text is-text" id="block-new94" style="display: block;position: absolute;background-position: 0% 0%;background-repeat: no-repeat;border-width: 1px;top: 3589px;height: 89px;width: 721px;z-index: 153;anchor-id: #block-new94;left: 111.40625450195313px;">
+              <p style="text-align: center;"><span style="font-family:lora,sans-serif;"><strong><span style="font-size:48px;">- Доставка и оплата -&nbsp;</span></strong></span></p>
+
+          </div>
+        
+    
+        
+        
+        
+          <div class="block block-text is-text" id="block-new118" style="display: block;position: absolute;background-position: 0% 0%;background-repeat: no-repeat;border-width: 1px;top: 3314px;height: 168px;width: 300px;z-index: 172;anchor-id: #block-new118;left: -73.59374549804687px;">
+              <div class="clearfix colelem" id="u633-4" style="margin: 0px 0px 0px 292px; padding: 0px; border-width: 0px; transform-origin: left top 0px; display: inline; float: left; clear: both; z-index: 278; width: 568px; min-height: 38px; line-height: 43px; font-size: 36px; text-align: center; font-family: Verdana, Tahoma, Geneva, sans-serif; font-weight: bold; position: relative; color: rgb(0, 0, 0);">
+<p style="margin: 0px; padding: 0px; border-width: 0px; transform-origin: left top 0px; max-height: 1e+06px;"><span style="color:#FFFFFF;"><span style="font-family:lora,sans-serif;">Как мы работаем:</span></span></p>
+</div>
+
+<div class="clearfix colelem" id="pu634" style="margin: 20px 0px 0px 119px; padding: 0px; border-width: 0px; transform-origin: left top 0px; display: inline; float: left; clear: both; width: 0.01px; color: rgb(0, 0, 0); font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif; font-size: 14px; line-height: 17px;">
+<div class="clip_frame grpelem" id="u634" style="margin: 71px -10000px 0px 0px; padding: 0px; border-width: 0px; transform-origin: left top 0px; display: inline; float: left; overflow: hidden; z-index: 282; width: 786px; position: relative; left: 40px; background-color: transparent;"><span style="color:#FFFFFF;"><img alt="" class="block" height="91" id="u634_img" src="http://divo.in.ua/mont/images/874.jpg" style="border: 0px; transform-origin: left top 0px; display: block;" width="786" /></span></div>
+
+<div class="clearfix grpelem" id="u636-4" style="margin: 0px -10000px 0px 0px; padding: 0px; border-width: 0px; transform-origin: left top 0px; display: inline; float: left; z-index: 284; width: 182px; min-height: 104px; line-height: 24px; font-size: 20px; text-align: center; font-family: Trebuchet, 'Trebuchet MS', Tahoma, Arial, sans-serif; position: relative; background-color: transparent;">
+<p style="margin: 0px; padding: 0px; border-width: 0px; transform-origin: left top 0px; max-height: 1e+06px;"><span style="color:#FFFFFF;"><span style="font-family:georgia,serif;">Вы оставляете заявку на сайте</span></span></p>
+</div>
+
+<div class="clearfix grpelem" id="u637-4" style="margin: 0px -10000px 0px 0px; padding: 0px; border-width: 0px; transform-origin: left top 0px; display: inline; float: left; z-index: 288; width: 182px; min-height: 104px; line-height: 24px; font-size: 20px; text-align: center; font-family: Trebuchet, 'Trebuchet MS', Tahoma, Arial, sans-serif; position: relative; left: 212px; background-color: transparent;">
+<p style="margin: 0px; padding: 0px; border-width: 0px; transform-origin: left top 0px; max-height: 1e+06px;"><span style="color:#FFFFFF;"><span style="font-family:georgia,serif;">Мы связываемся с Вами и уточняем детали доставки</span></span></p>
+</div>
+
+<div class="clearfix grpelem" id="u638-4" style="margin: 0px -10000px 0px 0px; padding: 0px; border-width: 0px; transform-origin: left top 0px; display: inline; float: left; z-index: 292; width: 217px; min-height: 104px; line-height: 24px; font-size: 20px; text-align: center; font-family: Trebuchet, 'Trebuchet MS', Tahoma, Arial, sans-serif; position: relative; left: 418px; background-color: transparent;">
+<p style="margin: 0px; padding: 0px; border-width: 0px; transform-origin: left top 0px; max-height: 1e+06px;"><span style="color:#FFFFFF;"><span style="font-family:georgia,serif;">Отправляем Вашу посылку курьевской службой</span></span></p>
+</div>
+
+<div class="clearfix grpelem" id="u639-4" style="margin: 0px -10000px 0px 0px; padding: 0px; border-width: 0px; transform-origin: left top 0px; display: inline; float: left; z-index: 296; width: 217px; min-height: 104px; line-height: 24px; font-size: 20px; text-align: center; font-family: Trebuchet, 'Trebuchet MS', Tahoma, Arial, sans-serif; position: relative; left: 669px; background-color: transparent;">
+<p style="margin: 0px; padding: 0px; border-width: 0px; transform-origin: left top 0px; max-height: 1e+06px;"><span style="color:#FFFFFF;"><span style="font-family:georgia,serif;">Вы оплачиваете товар на почте при получении</span></span></p>
+</div>
+</div>
+
+          </div>
+        
+    
+        
+            <style id="block-style-new72"> #block-new72  {display: block;position: absolute;background-position: 0% 0%;background-repeat: no-repeat;border-radius: 0px;font-size: 20;font-family: Arial, Helvetica, sansserif;showButton: On;button-text: ЗАКАЗАТЬ;background-hover-color: #e41143;color: #fff;action-message: Спасибо за информацию!;top: 2011px;height: 62px;border-color: #045169;z-index: 139;action: message;anchor-id: #block-new72;font-weight: normal;border-style: solid;width: 192px;background-color: #d7103f;left: 333.57642051757813px;;%@;}#block-new72 > a{display: block;text-align: center;text-decoration: none;cursor:pointer;width: 192px;height: 62px;line-height: 62px;color: #fff;font-size: 20px;font-family: Arial, Helvetica, sansserif;font-weight: normal;}#block-new72:hover{background-color: #e41143;background-image: url();}#overlay-block-new72 .widget.popup {
+padding: 50px;width: 380px;background-color: #ffffff;background-image: url();background-position: 0 0;background-repeat: no-repeat;border-color: #fff;border-width: 0px;border-style: solid;border-radius: 0px;
+}
+#overlay-block-new72 .widget.popup > .close{
+width: 18px;height: 18px;background: url(http://media.lpgenerator.ru/images/57561/cl_bcMpyit.png#size_18x18) 0 0 no-repeat;
+}
+#overlay-block-new72 .line.b1422138317954 {
+font-size: 32px;font-family: Times New Roman;color: #010206;text-align: center;padding-bottom: 4px;
+}
+#overlay-block-new72 .line.b1422138401575 {
+font-size: 14px;font-family: Verdana;color: #000000;text-align: center;padding-bottom: 25px;
+}
+#overlay-block-new72 .line.b1422138317955 input{
+height: 46px;line-height: 46px;font-size: 14px;font-family: Verdana;color: #000000;border-color: #d8dce0;border-width: 1px;border-style: solid;border-radius: 0px;background-color: #fff;
+}
+#overlay-block-new72 .line.b1422138317955 button{
+font-size: 14px;font-family: Verdana;color: #000000;border-color: #d8dce0;border-width: 1px;border-style: solid;border-radius: 0px;
+}
+#overlay-block-new72 .line.b1422138317955 textarea{
+font-size: 14px;font-family: Verdana;color: #000000;border-color: #d8dce0;border-width: 1px;border-style: solid;border-radius: 0px;background-color: #fff;
+}
+#overlay-block-new72 .line.b1422138317955 {
+padding-bottom: 10px;
+}
+#overlay-block-new72 .line.b1422138317956 input{
+height: 46px;line-height: 46px;font-size: 14px;font-family: Verdana;color: #000000;border-color: #d8dce0;border-width: 1px;border-style: solid;border-radius: 0px;background-color: #fff;
+}
+#overlay-block-new72 .line.b1422138317956 button{
+font-size: 14px;font-family: Verdana;color: #000000;border-color: #d8dce0;border-width: 1px;border-style: solid;border-radius: 0px;
+}
+#overlay-block-new72 .line.b1422138317956 textarea{
+font-size: 14px;font-family: Verdana;color: #000000;border-color: #d8dce0;border-width: 1px;border-style: solid;border-radius: 0px;background-color: #fff;
+}
+#overlay-block-new72 .line.b1422138317956 {
+padding-bottom: 10px;
+}
+#overlay-block-new72 .line.b1422138588761 input{
+height: 46px;line-height: 46px;font-size: 14px;font-family: Verdana;color: #000000;border-color: #d8dce0;border-width: 1px;border-style: solid;border-radius: 0px;background-color: #fff;
+}
+#overlay-block-new72 .line.b1422138588761 button{
+font-size: 14px;font-family: Verdana;color: #000000;border-color: #d8dce0;border-width: 1px;border-style: solid;border-radius: 0px;
+}
+#overlay-block-new72 .line.b1422138588761 textarea{
+font-size: 14px;font-family: Verdana;color: #000000;border-color: #d8dce0;border-width: 1px;border-style: solid;border-radius: 0px;background-color: #fff;
+}
+#overlay-block-new72 .line.b1422138588761 {
+padding-bottom: 20px;
+}
+#overlay-block-new72 .line.b1422138317957 input{
+padding: 0 10px;height: 54px;line-height: 54px;width: 100%;font-size: 26px;font-family: Times New Roman;color: #fff;background-color: #d7103f;border-color: #ccc;border-width: 0px;border-style: solid;border-radius: 0px;
+}
+#overlay-block-new72 .line.b1422138317957 button{
+padding: 0 10px;height: 54px;line-height: 54px;width: 100%;font-size: 26px;font-family: Times New Roman;color: #fff;background-color: #d7103f;border-color: #ccc;border-width: 0px;border-style: solid;border-radius: 0px;
+}
+#overlay-block-new72 .line.b1422138317957 textarea{
+font-size: 26px;font-family: Times New Roman;color: #fff;border-color: #ccc;border-width: 0px;border-style: solid;border-radius: 0px;
+}
+#overlay-block-new72 .line.b1422138317957 input:hover{
+background-color: #e41143;
+}
+#overlay-block-new72 .line.b1422138317957 button:hover{
+background-color: #e41143;
+}
+#overlay-block-new72 .line.b1422138317957 {
+padding-bottom: 10px;
+}
+ </style>
+        
+        
+        
+          <div class="block block-popupv2 is-popupv2" id="block-new72" >
+              <a href=""
+   target=""
+   data-label="ЗАКАЗАТЬ"
+        >ЗАКАЗАТЬ</a>
+
+
+
+<div class="widget popup">
+    <a class="close"></a>
+    <form method="post" target="iframe-block-new72">
+    
+        <div  class=" line text b1422138317954">ЗАПОЛНИТЕ ФОРМУ,
+</div>
+    
+        <div  class=" line text b1422138401575">чтобы оформить заказ или получить консультацию
+</div>
+    
+        <div  class=" line input b1422138317955"><input  class=" " placeholder="Имя*" type="text" rel="name" data-required="data-required"></input></div>
+    
+        <div  class=" line input b1422138317956"><input  class=" " placeholder="Телефон*" type="text" rel="phone" data-required="data-required"></input></div>
+    
+        <div  class=" line input b1422138588761"><input  class=" " placeholder="Ваш e-mail*" type="text" rel="email" data-required="data-required"></input></div>
+    
+        <div  class=" line submit b1422138317957">
+    <input  class=" " disabled="disabled" type="submit" value="ОФОРМИТЬ ЗАКАЗ"></input>
+
+</div>
+    
+    </form>
+    <div class="confirmation">Спасибо за информацию!</div>
+</div>
+<iframe width="0" height="0" name="iframe-block-new72"></iframe><script>
+(function(jq, scriptData){
+jq(function(){ widget.on(scriptData); });
+})(jq_144, {"id":"block-new72","onLoad":"popup","action":"message","showActions":{"showEvent":null,"seconds":10,"animation":"center","pixels":500},"version":"2"});
+</script>
+          </div>
+        
+    
+        
+            <style id="block-style-new71"> #block-new71  {display: block;position: absolute;background-position: 0% 0%;background-repeat: no-repeat;border-radius: 6px;font-size: 12;font-family: Verdana;showButton: On;button-text: Политика конфиденциальности;color: #fff;top: 5282.986267089844px;height: 30px;width: 260px;z-index: 138;border-style: solid;action: message;border-color: #045169;anchor-id: #block-new71;font-weight: normal;action-message: Спасибо за информацию!;raw-css: text-decoration: underline;;left: 3.2986190039062535px;; text-decoration: underline;;%@;}#block-new71 > a{display: block;text-align: center;text-decoration: none;cursor:pointer;width: 260px;height: 30px;line-height: 30px;color: #fff;font-size: 12px;font-family: Verdana;font-weight: normal;}#block-new71:hover{background-color: #;background-image: url();}#overlay-block-new71 .widget.popup {
+padding: 40px;width: 510px;background-color: #ffffff;background-image: url();background-position: 0 0;background-repeat: no-repeat;border-color: #fff;border-width: 0px;border-style: solid;border-radius: 0px;
+}
+#overlay-block-new71 .widget.popup > .close{
+width: 18px;height: 18px;background: url(http://media.lpgenerator.ru/images/57561/cl_bcMpyit.png#size_18x18) 0 0 no-repeat;
+}
+#overlay-block-new71 .line.b1422138135481 .styledText{
+height: 150px;
+}
+#overlay-block-new71 .line.b1422138135481 {
+padding-bottom: 0px;
+}
+ </style>
+        
+        
+        
+          <div class="block block-popupv2 is-popupv2" id="block-new71" >
+              <a href=""
+   target=""
+   data-label="Политика конфиденциальности"
+        >Политика конфиденциальности</a>
+
+
+
+<div class="widget popup">
+    <a class="close"></a>
+    <form method="post" target="iframe-block-new71">
+    
+        <div  class=" line bigText b1422138135481"><div class="styledText"><p>Политика конфиденциальности</p>
+
+<p>Наш интернет-магазин уважительно относится к правам клиента. Соблюдается строгая конфиденциальность при оформлении заказа. Сведения надёжно сохраняются и защищены от передачи. Согласием на обработку данных клиента исключительно с целью оказания услуг является размещение заказа на сайте. К персональным данным относится личная информация о клиенте: домашний адрес; имя, фамилия, отчество; сведения о рождении; имущественное, семейное положение; личные контакты ( ФИО, телефон, электронная почта). Клиент вправе отказаться от обработки персональных данных. Нами в данном случае гарантируется удаление с сайта всех персональных данных в трёхдневный срок в рабочее время. Подобный отказ клиент может оформить простым электронным письмом на адрес, указанный на странице нашего сайта.</p>
+</div>
+</div>
+    
+    </form>
+    <div class="confirmation">Спасибо за информацию!</div>
+</div>
+<iframe width="0" height="0" name="iframe-block-new71"></iframe><script>
+(function(jq, scriptData){
+jq(function(){ widget.on(scriptData); });
+})(jq_144, {"id":"block-new71","onLoad":"popup","action":"message","showActions":{"showEvent":null,"seconds":10,"animation":null,"pixels":500},"version":"2"});
+</script>
+          </div>
+        
+    
+        
+            <style id="block-style-new117"> #block-new117  {display: block;position: absolute;background-position: 0% 0%;background-repeat: no-repeat;border-width: 1px;fix-aspect: on;top: 3453px;height: 91px;width: 786px;z-index: 171;anchor-id: #block-new117;left: 72.10071250976563px;}#block-new117 > img{vertical-align:top;}</style>
+        
+        
+        
+          <div class="block block-image is-image" id="block-new117" >
+              
+
+    <img src="http://media.lpgenerator.ru/images/256859/874.jpg#size_786x91"
+        alt=""
+        width="786"
+        height="91" />
+
+
+          </div>
+        
+    
+        
+        
+        
+          <div class="block block-text is-text" id="block-new111" style="display: block;position: absolute;background-position: 0% 0%;background-repeat: no-repeat;border-width: 1px;top: 4415px;height: 59px;width: 370px;z-index: 167;anchor-id: #block-new111;left: 526.3020980078124px;">
+              <p style="text-align: center;"><span style="font-size:28px;"><span style="font-family:georgia,serif;">Цена:&nbsp;<s>800 грн</s> &nbsp;<strong><span style="color:#FF0000;">599 грн</span></strong></span></span></p>
+
+          </div>
+        
+    
+        
+            <style id="block-style-new124"> #block-new124  {display: block;position: absolute;background-position: 0% 0%;background-repeat: no-repeat;border-width: 1px;fix-aspect: on;top: 1855px;height: 160px;width: 245px;z-index: 178;anchor-id: #block-new124;left: 613.2117964941406px;}#block-new124 > img{vertical-align:top;}</style>
+        
+        
+        
+          <div class="block block-image is-image" id="block-new124" >
+              
+
+    <img src="http://media.lpgenerator.ru/images/256859/2prev.png#size_245x160"
+        alt=""
+        width="245"
+        height="160" />
+
+
+          </div>
+        
+    
+        
+            <style id="block-style-new128"> #block-new128  {display: block;position: absolute;background-position: 0% 0%;background-repeat: no-repeat;border-radius: 6px;font-size: 25px;font-family: Arial, Helvetica, sansserif;showButton: On;button-text: Заказать звонок;background-hover-color: #e41143;color: #fff;action-message: Спасибо за информацию!;top: 5257px;height: 55px;border-color: #045169;z-index: 181;action: message;anchor-id: #block-new128;font-weight: bold;border-style: solid;width: 320px;background-color: #d7103f;left: 637.5000350195312px;;%@;}#block-new128 > a{display: block;text-align: center;text-decoration: none;cursor:pointer;width: 320px;height: 55px;line-height: 55px;color: #fff;font-size: 25px;font-family: Arial, Helvetica, sansserif;font-weight: bold;}#block-new128:hover{background-color: #e41143;background-image: url();}#overlay-block-new128 .widget.popup {
+padding: 50px;width: 350px;background-color: #82f280;background-image: url();background-position: 0 0;background-repeat: no-repeat;border-color: #fff;border-width: 2px;border-style: dashed;border-radius: 10px;
+}
+#overlay-block-new128 .widget.popup > .close{
+
+}
+#overlay-block-new128 .line.b1444997490776 {
+font-size: 24px;font-family: Verdana;color: #2c2c2c;text-align: center;padding-bottom: 22px;
+}
+#overlay-block-new128 .line.b1444997490780 input{
+height: 32px;line-height: 32px;font-size: 14px;font-family: Verdana;color: #67737b;border-color: #ccc;border-width: 0px;border-style: solid;border-radius: 6px;background-color: #fff;
+}
+#overlay-block-new128 .line.b1444997490780 button{
+font-size: 14px;font-family: Verdana;color: #67737b;border-color: #ccc;border-width: 0px;border-style: solid;border-radius: 6px;
+}
+#overlay-block-new128 .line.b1444997490780 textarea{
+font-size: 14px;font-family: Verdana;color: #67737b;border-color: #ccc;border-width: 0px;border-style: solid;border-radius: 6px;background-color: #fff;
+}
+#overlay-block-new128 .line.b1444997490780 {
+padding-bottom: 10px;
+}
+#overlay-block-new128 .line.b1444997490783 input{
+height: 32px;line-height: 32px;font-size: 14px;font-family: Verdana;color: #67737b;border-color: #ccc;border-width: 0px;border-style: solid;border-radius: 6px;background-color: #fff;
+}
+#overlay-block-new128 .line.b1444997490783 button{
+font-size: 14px;font-family: Verdana;color: #67737b;border-color: #ccc;border-width: 0px;border-style: solid;border-radius: 6px;
+}
+#overlay-block-new128 .line.b1444997490783 textarea{
+font-size: 14px;font-family: Verdana;color: #67737b;border-color: #ccc;border-width: 0px;border-style: solid;border-radius: 6px;background-color: #fff;
+}
+#overlay-block-new128 .line.b1444997490783 {
+padding-bottom: 10px;
+}
+#overlay-block-new128 .line.b1444997538941 input{
+padding: 0 10px;height: 50px;line-height: 50px;width: 100%;font-size: 22px;font-family: Verdana;color: #fff;background-color: #0575a4;border-color: #ccc;border-width: 0px;border-style: solid;border-radius: 6px;
+}
+#overlay-block-new128 .line.b1444997538941 button{
+padding: 0 10px;height: 50px;line-height: 50px;width: 100%;font-size: 22px;font-family: Verdana;color: #fff;background-color: #0575a4;border-color: #ccc;border-width: 0px;border-style: solid;border-radius: 6px;
+}
+#overlay-block-new128 .line.b1444997538941 textarea{
+font-size: 22px;font-family: Verdana;color: #fff;border-color: #ccc;border-width: 0px;border-style: solid;border-radius: 6px;
+}
+#overlay-block-new128 .line.b1444997538941 {
+padding-bottom: 0px;
+}
+ </style>
+        
+        
+        
+          <div class="block block-popupv2 is-popupv2" id="block-new128" >
+              <a href=""
+   target=""
+   data-label="Заказать звонок"
+        >Заказать звонок</a>
+
+
+
+<div class="widget popup">
+    <a class="close"></a>
+    <form method="post" target="iframe-block-new128">
+    
+        <div  class=" line text b1444997490776">Не упустите возможность!
+</div>
+    
+        <div  class=" line input b1444997490780"><input  class=" " placeholder="Имя*" type="text" rel="name" data-required="data-required"></input></div>
+    
+        <div  class=" line input b1444997490783"><input  class=" " placeholder="Телефон*" type="text" rel="phone" data-mask="(999) 999-99-99" data-required="data-required"></input></div>
+    
+        <div  class=" line submit b1444997538941">
+    <input  class=" " disabled="disabled" type="submit" value="Заказать сейчас!"></input>
+
+</div>
+    
+    </form>
+    <div class="confirmation">Спасибо за информацию!</div>
+</div>
+<iframe width="0" height="0" name="iframe-block-new128"></iframe><script>
+(function(jq, scriptData){
+jq(function(){ widget.on(scriptData); });
+})(jq_144, {"id":"block-new128","onLoad":"popup","action":"message","showActions":{"showEvent":"close","seconds":"5","animation":"fadeBottom","pixels":500},"version":"2"});
+</script>
+          </div>
+        
+    
+        
+        
+        
+          <div class="block block-text is-text" id="block-new57" style="display: block;position: absolute;background-position: 0% 0%;background-repeat: no-repeat;border-width: 1px;top: 4631px;height: 86px;width: 960px;z-index: 114;anchor-id: #block-new57;left: 1.215290756835941px;">
+              <p style="text-align: center;"><span style="color:#010206;"><span style="font-size:45px; text-transform: uppercase;"><span style="font-family:lora,sans-serif;">Получить заказ вы можете здесь</span></span></span></p>
+
+          </div>
+        
+    
+        
+        
+        
+          <div class="block block-text is-text" id="block-new99" style="display: block;position: absolute;background-position: 0% 0%;background-repeat: no-repeat;border-width: 1px;top: 3675px;height: 286px;width: 420px;z-index: 157;anchor-id: #block-new99;left: 6.475697250976566px;">
+              <p style="line-height: 23.1111px; text-align: center;"><strong><span style="font-size:20px;"><span style="font-family:georgia,serif;">Доставка &quot;Новой Почтой&quot;</span></span></strong></p>
+
+<p style="line-height: 23.1111px;"><span style="font-size:18px;"><span style="font-family: georgia, serif;"><span style="line-height: 22.8571px;">Бесплатная доставка &quot;Новой почтой&quot; по Украине.</span></span></span></p>
+
+<p style="line-height: 23.1111px;"><span style="font-size:18px;"><span style="font-family: Roboto, sans-serif; line-height: 22.8571px;"><span style="font-family: georgia, serif;">Заказ дойдёт до вас быстро и без единой царапинки. Доставка займет 1-2 дня.</span></span></span></p>
+
+<p style="line-height: 23.1111px; text-align: center;"><strong><span style="font-family: georgia, serif;"><span style="font-size: 20px;"><span style="line-height: 22.8571px;">Cамовывоз по Киеву</span></span></span></strong></p>
+
+<p style="line-height: 23.1111px;"><span style="font-size:18px;"><span style="font-family: georgia, serif;"><span style="line-height: 22.8571px;">Самовывоз по Киеву возможен на следующий день после оформления заказа в любое удобное для Вас время.</span></span></span></p>
+
+          </div>
+        
+    
+        
+            <style id="block-style-new85"> #block-new85  {display: block;position: absolute;background-position: 0% 0%;background-repeat: no-repeat;border-width: 1px;fix-aspect: on;top: 2858px;height: 171px;width: 158px;z-index: 147;anchor-id: #block-new85;left: 720px;}#block-new85 > img{vertical-align:top;}</style>
+        
+        
+        
+          <div class="block block-image is-image" id="block-new85" >
+              
+
+    <img src="http://media.lpgenerator.ru/images/badges11.png#size_158x171"
+        alt=""
+        width="158"
+        height="171" />
+
+
+          </div>
+        
+    
+        
+            <style id="block-style-new22"> #block-new22  {display: block;position: absolute;background-position: 0% 0%;background-repeat: no-repeat;border-width: 1px;fix-aspect: on;top: 700.982666015625px;height: 45px;width: 45px;z-index: 112;anchor-id: #block-new22;left: 138.42014px;}#block-new22 > img{vertical-align:top;}</style>
+        
+        
+        
+          <div class="block block-image is-image" id="block-new22" >
+              
+
+    <img src="http://media.lpgenerator.ru/images/2-black_5.png#size_40x40"
+        alt=""
+        width="45"
+        height="45" />
+
+
+          </div>
+        
+    
+        
+            <style id="block-style-new25"> #block-new25  {display: block;position: absolute;background-position: 0% 0%;background-repeat: no-repeat;border-width: 1px;fix-aspect: on;top: 700.982666015625px;height: 45px;width: 45px;z-index: 110;anchor-id: #block-new25;left: 760.2083785253906px;}#block-new25 > img{vertical-align:top;}</style>
+        
+        
+        
+          <div class="block block-image is-image" id="block-new25" >
+              
+
+    <img src="http://media.lpgenerator.ru/images/2-black_5.png#size_40x40"
+        alt=""
+        width="45"
+        height="45" />
+
+
+          </div>
+        
+    
+        
+            <style id="block-style-new24"> #block-new24  {display: block;position: absolute;background-position: 0% 0%;background-repeat: no-repeat;border-width: 1px;fix-aspect: on;top: 700.982666015625px;height: 45px;width: 45px;z-index: 110;anchor-id: #block-new24;left: 466.5277754980469px;}#block-new24 > img{vertical-align:top;}</style>
+        
+        
+        
+          <div class="block block-image is-image" id="block-new24" >
+              
+
+    <img src="http://media.lpgenerator.ru/images/2-black_5.png#size_40x40"
+        alt=""
+        width="45"
+        height="45" />
+
+
+          </div>
+        
+    
+        
+        
+        
+          <div class="block block-text is-text" id="block-new27" style="display: block;position: absolute;background-position: 0% 0%;background-repeat: no-repeat;border-width: 1px;top: 750.982666015625px;height: 56px;width: 300px;z-index: 114;anchor-id: #block-new27;left: 640.2951705175781px;">
+              <h1 style="text-align: center;"><span style="font-size:24px;"><span style="font-family:lora,sans-serif;"><span style="color: rgb(0, 0, 0); line-height: 18px;">КОМФОРТ</span></span></span></h1>
+
+          </div>
+        
+    
+        
+        
+        
+          <div class="block block-text is-text" id="block-new26" style="display: block;position: absolute;background-position: 0% 0%;background-repeat: no-repeat;border-width: 1px;top: 750.982666015625px;height: 56px;width: 300px;z-index: 114;anchor-id: #block-new26;left: 21.197926254882816px;">
+              <p style="text-align: center;"><span style="color:#010206;"><span style="font-size:24px; text-transform: uppercase;"><span style="font-family:lora,sans-serif;">кАЧЕСТВО</span></span></span></p>
+
+          </div>
+        
+    
+        
+        
+        
+          <div class="block block-text is-text" id="block-new29" style="display: block;position: absolute;background-position: 0% 0%;background-repeat: no-repeat;border-width: 1px;top: 790.982666015625px;height: 196px;width: 351px;z-index: 115;anchor-id: #block-new29;raw-css: line-height: 20px;;left: 0.1909835058593785px;; line-height: 20px;">
+              <p style="text-align: center;"><span style="font-family:georgia,serif;"><span style="font-size:16px;"><span style="color: rgb(0, 0, 0); line-height: 18px;">Каждый клатч проходит многоэтапную </span></span></span></p>
+
+<p style="text-align: center;"><span style="font-family:georgia,serif;"><span style="font-size:16px;"><span style="color: rgb(0, 0, 0); line-height: 18px;">предпродажную подготовку, </span></span></span></p>
+
+<p style="text-align: center;"><span style="font-family:georgia,serif;"><span style="font-size:16px;"><span style="color: rgb(0, 0, 0); line-height: 18px;">благодаря чему </span></span></span></p>
+
+<p style="text-align: center;"><span style="font-family:georgia,serif;"><span style="font-size:16px;"><u><span style="color: rgb(0, 0, 0); line-height: 18px;">он исключительно качественный,</span></u></span></span></p>
+
+<p style="text-align: center;"><span style="font-family:georgia,serif;"><span style="font-size:16px;"><u><span style="color: rgb(0, 0, 0); line-height: 18px;">комфортный и долговечный.</span></u></span></span></p>
+
+          </div>
+        
+    
+        
+        
+        
+          <div class="block block-text is-text" id="block-new28" style="display: block;position: absolute;background-position: 0% 0%;background-repeat: no-repeat;border-width: 1px;top: 750.982666015625px;height: 56px;width: 300px;z-index: 114;anchor-id: #block-new28;left: 348.3159835058594px;">
+              <p style="text-align: center;"><span style="color:#010206;"><span style="font-size:24px; text-transform: uppercase;"><span style="font-family:lora,sans-serif;">УТОНЧЕННОСТЬ</span></span></span></p>
+
+          </div>
+        
+    
+        
+        
+        
+          <div class="block block-text is-text" id="block-new87" style="display: block;position: absolute;background-position: 0% 0%;background-repeat: no-repeat;border-width: 1px;top: 2843px;height: 124px;width: 300px;z-index: 149;anchor-id: #block-new87;left: 325.31250450195313px;">
+              <p style="text-align: center;"><span style="font-size:48px;"><u><strong><span style="font-family:lora,sans-serif;">- Гарантии -</span></strong></u></span></p>
+
+<p>&nbsp;</p>
+
+          </div>
+        
+    
+        
+            <style id="block-style-new86"> #block-new86  {display: block;position: absolute;background-position: 0% 0%;background-repeat: no-repeat;border-width: 1px;fix-aspect: on;top: 2858px;height: 128px;width: 200px;z-index: 148;anchor-id: #block-new86;left: 47.62154075683594px;}#block-new86 > img{vertical-align:top;}</style>
+        
+        
+        
+          <div class="block block-image is-image" id="block-new86" >
+              
+
+    <img src="http://media.lpgenerator.ru/images/256859/guarantee1.gif#size_200x128"
+        alt=""
+        width="200"
+        height="128" />
+
+
+          </div>
+        
+    
+        
+            <style id="block-style-new103"> #block-new103  {display: block;position: absolute;background-position: 0% 0%;background-repeat: no-repeat;border-width: 1px;fix-aspect: on;top: 4045px;height: 447px;width: 432px;z-index: 160;anchor-id: #block-new103;left: 11.302098007812504px;}#block-new103 > img{vertical-align:top;}</style>
+        
+        
+        
+          <div class="block block-image is-image" id="block-new103" >
+              
+
+    <img src="http://media.lpgenerator.ru/images/256859/offer1.png#size_567x584"
+        alt=""
+        width="432"
+        height="447" />
+
+
+          </div>
+        
+    
+        
+        
+        
+          <div class="block block-text is-text" id="block-new102" style="display: block;position: absolute;background-position: 0% 0%;background-repeat: no-repeat;border-width: 1px;top: 3978px;height: 89px;width: 300px;z-index: 159;anchor-id: #block-new102;left: 321.1979415136719px;">
+              <p style="text-align: center;"><strong><span style="font-size:48px;"><span style="font-family:lora,sans-serif;">АКЦИЯ!!!</span></span></strong></p>
+
+          </div>
+        
+    
+        
+        
+        
+          <div class="block block-text is-text" id="block-new68" style="display: block;position: absolute;background-position: 0% 0%;background-repeat: no-repeat;border-width: 1px;top: 5165px;height: 143px;width: 534px;z-index: 105;anchor-id: #block-new68;left: 4.288197250976566px;">
+              <p><span style="color:#FFFFFF;"><span style="font-size:36px;"><span style="font-family:georgia,serif;">Изящное мужское портмоне </span></span></span></p>
+
+<p><span style="color:#FFFFFF;"><span style="font-size:36px;"><span style="font-family:georgia,serif;">BAELLERRY</span></span></span></p>
+
+          </div>
+        
+    
+        
+            <style id="block-style-new81"> #block-new81  {display: block;position: absolute;background-position: 0% 0%;background-repeat: no-repeat;border-width: 1px;fix-aspect: on;top: 150.9722137451172px;height: 428px;width: 423px;z-index: 143;anchor-id: #block-new81;left: 516.9097640234374px;}#block-new81 > img{vertical-align:top;}</style>
+        
+        
+        
+          <div class="block block-image is-image" id="block-new81" >
+              
+
+    <img src="http://media.lpgenerator.ru/images/256859/0mghula8zma.jpg#size_320x320"
+        alt=""
+        width="423"
+        height="428" />
+
+
+          </div>
+        
+    
+        
+        
+        
+          <div class="block block-text is-text" id="block-new106" style="display: block;position: absolute;background-position: 0% 0%;background-repeat: no-repeat;border-width: 1px;top: 4072px;height: 113px;width: 300px;z-index: 162;anchor-id: #block-new106;left: 575.3472640234374px;">
+              <p style="text-align: center;"><span style="font-size:26px;"><span style="font-family:lora,sans-serif;"><strong>ВНИМАНИЕ!!!</strong></span></span></p>
+
+<p style="text-align: center;"><span style="font-size:26px;"><span style="font-family:lora,sans-serif;"><strong>СКИДКА 25% !!!</strong></span></span></p>
+
+          </div>
+        
+    
+        
+            <style id="block-style-new109"> #block-new109  {display: block;position: absolute;background-position: 0% 0%;background-repeat: no-repeat;border-width: 1px;fix-aspect: on;top: 4130px;height: 33px;width: 32px;z-index: 165;anchor-id: #block-new109;left: 584.5312850195312px;}#block-new109 > img{vertical-align:top;}</style>
+        
+        
+        
+          <div class="block block-image is-image" id="block-new109" >
+              
+
+    <img src="http://media.lpgenerator.ru/images/flat-red.png#size_30x30"
+        alt=""
+        width="32"
+        height="33" />
+
+
+          </div>
+        
+    
+        
+        
+        
+          <div class="block block-text is-text" id="block-new108" style="display: block;position: absolute;background-position: 0% 0%;background-repeat: no-repeat;border-width: 1px;top: 4188px;height: 233px;width: 418px;z-index: 164;anchor-id: #block-new108;left: 518.5243270117187px;">
+              <p style="text-align: center;"><span style="font-size:22px;"><span style="font-family:georgia,serif;"><span style="line-height: 22.8571px;">В виду высокой активности покупателей,</span></span></span></p>
+
+<p style="text-align: center;"><span style="font-size:22px;"><span style="font-family:georgia,serif;"><span style="line-height: 22.8571px;">акционных товаров осталось мало&nbsp;</span></span></span><span style="line-height: 22.8571px; font-family: georgia, serif; font-size: 22px;">- </span></p>
+
+<p style="text-align: center;"><u><span style="line-height: 22.8571px; font-family: georgia, serif; font-size: 22px;">спешите сделать заказ по уникальной цене!</span></u></p>
+
+          </div>
+        
+    
+        
+            <style id="block-style-new41"> #block-new41  {display: block;position: absolute;background-position: 0% 0%;background-repeat: no-repeat;border-width: 1px;fix-aspect: on;top: 2481px;height: 300px;width: 300px;z-index: 119;anchor-id: #block-new41;left: 3.2;}#block-new41 > img{vertical-align:top;}</style>
+        
+        
+        
+          <div class="block block-image is-image" id="block-new41" >
+              
+
+    <img src="http://media.lpgenerator.ru/images/256859/j8lr6ox1sgy.jpg#size_604x604"
+        alt=""
+        width="300"
+        height="300" />
+
+
+          </div>
+        
+    
+        
+            <style id="block-style-new40"> #block-new40  {display: block;position: absolute;background-position: 0% 0%;background-repeat: no-repeat;border-width: 1px;fix-aspect: on;top: 2245px;height: 300px;width: 300px;z-index: 118;anchor-id: #block-new40;left: 1.0937239843750035px;}#block-new40 > img{vertical-align:top;}</style>
+        
+        
+        
+          <div class="block block-image is-image" id="block-new40" >
+              
+
+    <img src="http://media.lpgenerator.ru/images/256859/hn0b-2oa-hi.jpg#size_604x381"
+        alt=""
+        width="300"
+        height="300" />
+
+
+          </div>
+        
+    
+        
+            <style id="block-style-new61"> #block-new61  {display: block;position: absolute;background-position: 0% 0%;background-repeat: no-repeat;border-width: 1px;fix-aspect: on;top: 5015px;height: 19px;width: 11px;z-index: 136;anchor-id: #block-new61;left: 482.309056015625px;}#block-new61 > img{vertical-align:top;}</style>
+        
+        
+        
+          <div class="block block-image is-image" id="block-new61" >
+              
+
+    <img src="http://media.lpgenerator.ru/images/57561/i-1_JQY86sZ.png#size_12x20"
+        alt=""
+        width="11"
+        height="19" />
+
+
+          </div>
+        
+    
+        
+            <style id="block-style-new60"> #block-new60  {display: block;position: absolute;background-position: 0% 0%;background-repeat: no-repeat;border-width: 1px;fix-aspect: on;top: 4998px;height: 55px;width: 55px;z-index: 135;anchor-id: #block-new60;left: 461.3020980078125px;}#block-new60 > img{vertical-align:top;}</style>
+        
+        
+        
+          <div class="block block-image is-image" id="block-new60" >
+              
+
+    <img src="http://media.lpgenerator.ru/images/57561/ellipse_Q45qKmX.png#size_55x55"
+        alt=""
+        width="55"
+        height="55" />
+
+
+          </div>
+        
+    
+        
+        
+        
+          <div class="block block-text is-text" id="block-new89" style="display: block;position: absolute;background-position: 0% 0%;background-repeat: no-repeat;border-width: 1px;top: 3038px;height: 192px;width: 300px;z-index: 151;anchor-id: #block-new89;left: 656.1111495214843px;">
+              <h4 style="box-sizing: border-box; font-family: Roboto, sans-serif; line-height: 1.1; margin-top: 0px; margin-bottom: 10px; font-size: 18px; text-align: center;"><span style="font-family:georgia,serif;"><span style="font-size:18px;"><b style="box-sizing: border-box;">Возврат денег</b></span></span></h4>
+
+<p style="box-sizing: border-box; margin: 0px 0px 10px; font-family: Roboto, sans-serif; font-size: 16px; line-height: 22.8571px; text-align: center;"><span style="font-family:georgia,serif;"><span style="font-size:18px;">Вам необходимо выслать нам купленный товар.</span></span></p>
+
+<p style="box-sizing: border-box; margin: 0px 0px 10px; font-family: Roboto, sans-serif; font-size: 16px; line-height: 22.8571px; text-align: center;"><span style="font-family:georgia,serif;"><span style="font-size:18px;">Мы вернём вам не только деньги за заказ,</span></span></p>
+
+<p style="box-sizing: border-box; margin: 0px 0px 10px; font-family: Roboto, sans-serif; font-size: 16px; line-height: 22.8571px; text-align: center;"><span style="font-family:georgia,serif;"><span style="font-size:18px;">но и компенсируем ваши почтовые расходы.</span></span></p>
+
+          </div>
+        
+    
+        
+        
+        
+          <div class="block block-text is-text" id="block-new88" style="display: block;position: absolute;background-position: 0% 0%;background-repeat: no-repeat;border-width: 1px;top: 3038px;height: 184px;width: 300px;z-index: 150;anchor-id: #block-new88;left: 1.3888900000000035px;">
+              <h4 style="box-sizing: border-box; font-family: Roboto, sans-serif; line-height: 1.1; margin-top: 0px; margin-bottom: 10px; font-size: 18px; text-align: center;"><span style="font-size:18px;"><span style="font-family:georgia,serif;"><b style="box-sizing: border-box;">Гарантии на товар</b></span></span></h4>
+
+<p style="box-sizing: border-box; margin: 0px 0px 10px; font-family: Roboto, sans-serif; font-size: 16px; line-height: 22.8571px; text-align: center;"><span style="font-size:18px;"><span style="font-family:georgia,serif;">Перед отправкой товары проходят 100% проверку.</span></span></p>
+
+<p style="box-sizing: border-box; margin: 0px 0px 10px; font-family: Roboto, sans-serif; font-size: 16px; line-height: 22.8571px; text-align: center;"><span style="font-size:18px;"><span style="font-family:georgia,serif;">Мы вернем вам деньги если что-то окажется не так.</span></span></p>
+
+          </div>
+        
+    
+
+    
+        <style type="text/css">
+            .preview-main-container {
+                overflow: hidden;
+            }
+        </style>
+    
+
+
+
+<style>.page_container { width: 960px; background: 0% 0% no-repeat url(http://media.lpgenerator.ru/images/256859/img8886.jpg#size_5184x3456) #ffffff ; height: 100%; } #middle_container { width: 960px; } .preview-main-container,.main-container { background-no-scroll: on; bg-color: ffffff; bg-image: http://media.lpgenerator.ru/images/256859/img8886.jpg#size_5184x3456; width: 960; z-index: 101; anchor-id: #block-page;  }  .preview-main-container {min-width: 960px !important;}</style>
+
+<script>
+
+if (typeof jq_144 == 'undefined') { jq_144 = $ }
+
+(function($) {
+    var re = /([^&=]+)=?([^&]*)/g;
+    var decodeRE = /\+/g;  // Regex for replacing addition symbol with a space
+    var decode = function (str) {return decodeURIComponent( str.replace(decodeRE, " ") );};
+    $.parseParams = function(query) {
+        var params = {}, e;
+        while ( e = re.exec(query) ) {
+            var k = decode( e[1] ), v = decode( e[2] );
+            if (k.substring(k.length - 2) === '[]') {
+                k = k.substring(0, k.length - 2);
+                (params[k] || (params[k] = [])).push(v);
+            }
+            else params[k] = v;
         }
-        INPUT_PLACEHOLDER = "тестовый текст";
+        return params;
+    };
+})(jq_144);
 
-        window.BLOCKS_INITIAL_CSS = JSON.parse("{\u0022box\u0022: {\u0022border\u002Dcolor\u0022: \u0022cccccc\u0022, \u0022width\u0022: 100, \u0022border\u002Dstyle\u0022: \u0022solid\u0022, \u0022border\u002Dwidth\u0022: 1, \u0022height\u0022: 100}, \u0022popup\u0022: {\u0022action\u0022: \u0022message\u0022, \u0022width\u0022: 0, \u0022action\u002Dmessage\u0022: \u0022\u005Cu0421\u005Cu043f\u005Cu0430\u005Cu0441\u005Cu0438\u005Cu0431\u005Cu043e \u005Cu0437\u005Cu0430 \u005Cu0438\u005Cu043d\u005Cu0444\u005Cu043e\u005Cu0440\u005Cu043c\u005Cu0430\u005Cu0446\u005Cu0438\u005Cu044e!\u0022, \u0022height\u0022: 0}, \u0022form\u0022: {\u0022label\u002Dfloat\u0022: \u0022left\u0022, \u0022label\u002Dfont\u002Dsize\u0022: 16, \u0022input\u002Dmargin\u002Dbottom\u0022: 7, \u0022input\u002Dfont\u002Dsize\u0022: 16, \u0022input\u002Dborder\u002Dstyle\u0022: \u0022solid\u0022, \u0022label\u002Dfont\u002Dfamily\u0022: \u0022Arial, Helvetica, sans\u002Dserif\u0022, \u0022columns\u002Dspacing\u0022: 20, \u0022input\u002Dbackground\u002Dcolor\u0022: \u0022ffffff\u0022, \u0022input\u002Dheight\u0022: 42, \u0022height\u0022: 10, \u0022width\u0022: 300, \u0022action\u002Dmessage\u0022: \u0022\u005Cu0421\u005Cu043f\u005Cu0430\u005Cu0441\u005Cu0438\u005Cu0431\u005Cu043e \u005Cu0437\u005Cu0430 \u005Cu0438\u005Cu043d\u005Cu0444\u005Cu043e\u005Cu0440\u005Cu043c\u005Cu0430\u005Cu0446\u005Cu0438\u005Cu044e!\u0022, \u0022radio\u002Dfont\u002Dfamily\u0022: \u0022Arial, Helvetica, sans\u002Dserif\u0022, \u0022input\u002Dborder\u002Dwidth\u0022: 1, \u0022action\u0022: \u0022message\u0022, \u0022input\u002Dfont\u002Dfamily\u0022: \u0022Arial, Helvetica, sans\u002Dserif\u0022, \u0022input\u002Dborder\u002Dcolor\u0022: \u0022898989\u0022, \u0022label\u002Dfont\u002Dweight\u0022: \u0022bold\u0022, \u0022input\u002Dfont\u002Dweight\u0022: \u0022normal\u0022, \u0022radio\u002Dfont\u002Dsize\u0022: 16, \u0022radio\u002Dfont\u002Dweight\u0022: \u0022normal\u0022}, \u0022section\u0022: {\u0022width\u0022: \u0022100%\u0022, \u0022container\u0022: \u0022on\u0022, \u0022height\u0022: 300}, \u0022text\u0022: {\u0022width\u0022: 300}, \u0022button\u0022: {\u0022color\u0022: \u0022ffffff\u0022, \u0022width\u0022: 250, \u0022font\u002Dsize\u0022: 26, \u0022background\u002Dcolor\u0022: \u00225c5c5c\u0022, \u0022height\u0022: 50}, \u0022html\u0022: {\u0022width\u0022: 200, \u0022height\u0022: 150}, \u0022timer\u0022: {\u0022separator\u002Denabled\u0022: 1, \u0022show\u002Dhours\u0022: 1, \u0022show\u002Ddays\u0022: 1, \u0022show\u002Dminutes\u0022: 1, \u0022show\u002Dseconds\u0022: 1}}");
-        window.POPUP_TEMPLATES = {};
-        
-            window.POPUP_TEMPLATES[1] = {'name': "P1", 'css': ".window { background:#212b3b\u003B border\u002Dradius:10px\u003B width:464px\u003B height:348px\u003B padding:0\u003B z\u002Dindex:500\u003B }\u000D\u000A.window .popup_title { padding: 50px 0 25px\u003B text\u002Dalign: center\u003B color:#fff\u003B font\u002Dfamily:verdana,geneva,sans\u002Dserif\u003B font\u002Dsize:26px\u003B }\u000D\u000A.window input { display: block\u003B margin: 0 auto\u003B  border\u002Dradius: 6px\u003B width: 390px\u003Bheight: 41px\u003B font\u002Dsize: 14px\u003Bcolor: #589bb5\u003B border: 1px solid #ccc\u003B margin\u002Dbottom: 5px\u003Bborder\u002Dstyle: none\u003Bbackground\u002Dcolor: #263547\u003Bfont\u002Dfamily: Verdana\u003B padding: 0 15px\u003B}\u000D\u000A.window input:focus {border\u002Dcolor: rgba(83, 167, 236, 0.6)\u003B box\u002Dshadow: inset 0 1px 1px rgba(83, 167, 236, 0.075), 0 0 8px rgba(83, 167, 236, 0.8)\u003B}\u000D\u000A.window .btn { display: block\u003B width: 420px\u003B height: 55px\u003B text\u002Dalign: center\u003B vertical\u002Dalign: middle\u003B line\u002Dheight: 55px\u003B text\u002Ddecoration: none\u003B border\u002Dradius: 6px\u003B color: #fff\u003B border\u002Dwidth: 1px\u003B z\u002Dindex: 118\u003B font\u002Dsize: 22px\u003B height: 55px\u003B font\u002Dfamily: Verdana\u003B border\u002Dcolor: rgb(88, 155, 181)\u003B margin: 10px auto\u003B background: #589bb5\u003B text\u002Dtransform: uppercase\u003B font\u002Dweight: normal\u003B }\u000D\u000A.window .btn:hover {background:#408098\u003B}\u000D\u000A.window .close { position:absolute\u003B top:12px\u003B width:31px\u003B height:31px\u003B right:11px\u003B background:url(http://media.lpgenerator.ru/images/47775/21_19.png) 0 0 no\u002Drepeat\u003B border: none\u003B cursor:pointer\u003B margin:0\u003B padding:0\u003B display:block\u003B }\u000D\u000A.window .close:hover { opacity:.7\u003B }", 'button_css': "{\u000D\u000A\u0022width\u0022: 320,\u000D\u000A\u0022height\u0022: 55,\u000D\u000A\u0022background\u002Dcolor\u0022: \u0022#589bb5\u0022,\u000D\u000A\u0022border\u002Dradius\u0022: 6,\u000D\u000A\u0022color\u0022: \u0022ffffff\u0022,\u000D\u000A\u0022font\u002Dsize\u0022: 25\u000D\u000A}"};
-        
-            window.POPUP_TEMPLATES[2] = {'name': "P4", 'css': ".window { background: url(http://media.lpgenerator.ru/images/10285/popappodlozhka.png#size_518x365) no\u002Drepeat\u003B border\u002Dradius:10px\u003B width:518px\u003B height:365px\u003B padding:0\u003B z\u002Dindex:500\u003B }\u000D\u000A.window .popup_title { padding: 50px 0 25px\u003B text\u002Dalign: center\u003B color:#fff\u003B font\u002Dsize:30px\u003B font\u002Dweight:bold\u003B }\u000D\u000A.window input { display: block\u003B margin: 0 auto\u003B  border\u002Dradius: 6px\u003B width: 310px\u003B height: 34px\u003B font\u002Dsize: 16px\u003B color: #000\u003B border: 1px solid #740707\u003B margin\u002Dbottom: 8px\u003Bborder\u002Dstyle: none\u003B background\u002Dcolor: #fff\u003B padding: 0 10px\u003B}\u000D\u000A.window input:focus {border\u002Dcolor: rgba(83, 167, 236, 0.6)\u003B box\u002Dshadow: inset 0 1px 1px rgba(83, 167, 236, 0.075), 0 0 8px rgba(83, 167, 236, 0.8)\u003B}\u000D\u000A.window .btn { display: block\u003B width: 334px\u003B height: 58px\u003B text\u002Dalign: center\u003B vertical\u002Dalign: middle\u003B line\u002Dheight: 64px\u003B text\u002Ddecoration: none\u003B color: #fff\u003B border:none\u003B z\u002Dindex: 118\u003B font\u002Dsize: 18px\u003B margin: 10px auto\u003B background: url(http://media.lpgenerator.ru/images/1/p4btn.png)\u003B text\u002Dtransform: uppercase\u003B font\u002Dweight: bold\u003B }\u000D\u000A.window .btn:hover {opacity:.8\u003B}\u000D\u000A.window .close { position:absolute\u003B top:20px\u003B width:23px\u003B height:23px\u003B right:23px\u003B background:url(http://media.lpgenerator.ru/images/10285/krestik2.png) 0 0 no\u002Drepeat\u003B border: none\u003B cursor:pointer\u003B margin:0\u003B padding:0\u003B display:block\u003B }\u000D\u000A.window .close:hover { opacity:.7\u003B }", 'button_css': "{\u000D\u000A\u0022width\u0022: 334,\u000D\u000A\u0022height\u0022: 58,\u000D\u000A\u0022color\u0022: \u0022ffffff\u0022,\u000D\u000A\u0022font\u002Dsize\u0022: 25,\u000D\u000A\u0022background\u002Dimage\u0022: \u0022http://media.lpgenerator.ru/images/1/p4btn.png\u0022,\u000D\u000A\u0022up\u002Dimage\u0022: \u0022http://media.lpgenerator.ru/images/1/p4btn.png\u0022,\u000D\u000A\u0022hover\u002Dimage\u0022: \u0022http://media.lpgenerator.ru/images/1/p9.png\u0022\u000D\u000A}"};
-        
-            window.POPUP_TEMPLATES[3] = {'name': "P2", 'css': ".window { background: url(http://media.lpgenerator.ru/images/1/p2bg.png#size_530x348) no\u002Drepeat\u003B border\u002Dradius:10px\u003B width:540px\u003B height:348px\u003B padding:0\u003B z\u002Dindex:500\u003B }\u000D\u000A.window .popup_title { padding: 50px 0 25px\u003B text\u002Dalign: center\u003B color:#000\u003B font\u002Dsize:30px\u003B font\u002Dweight:normal\u003B text\u002Dtransform: uppercase\u003B}\u000D\u000A.window input { display: block\u003B margin: 0 auto\u003B  border\u002Dradius: 6px\u003B width: 315px\u003B height: 36px\u003B font\u002Dsize: 16px\u003B color: #808080\u003B border: 1px solid #a49797\u003B margin\u002Dbottom: 8px\u003B background: #eaeaea\u003B background: linear\u002Dgradient(to bottom, #eaeaea 0%,#ffffff 100%)\u003B padding: 0 9px\u003B}\u000D\u000A.window input:focus {border\u002Dcolor: rgba(83, 167, 236, 0.6)\u003B box\u002Dshadow: inset 0 1px 1px rgba(83, 167, 236, 0.075), 0 0 8px rgba(83, 167, 236, 0.8)\u003B}\u000D\u000A.window .btn { display: block\u003B width: 336px\u003B height: 47px\u003B text\u002Dalign: center\u003B vertical\u002Dalign: middle\u003B line\u002Dheight: 47px\u003B text\u002Ddecoration: none\u003B color: #181818\u003B border:none\u003B z\u002Dindex: 118\u003B font\u002Dsize: 20px\u003B margin: 10px auto\u003B background: url(http://media.lpgenerator.ru/images/1/p2btn.png#size_336x47)\u003B text\u002Dtransform: uppercase\u003B font\u002Dweight: normal\u003B }\u000D\u000A.window .btn:hover {opacity:.7\u003B}\u000D\u000A.window .close { position:absolute\u003B top:11px\u003B width:31px\u003B height:31px\u003B right:38px\u003B background:url(http://media.lpgenerator.ru/images/25460/clb.png#size_31x31) 0 0 no\u002Drepeat\u003B border: none\u003B cursor:pointer\u003B margin:0\u003B padding:0\u003B display:block\u003B }\u000D\u000A.window .close:hover { opacity:.7\u003B }", 'button_css': "{\u0022width\u0022: 334,\u000D\u000A\u0022height\u0022: 47,\u000D\u000A\u0022color\u0022: \u0022181818\u0022,\u000D\u000A\u0022font\u002Dsize\u0022: 20,\u000D\u000A\u0022background\u002Dimage\u0022: \u0022http://media.lpgenerator.ru/images/1/p2btn.png\u0022,\u000D\u000A\u0022up\u002Dimage\u0022: \u0022http://media.lpgenerator.ru/images/1/p2btn.png\u0022,\u000D\u000A\u0022hover\u002Dimage\u0022: \u0022http://media.lpgenerator.ru/images/1/p10.png\u0022\u000D\u000A}"};
-        
-            window.POPUP_TEMPLATES[4] = {'name': "P6", 'css': ".window { background: url(http://media.lpgenerator.ru/images/10285/logopattern.jpg#size_7x7)\u003B border\u002Dradius:10px\u003B width:450px\u003B height:330px\u003B padding:0\u003B z\u002Dindex:500\u003B }\u000D\u000A.window .popup_title { padding: 50px 0 25px\u003B text\u002Dalign: center\u003B color:#fff\u003B font\u002Dsize:27px\u003B font\u002Dweight:normal\u003B text\u002Dtransform: uppercase\u003B}\u000D\u000A.window input { display: block\u003B margin: 0 auto\u003B  border\u002Dradius: 4px\u003B width: 336px\u003B height: 38px\u003B font\u002Dsize: 16px\u003B color: #808080\u003B border: 1px solid #aa171e\u003B margin\u002Dbottom: 8px\u003B background: #fff\u003B padding: 0 5px\u003B}\u000D\u000A.window input:focus {border\u002Dcolor: rgba(83, 167, 236, 0.6)\u003B box\u002Dshadow: inset 0 1px 1px rgba(83, 167, 236, 0.075), 0 0 8px rgba(83, 167, 236, 0.8)\u003B}\u000D\u000A.window .btn { display: block\u003B width: 348px\u003B height: 53px\u003B text\u002Dalign: center\u003B vertical\u002Dalign: middle\u003B line\u002Dheight: 53px\u003B text\u002Ddecoration: none\u003B color: #fff\u003B border:none\u003B z\u002Dindex: 118\u003B font\u002Dsize: 20px\u003B margin: 10px auto\u003B background: url(http://media.lpgenerator.ru/images/10285/forma1.png#size_348x53)\u003B text\u002Dtransform: uppercase\u003B font\u002Dweight: normal\u003B }\u000D\u000A.window .btn:hover {background\u002Dimage:url(http://media.lpgenerator.ru/images/10285/forma1\u002D2.png#size_348x53)}\u000D\u000A.window .close { position:absolute\u003B top:12px\u003B width:27px\u003B height:27px\u003B right:12px\u003B background:url(http://media.lpgenerator.ru/images/10285/popupclose.png#size_27x27) 0 0 no\u002Drepeat\u003B border: none\u003B cursor:pointer\u003B margin:0\u003B padding:0\u003B display:block\u003B }\u000D\u000A.window .close:hover { opacity:.7\u003B }", 'button_css': "{\u000D\u000A\u0022width\u0022: 348,\u000D\u000A\u0022height\u0022: 53,\u000D\u000A\u0022color\u0022: \u0022ffffff\u0022,\u000D\u000A\u0022font\u002Dsize\u0022: 20,\u000D\u000A\u0022background\u002Dimage\u0022: \u0022http://media.lpgenerator.ru/images/10285/forma1.png\u0022,\u000D\u000A\u0022up\u002Dimage\u0022: \u0022http://media.lpgenerator.ru/images/10285/forma1.png\u0022,\u000D\u000A\u0022hover\u002Dimage\u0022: \u0022http://media.lpgenerator.ru/images/10285/forma1\u002D2.png\u0022\u000D\u000A}"};
-        
-            window.POPUP_TEMPLATES[5] = {'name': "P5", 'css': ".window { background: rgb(134, 25, 46)\u003B\u003B border\u002Dradius:21px\u003B border: 1px none rgb(154, 23, 48)\u003Bwidth:523px\u003B height:326px\u003B padding:0\u003B z\u002Dindex:500\u003B }\u000D\u000A.window .popup_title { padding: 50px 0 25px\u003B text\u002Dalign: center\u003B color:#fff\u003B font\u002Dsize:36px\u003B font\u002Dweight:normal\u003B font\u002Dfamily: \u0027trebuchet ms\u0027, helvetica, sans\u002Dserif\u003B text\u002Dtransform: uppercase\u003B white\u002Dspace: nowrap\u003B overflow: hidden\u003B}\u000D\u000A.window input { display: block\u003B margin: 0 auto\u003B  border\u002Dradius: 4px\u003B width: 306px\u003B height: 40px\u003B font\u002Dsize: 14px\u003B color: #000\u003B border: 1px solid #ccc\u003B margin\u002Dbottom: 8px\u003B background: #fff\u003B padding: 0 11px\u003B font\u002Dfamily: \u0027trebuchet ms\u0027, helvetica, sans\u002Dserif\u003B}\u000D\u000A.window input:focus {border\u002Dcolor: rgba(83, 167, 236, 0.6)\u003B box\u002Dshadow: inset 0 1px 1px rgba(83, 167, 236, 0.075), 0 0 8px rgba(83, 167, 236, 0.8)\u003B}\u000D\u000A.window .btn { display: block\u003B width: 339px\u003B height: 52px\u003B text\u002Dalign: center\u003B vertical\u002Dalign: middle\u003B line\u002Dheight: 52px\u003B text\u002Ddecoration: none\u003B color: #fff\u003B border:none\u003B z\u002Dindex: 118\u003B font\u002Dsize: 24px\u003B margin: 10px auto\u003B background: url(http://media.lpgenerator.ru/images/1/p5btn.png#size_339x52)\u003B text\u002Dtransform: uppercase\u003B font\u002Dweight: normal\u003B font\u002Dfamily: \u0027trebuchet ms\u0027, helvetica, sans\u002Dserif\u003B }\u000D\u000A.window .btn:hover {opacity:.7\u003B}\u000D\u000A.window .close { position:absolute\u003B top:8px\u003B width:30px\u003B height:29px\u003B right:8px\u003B background:url(http://media.lpgenerator.ru/images/10285/krestik2_1.png#size_30x29) 0 0 no\u002Drepeat\u003B border: none\u003B cursor:pointer\u003B margin:0\u003B padding:0\u003B display:block\u003B }\u000D\u000A.window .close:hover { opacity:.7\u003B }", 'button_css': "{\u000D\u000A\u0022width\u0022: 339,\u000D\u000A\u0022height\u0022: 52,\u000D\u000A\u0022color\u0022: \u0022ffffff\u0022,\u000D\u000A\u0022font\u002Dsize\u0022: 24,\u000D\u000A\u0022background\u002Dimage\u0022: \u0022http://media.lpgenerator.ru/images/1/p5btn.png\u0022,\u000D\u000A\u0022up\u002Dimage\u0022: \u0022http://media.lpgenerator.ru/images/1/p5btn.png\u0022,\u000D\u000A\u0022hover\u002Dimage\u0022: \u0022http://media.lpgenerator.ru/images/1/p12.png\u0022\u000D\u000A}"};
-        
-            window.POPUP_TEMPLATES[6] = {'name': "P7", 'css': ".window { background: url(http://media.lpgenerator.ru/images/25460/p\u002Dbg.png#size_416x334)\u003B border\u002Dradius:21px\u003B border: 1px none rgb(204, 204, 204)\u003Bwidth:416px\u003B height:334px\u003B padding:0\u003B z\u002Dindex:500\u003B }\u000D\u000A.window .popup_title { padding: 50px 0 25px\u003B text\u002Dalign: center\u003B color:#fff\u003B font\u002Dsize:28px\u003B font\u002Dweight:normal\u003B font\u002Dfamily: georgia,serif\u003B text\u002Dtransform: uppercase\u003B}\u000D\u000A.window input { display: block\u003B margin: 0 auto\u003B  border\u002Dradius: 4px\u003B width: 296px\u003B height: 36px\u003B font\u002Dsize: 16px\u003B color: #000\u003B border: 1px solid #ccc\u003B margin\u002Dbottom: 8px\u003B background: #fff\u003B padding: 0 11px\u003B }\u000D\u000A.window input:focus {border\u002Dcolor: rgba(83, 167, 236, 0.6)\u003B box\u002Dshadow: inset 0 1px 1px rgba(83, 167, 236, 0.075), 0 0 8px rgba(83, 167, 236, 0.8)\u003B}\u000D\u000A.window .btn { display: block\u003B width: 326px\u003B height: 60px\u003B text\u002Dalign: center\u003B vertical\u002Dalign: middle\u003B line\u002Dheight: 60px\u003B text\u002Ddecoration: none\u003B color: #fff\u003B border:none\u003B z\u002Dindex: 118\u003B font\u002Dsize: 24px\u003B margin: 10px auto\u003B background: url(http://media.lpgenerator.ru/images/1/p7btn.png#size_326x60)\u003B text\u002Dtransform: uppercase\u003B font\u002Dweight: normal\u003B font\u002Dfamily: georgia,serif\u003B}\u000D\u000A.window .btn:hover {opacity:.7\u003B}\u000D\u000A.window .close { position:absolute\u003B top:15px\u003B width:16px\u003B height:15px\u003B right:15px\u003B background:url(http://media.lpgenerator.ru/images/25460/close_4.png#size_16x15) 0 0 no\u002Drepeat\u003B border: none\u003B cursor:pointer\u003B margin:0\u003B padding:0\u003B display:block\u003B }\u000D\u000A.window .close:hover { opacity:.7\u003B }", 'button_css': "{\u000D\u000A\u0022width\u0022: 326,\u000D\u000A\u0022height\u0022: 60,\u000D\u000A\u0022color\u0022: \u0022ffffff\u0022,\u000D\u000A\u0022font\u002Dsize\u0022: 24,\u000D\u000A\u0022background\u002Dimage\u0022: \u0022http://media.lpgenerator.ru/images/1/p7btn.png\u0022,\u000D\u000A\u0022up\u002Dimage\u0022: \u0022http://media.lpgenerator.ru/images/1/p7btn.png\u0022,\u000D\u000A\u0022hover\u002Dimage\u0022: \u0022http://media.lpgenerator.ru/images/1/p13.png\u0022\u000D\u000A}"};
-        
-            window.POPUP_TEMPLATES[7] = {'name': "P9", 'css': ".window { background: url(http://media.lpgenerator.ru/images/10285/i6_1.jpg#size_5x5)\u003B border\u002Dradius:21px\u003B border: 1px none rgb(204, 204, 204)\u003Bwidth:490px\u003B height:325px\u003B padding:0\u003B z\u002Dindex:500\u003B }\u000D\u000A.window .popup_title { padding: 50px 0 25px\u003B text\u002Dalign: center\u003B color:#fff\u003B font\u002Dsize:36px\u003B font\u002Dweight:normal\u003B font\u002Dfamily:trebuchet ms,helvetica,sans\u002Dserif\u003B text\u002Dtransform: uppercase\u003B}\u000D\u000A.window input { display: block\u003B margin: 0 auto\u003B  border\u002Dradius: 4px\u003B width: 318px\u003B height: 40px\u003B font\u002Dsize: 16px\u003B color: #000\u003B border: 1px solid #ccc\u003B margin\u002Dbottom: 8px\u003B background: #fff\u003B padding: 0 12px\u003B }\u000D\u000A.window input:focus {border\u002Dcolor: rgba(83, 167, 236, 0.6)\u003B box\u002Dshadow: inset 0 1px 1px rgba(83, 167, 236, 0.075), 0 0 8px rgba(83, 167, 236, 0.8)\u003B}\u000D\u000A.window .btn { display: block\u003B width: 342px\u003B height: 55px\u003B text\u002Dalign: center\u003B vertical\u002Dalign: middle\u003B line\u002Dheight: 55px\u003B text\u002Ddecoration: none\u003B color: #fff\u003B border:none\u003B z\u002Dindex: 118\u003B font\u002Dsize: 23px\u003B margin: 10px auto\u003B background: url(http://media.lpgenerator.ru/images/1/p9btn.png#size_342x55)\u003B text\u002Dtransform: uppercase\u003B font\u002Dweight: normal\u003B font\u002Dfamily:trebuchet ms,helvetica,sans\u002Dserif\u003B}\u000D\u000A.window .btn:hover {opacity:.7\u003B}\u000D\u000A.window .close { position:absolute\u003B top:20px\u003B width:27px\u003B height:27px\u003B right:23px\u003B background:url(http://media.lpgenerator.ru/images/10285/i25_6.png#size_27x27) 0 0 no\u002Drepeat\u003B border: none\u003B cursor:pointer\u003B margin:0\u003B padding:0\u003B display:block\u003B }\u000D\u000A.window .close:hover { opacity:.7\u003B }", 'button_css': "{\u000D\u000A\u0022width\u0022: 342,\u000D\u000A\u0022height\u0022: 55,\u000D\u000A\u0022color\u0022: \u0022ffffff\u0022,\u000D\u000A\u0022font\u002Dsize\u0022: 23,\u000D\u000A\u0022background\u002Dimage\u0022: \u0022http://media.lpgenerator.ru/images/1/p9btn.png\u0022,\u000D\u000A\u0022up\u002Dimage\u0022: \u0022http://media.lpgenerator.ru/images/1/p9btn.png\u0022,\u000D\u000A\u0022hover\u002Dimage\u0022: \u0022http://media.lpgenerator.ru/images/1/p6.png\u0022\u000D\u000A}"};
-        
-            window.POPUP_TEMPLATES[8] = {'name': "P10", 'css': ".window { background: url(http://media.lpgenerator.ru/images/1/p10bg.png#size_521x345)\u003B border\u002Dradius:21px\u003B border: none\u003B width:521px\u003B height:345px\u003B padding:0\u003B z\u002Dindex:500\u003B }\u000D\u000A.window .popup_title { padding: 50px 0 25px\u003B text\u002Dalign: center\u003B color:#484848\u003B font\u002Dsize:30px\u003B font\u002Dweight:normal\u003B text\u002Dtransform: uppercase\u003B}\u000D\u000A.window input { display: block\u003B margin: 0 auto\u003B  border\u002Dradius: 4px\u003B width: 346px\u003B height: 39px\u003B font\u002Dsize: 16px\u003B color: #000\u003B border: 1px solid #ccc\u003B margin\u002Dbottom: 8px\u003B background: #fff\u003B padding: 0 12px\u003B }\u000D\u000A.window input:focus {border\u002Dcolor: rgba(83, 167, 236, 0.6)\u003B box\u002Dshadow: inset 0 1px 1px rgba(83, 167, 236, 0.075), 0 0 8px rgba(83, 167, 236, 0.8)\u003B}\u000D\u000A.window .btn { display: block\u003B width: 279px\u003B height: 47px\u003B line\u002Dheight: 47px\u003B text\u002Dalign: center\u003B vertical\u002Dalign: middle\u003B  text\u002Ddecoration: none\u003B color: #fff\u003B border:none\u003B z\u002Dindex: 118\u003B font\u002Dsize: 20px\u003B margin: 10px auto\u003B background: #2a72ae\u003B text\u002Dtransform: uppercase\u003B font\u002Dweight: normal\u003B border\u002Dradius: 6px }\u000D\u000A.window .btn:hover {opacity:.7\u003B}\u000D\u000A.window .close { position:absolute\u003B top:20px\u003B right:23px\u003B  width:33px\u003B height:33px\u003B background:url(http://media.lpgenerator.ru/images/10285/i24_10.png#size_33x33) 0 0 no\u002Drepeat\u003B border: none\u003B cursor:pointer\u003B margin:0\u003B padding:0\u003B display:block\u003B }\u000D\u000A.window .close:hover { opacity:.7\u003B }", 'button_css': "{\u000D\u000A\u0022width\u0022: 279,\u000D\u000A\u0022height\u0022: 47,\u000D\u000A\u0022color\u0022: \u0022ffffff\u0022,\u000D\u000A\u0022font\u002Dsize\u0022: 20,\u000D\u000A\u0022background\u002Dimage\u0022: \u0022http://media.lpgenerator.ru/images/10285/bg2_6.png\u0022,\u000D\u000A\u0022up\u002Dimage\u0022: \u0022http://media.lpgenerator.ru/images/10285/bg2_6.png\u0022,\u000D\u000A\u0022hover\u002Dimage\u0022: \u0022http://media.lpgenerator.ru/images/10285/bg1_12.png\u0022,\u000D\u000A\u0022background\u002Drepeat\u0022: \u0022repeat\u0022,\u000D\u000A\u0022border\u002Dradius\u0022: 6\u000D\u000A}"};
-        
-            window.POPUP_TEMPLATES[9] = {'name': "P11", 'css': ".window { background: url(http://media.lpgenerator.ru/images/10285/i32_6.png#size_4x4)\u003B border\u002Dradius:23px\u003B border: 3px soild #fff\u003B width:543px\u003B height:355px\u003B padding:0\u003B z\u002Dindex:500\u003B }\u000D\u000A.window .popup_title { padding: 40px 0 25px\u003B text\u002Dalign: center\u003B color:#fff\u003B font\u002Dsize:42px\u003B font\u002Dweight:normal\u003B text\u002Dtransform: none\u003B}\u000D\u000A.window input { display: block\u003B margin: 0 auto\u003B  border\u002Dradius: 4px\u003B width: 326px\u003B height: 45px\u003B font\u002Dsize: 16px\u003B color: #000\u003B border: 1px solid #ccc\u003B margin\u002Dbottom: 8px\u003B padding: 0 12px\u003B background: #fff\u003B background: linear\u002Dgradient(to bottom, #e1e1e1 0%,#ffffff 100%)\u003B }\u000D\u000A.window input:focus {border\u002Dcolor: rgba(83, 167, 236, 0.6)\u003B box\u002Dshadow: inset 0 1px 1px rgba(83, 167, 236, 0.075), 0 0 8px rgba(83, 167, 236, 0.8)\u003B}\u000D\u000A.window .btn { display: block\u003B width: 356px\u003B height: 63px\u003B line\u002Dheight: 63px\u003B text\u002Dalign: center\u003B vertical\u002Dalign: middle\u003B  text\u002Ddecoration: none\u003B color: #343231\u003B border:none\u003B z\u002Dindex: 118\u003B font\u002Dsize: 26px\u003B margin: 10px auto\u003B background: url(http://media.lpgenerator.ru/images/10285/i43_3.png)\u003B text\u002Dtransform: uppercase\u003B font\u002Dweight: normal\u003B }\u000D\u000A.window .btn:hover {opacity:.7\u003B}\u000D\u000A.window .close { position:absolute\u003B top:20px\u003B right:23px\u003B width:37px\u003B height:37px\u003B background:url(http://media.lpgenerator.ru/images/10285/i44_3.png#size_37x37) 0 0 no\u002Drepeat\u003B border: none\u003B cursor:pointer\u003B margin:0\u003B padding:0\u003B display:block\u003B }\u000D\u000A.window .close:hover { opacity:.7\u003B }", 'button_css': "{\u000D\u000A\u0022width\u0022: 356,\u000D\u000A\u0022height\u0022: 63,\u000D\u000A\u0022color\u0022: \u0022343231\u0022,\u000D\u000A\u0022font\u002Dsize\u0022: 26,\u000D\u000A\u0022background\u002Dimage\u0022: \u0022http://media.lpgenerator.ru/images/10285/i43_3.png\u0022,\u000D\u000A\u0022up\u002Dimage\u0022: \u0022http://media.lpgenerator.ru/images/10285/i43_3.png\u0022,\u000D\u000A\u0022hover\u002Dimage\u0022: \u0022http://media.lpgenerator.ru/images/10285/i42_4.png\u0022\u000D\u000A}"};
-        
-            window.POPUP_TEMPLATES[10] = {'name': "P12", 'css': ".window { background: #c4e3db\u003B border\u002Dradius:0px\u003B border: 3px soild #fff\u003B width:530px\u003B height:350px\u003B padding:0\u003B z\u002Dindex:500\u003B }\u000D\u000A.window .popup_title { padding: 40px 0 25px\u003B text\u002Dalign: center\u003B color:#464646\u003B font\u002Dsize:36px\u003B font\u002Dweight:normal\u003B text\u002Dtransform: none\u003B font\u002Dfamily: \u0027Trebuchet MS\u0027, Helvetica, sans\u002Dserif\u003B}\u000D\u000A.window input { display: block\u003B margin: 0 auto\u003B  border\u002Dradius: 6px\u003B width: 378px\u003B height: 41px\u003B font\u002Dsize: 16px\u003B color: #000\u003B border: 1px solid #8bb1a8\u003B margin\u002Dbottom: 8px\u003B padding: 0 12px\u003B background: #fff\u003B  font\u002Dfamily: \u0027Trebuchet MS\u0027, Helvetica, sans\u002Dserif\u003B}\u000D\u000A.window input:focus {border\u002Dcolor: rgba(83, 167, 236, 0.6)\u003B box\u002Dshadow: inset 0 1px 1px rgba(83, 167, 236, 0.075), 0 0 8px rgba(83, 167, 236, 0.8)\u003B}\u000D\u000A.window .btn { display: block\u003B width: 402px\u003B height: 54px\u003B line\u002Dheight: 54px\u003B text\u002Dalign: center\u003B vertical\u002Dalign: middle\u003B  text\u002Ddecoration: none\u003B color: #fff\u003B border:none\u003B z\u002Dindex: 118\u003B font\u002Dsize: 22px\u003B margin: 10px auto\u003B background: #c54d33\u003B text\u002Dtransform: uppercase\u003B font\u002Dweight: normal\u003B font\u002Dfamily: \u0027Trebuchet MS\u0027, Helvetica, sans\u002Dserif\u003B}\u000D\u000A.window .btn:hover {opacity:.7\u003B}\u000D\u000A.window .close { position:absolute\u003B top:20px\u003B right:23px\u003B width:34px\u003B height:34px\u003B background:url(http://media.lpgenerator.ru/images/1/p12close.png#size_34x34) 0 0 no\u002Drepeat\u003B border: none\u003B cursor:pointer\u003B margin:0\u003B padding:0\u003B display:block\u003B }\u000D\u000A.window .close:hover { opacity:.7\u003B }", 'button_css': "{\u000D\u000A\u0022width\u0022: 350,\u000D\u000A\u0022height\u0022: 54,\u000D\u000A\u0022background\u002Dcolor\u0022: \u0022#c54d33\u0022,\u000D\u000A\u0022border\u002Dradius\u0022: 6,\u000D\u000A\u0022color\u0022: \u0022ffffff\u0022,\u000D\u000A\u0022font\u002Dsize\u0022: 22\u000D\u000A}"};
-        
-            window.POPUP_TEMPLATES[11] = {'name': "P8", 'css': ".window { background: url(http://media.lpgenerator.ru/images/1/p8bg.png#size_433x345)\u003B border\u002Dradius:20px\u003B border: 3px soild #fff\u003B width:433px\u003B height:345px\u003B padding:0\u003B z\u002Dindex:500\u003B }\u000D\u000A.window .popup_title { padding: 40px 0 25px\u003B text\u002Dalign: center\u003B color:#fff\u003B font\u002Dsize:28px\u003B font\u002Dweight:normal\u003B text\u002Dtransform: none\u003B }\u000D\u000A.window input { display: block\u003B margin: 0 auto\u003B  border\u002Dradius: 6px\u003B width: 288px\u003B height: 38px\u003B font\u002Dsize: 16px\u003B color: #000\u003B border: 1px solid #055c93\u003B margin\u002Dbottom: 8px\u003B padding: 0 12px\u003B background: #fff\u003B background: linear\u002Dgradient(to bottom, #ffffff 0%,#f7f7f1 100%)\u003B }\u000D\u000A.window input:focus {border\u002Dcolor: rgba(83, 167, 236, 0.6)\u003B box\u002Dshadow: inset 0 1px 1px rgba(83, 167, 236, 0.075), 0 0 8px rgba(83, 167, 236, 0.8)\u003B}\u000D\u000A.window .btn { display: block\u003B width: 250px\u003B height: 50px\u003B line\u002Dheight: 50px\u003B text\u002Dalign: center\u003B vertical\u002Dalign: middle\u003B  text\u002Ddecoration: none\u003B color: #2e2e2e\u003B border:none\u003B z\u002Dindex: 118\u003B font\u002Dsize: 24px\u003B margin: 20px auto 10px\u003B background: url(http://media.lpgenerator.ru/images/1/p8btn.png)\u003B text\u002Dtransform: none\u003B font\u002Dweight: normal\u003B }\u000D\u000A.window .btn:hover {opacity:.7\u003B}\u000D\u000A.window .close { position:absolute\u003B top:20px\u003B right:23px\u003B width:28px\u003B height:28px\u003B background:url(http://media.lpgenerator.ru/images/1/p8close.png#size_26x26) 0 0 no\u002Drepeat\u003B border: none\u003B cursor:pointer\u003B margin:0\u003B padding:0\u003B display:block\u003B }\u000D\u000A.window .close:hover { opacity:.7\u003B }", 'button_css': "{\u000D\u000A\u0022width\u0022: 250,\u000D\u000A\u0022height\u0022: 50,\u000D\u000A\u0022color\u0022: \u00222e2e2e\u0022,\u000D\u000A\u0022font\u002Dsize\u0022: 24,\u000D\u000A\u0022background\u002Dimage\u0022: \u0022http://media.lpgenerator.ru/images/1/p8btn.png\u0022,\u000D\u000A\u0022up\u002Dimage\u0022: \u0022http://media.lpgenerator.ru/images/1/p8btn.png\u0022,\u000D\u000A\u0022hover\u002Dimage\u0022: \u0022http://media.lpgenerator.ru/images/1/p8btnhover.png\u0022\u000D\u000A}"};
-        
-            window.POPUP_TEMPLATES[13] = {'name': "P3", 'css': ".window { background: url(http://media.lpgenerator.ru/images/1/p3bg.png#size_445x327)\u003B border\u002Dradius:20px\u003B border: none\u003B width:445px\u003B height:327px\u003B padding:0\u003B z\u002Dindex:500\u003B }\u000D\u000A.window .popup_title { padding: 40px 0 25px\u003B text\u002Dalign: center\u003B color:#fff\u003B font\u002Dsize:30px\u003B font\u002Dweight:bold\u003B text\u002Dtransform: none\u003B font\u002Dfamily: \u0027Trebuchet MS\u0027, Helvetica, sans\u002Dserif\u003B}\u000D\u000A.window input { display: block\u003B margin: 0 auto\u003B  border\u002Dradius: 6px\u003B width: 318px\u003B height: 45px\u003B font\u002Dsize: 16px\u003B color: #000\u003B border: 1px solid #ccc\u003B margin\u002Dbottom: 8px\u003B padding: 0 12px\u003B background: #fff\u003B background: linear\u002Dgradient(to bottom, #ffffff 0%,#f7f7f1 100%)\u003B font\u002Dfamily: \u0027Trebuchet MS\u0027, Helvetica, sans\u002Dserif\u003B}\u000D\u000A.window input:focus {border\u002Dcolor: rgba(83, 167, 236, 0.6)\u003B box\u002Dshadow: inset 0 1px 1px rgba(83, 167, 236, 0.075), 0 0 8px rgba(83, 167, 236, 0.8)\u003B}\u000D\u000A.window .btn { display: block\u003B width: 300px\u003B height: 50px\u003B line\u002Dheight: 50px\u003B text\u002Dalign: center\u003B vertical\u002Dalign: middle\u003B  text\u002Ddecoration: none\u003B color: #493d2c\u003B border:none\u003B z\u002Dindex: 118\u003B font\u002Dsize: 20px\u003B margin: 10px auto\u003B background: url(http://media.lpgenerator.ru/images/1/p3btn.png)\u003B text\u002Dtransform: none\u003B font\u002Dweight: bold\u003B font\u002Dfamily: \u0027Trebuchet MS\u0027, Helvetica, sans\u002Dserif\u003B}\u000D\u000A.window .btn:hover {opacity:.7\u003B}\u000D\u000A.window .close { position:absolute\u003B top:20px\u003B right:23px\u003B width:29px\u003B height:29px\u003B background:url(http://media.lpgenerator.ru/images/1/p8close.png#size_26x26) 0 0 no\u002Drepeat\u003B border: none\u003B cursor:pointer\u003B margin:0\u003B padding:0\u003B display:block\u003B }\u000D\u000A.window .close:hover { opacity:.7\u003B }", 'button_css': "{\u000D\u000A\u0022width\u0022: 300,\u000D\u000A\u0022height\u0022: 50,\u000D\u000A\u0022color\u0022: \u0022493d2c\u0022,\u000D\u000A\u0022font\u002Dsize\u0022: 22,\u000D\u000A\u0022background\u002Dimage\u0022: \u0022http://media.lpgenerator.ru/images/1/p3btn.png\u0022,\u000D\u000A\u0022up\u002Dimage\u0022: \u0022http://media.lpgenerator.ru/images/1/p3btn.png\u0022,\u000D\u000A\u0022hover\u002Dimage\u0022: \u0022http://media.lpgenerator.ru/images/1/p3btnhover.png\u0022\u000D\u000A}"};
-        
-            window.POPUP_TEMPLATES[14] = {'name': "P14", 'css': ".window { background: url(http://media.lpgenerator.ru/images/10285/pubg_1.png#size_358x350)\u003B border\u002Dradius:0px\u003B border: none\u003B width:358px\u003B height:350px\u003B padding:0\u003B z\u002Dindex:500\u003B }\u000D\u000A.window .popup_title { padding: 30px 0 25px\u003B text\u002Dalign: center\u003B color:#fff\u003B font\u002Dsize:18px\u003B font\u002Dweight:bold\u003B text\u002Dtransform: none\u003B font\u002Dfamily: verdana, geneva, sans\u002Dserif\u003B}\u000D\u000A.window input { display: block\u003B margin: 0 auto\u003B  border\u002Dradius: 6px\u003B width: 273px\u003B height: 38px\u003B font\u002Dsize: 12px\u003B color: #000\u003B border: 1px solid #000\u003B margin\u002Dbottom: 8px\u003B padding: 0 5px\u003B background: #fff\u003B font\u002Dfamily: verdana, geneva, sans\u002Dserif\u003B}\u000D\u000A.window input:focus {border\u002Dcolor: rgba(83, 167, 236, 0.6)\u003B box\u002Dshadow: inset 0 1px 1px rgba(83, 167, 236, 0.075), 0 0 8px rgba(83, 167, 236, 0.8)\u003B}\u000D\u000A.window .btn { display: block\u003B width: 293px\u003B height: 74px\u003B line\u002Dheight: 74px\u003B text\u002Dalign: center\u003B vertical\u002Dalign: middle\u003B  text\u002Ddecoration: none\u003B color: #fff\u003B border:none\u003B z\u002Dindex: 118\u003B font\u002Dsize: 16px\u003B margin: 10px auto\u003B background: url(http://media.lpgenerator.ru/images/1/p14btn.png#size_293x74)\u003B text\u002Dtransform: uppercase\u003B font\u002Dweight: bold\u003B font\u002Dfamily: verdana, geneva, sans\u002Dserif\u003B}\u000D\u000A.window .btn:hover {opacity:.7\u003B}\u000D\u000A.window .close { position:absolute\u003B top:15px\u003B right:15px\u003B width:21px\u003B height:21px\u003B background:url(http://media.lpgenerator.ru/images/10285/puclose.png#size_21x21) 0 0 no\u002Drepeat\u003B border: none\u003B cursor:pointer\u003B margin:0\u003B padding:0\u003B display:block\u003B }\u000D\u000A.window .close:hover { opacity:.7\u003B }", 'button_css': "{\u000D\u000A\u0022width\u0022: 293,\u000D\u000A\u0022height\u0022: 74,\u000D\u000A\u0022color\u0022: \u0022ffffff\u0022,\u000D\u000A\u0022font\u002Dsize\u0022: 20,\u000D\u000A\u0022background\u002Dimage\u0022: \u0022http://media.lpgenerator.ru/images/1/p14btn.png\u0022,\u000D\u000A\u0022up\u002Dimage\u0022: \u0022http://media.lpgenerator.ru/images/1/p14btn.png\u0022,\u000D\u000A\u0022hover\u002Dimage\u0022: \u0022http://media.lpgenerator.ru/images/1/p14btnhover.png\u0022\u000D\u000A}"};
-        
-    </script>
+jq_144(function(){
+    
+        var EMAIL_RE = /^([a-zа-яёЁ0-9_\.-]+)@([a-zа-яёЁ0-9_\.-]+)\.([a-zа-яёЁ\.]{2,8})$/i;
+        var EMAIL_RE_RU = /^([a-zа-яёЁ0-9_\.-]+)@xn\-([a-zа-яёЁ0-9_\.-]+)\.xn-([a-zа-яёЁ\.0-9\-]+)$/i;
+        var URL_RE = /^(https?:\/\/)?([\da-zа-я\.-]+)\.([a-zа-я\.]{2,8})([\/\w \.-]*)*\/?$/i;
 
-    <script type="text/javascript">
-        window.PROPS_FORMS = {};
+        window.SUBMIT_HANDLER = function(form_id) {};
+
+        jq_144('.cont[data-type="file"] input.input').focus(function() {
+            var finput = jq_144(this).closest('.cont').find('input[type="file"]');
+            if (!finput.val()) {
+                finput.click();
+            }
+        });
+
+        jq_144('form.our_form').each(function(){
+            var url = jq_144(this).attr('action') + "?d=" + location.hostname;
+            jq_144(this).attr('action', url);
+        });
+
+        function validateForm(send_form) {
+            var errors = [];
+            var send_data = send_form.serializeArray();
+            var send_array = {};
+            for (var i in send_data) {
+                send_array[send_data[i].name] = send_data[i].value;
+            }
+            send_form.find('.cont:visible').each(function() {
+                var cont = jq_144(this);
+                var label = cont.attr('data-label');
+                var name = cont.attr('data-name');
+                var value = send_array[name];
+                if (cont.attr('data-type') == 'file') {
+                    value = cont.find('input[type="file"]').val();
+                }
+                if (cont.attr('data-required')) {
+                    if (!value) {
+                        errors.push([name, 'Обязательное поле'])
+                    }
+                }
+                if (cont.attr('data-email')) {
+                    if (value && !(value.match(EMAIL_RE) || value.match(EMAIL_RE_RU))) {
+                        errors.push([name, 'Введите корректный email'])
+                    }
+                }
+                if (cont.attr('data-url')) {
+                    if (value && !value.match(URL_RE)) {
+                        errors.push([name, 'Введите корректный URL'])
+                    }
+                }
+                if (cont.attr('data-pattern')) {
+                    if (value && this.dataset && !value.match(new RegExp(this.dataset.pattern, 'i'))) {
+                        errors.push([name, 'Введите корректное значение'])
+                    }
+                }
+            });
+            if (!errors.length) {
+                if (send_form.closest('.lp_popup').length) {
+                    send_form.find('input:visible').each(function() {
+                        var name = jq_144(this).attr('name');
+                        var value = send_array[name];
+                        if (!value) {
+                            errors.push([name, 'Обязательное поле'])
+                        }
+                    });
+                }
+            }
+            return errors
+        }
+
+        function processErrors(errors, form_id) {
+            var i;
+            var send_form = jq_144('#'+form_id+' form.our_form');
+            var input = jq_144('#block-'+form_id+' form :input:first');
+            var label = jq_144('#block-'+form_id+' form :input:first').parents('.cont').find('label').text() || '';
+            if (!label) {
+                label = jq_144('#block-'+form_id+' form :input:first').attr('placeholder');
+            }
+
+            var error_msg;
+            var error_el;
+            for (var i in errors) {
+                var e = errors[i];
+                if (!error_msg && e[0] == input.attr('name')) {
+                    error_msg = e[1];
+                }
+            }
+            if (errors[0][1] && !error_msg) {
+                error_msg = errors[0][1];
+                input = jq_144('#block-'+form_id+', #popup_'+form_id).find('[name='+errors[0][0]+']');
+                label = input.parents('.cont').find('label').text() || '';
+                if (!label) {
+                    label = input.attr('placeholder');
+                }
+                if (!error_el) {
+                    error_el = input;
+                }
+            }
+
+            if (!label) { label = ''; }
+            if (label.substr(-1) == '*') { label = label.substr(0, label.length - 1);}
+            if (label.substr(-1) == ':') { label = label.substr(0, label.length - 1); }
+            if (label.substr(-1) == '*') { label = label.substr(0, label.length - 1);}
+            if (!label) {
+                if (input.is('[type=checkbox],[type=radio]')) {
+                    label = input.parent().find('sublabel').filter(':first').text();
+                    label = label || input.closest('.input_block').attr('data-label') || input.parent(':first').text();
+                }
+                if (input.is('select')) {
+                    label = input.find('option:first').text();
+                }
+            }
+
+            if (error_msg) {
+                alert(label + ': ' + error_msg);
+
+                if (!error_el) {
+                    error_el = jq_144('#block-'+form_id).find(':input:first');
+                }
+                error_el.focus();
+            }
+
+            send_form.show();
+            jq_144('#loading_bar').fadeOut();
+            return;
+        }
+
+        CURRENT_STEP = 1;
+
+        jq_144('.block form.our_form').append("<div style='display:none'><input type='hidden' name='csrfmiddlewaretoken' value='MPU14F4BwYKOpSWlJNTksvhyAZYZNwjc' /></div>");
+        jq_144('.block form.our_form').each(function() {
+            var $this = jq_144(this);
+            if ($this.find('.step').length > 1) {
+                var id = $this.closest('.block').attr('id').substr(6);
+                var button = jq_144('a[href="#fire_form_'+id+'"]');
+                if (!button.length) {
+                    if (jq_144('a[href="#fire_form"]').length == 1 && jq_144('.block-form').length == 1) {
+                        button = jq_144('a[href="#fire_form"]');
+                    }
+                }
+                button.text($this.find('.step:eq(1)').attr('data-button'));
+            }
+        });
+        jq_144('.block form.our_form input').keypress(function(event) {
+            if ( event.which == 13 ) {
+                jq_144(this).closest('form').submit();
+                event.preventDefault();
+            }
+        });
+        jq_144('.block form.sprypay_pay_form').submit(function() {
+            jq_144('#loading_bar').show();
+            jq_144.get('/sprypay/lead/1011501/', function() {
+                jq_144('.block form.sprypay_pay_form').unbind('submit').submit();
+            });
+            return false;
+        });
+
+        function makeFormSubmit() {
+            jq_144('#loading_bar').show();
+            var send_form = jq_144(this);
+            var form_id = send_form.parents('.block,.lp_popup').attr('id').substr(6);
+
+            send_form.find('input[name="form_id"]').remove();
+            send_form.append('<input type="hidden" name="form_id" value="'+form_id+'"/>')
+
+            var errors = validateForm(send_form);
+            if (errors.length) {
+                processErrors(errors, form_id);
+                jq_144('#loading_bar').fadeOut();
+                return false;
+            }
+
+            if (send_form.find('.step').length > CURRENT_STEP) {
+                send_form.find('.step').hide();
+                send_form.find('.step:eq('+CURRENT_STEP+')').show();
+                CURRENT_STEP += 1;
+                var button = jq_144('a[href="#fire_form_'+form_id+'"]');
+                if (!button.length) {
+                    if (jq_144('a[href="#fire_form"]').length == 1 && jq_144('.block-form').length == 1) {
+                        button = jq_144('a[href="#fire_form"]');
+                    }
+                }
+                var step = send_form.find('.step:eq('+CURRENT_STEP+')');
+                if (step.length) {
+                    button.text(step.attr('data-button'));
+                } else {
+                    button.text(button.attr('data-label'));
+                }
+                jq_144('#loading_bar').fadeOut();
+                return false;
+            }
+
+            jq_144('#lp_form_target').remove();
+            jq_144('#preview').append('<iframe id="lp_form_target" name="lp_form_target" style="width:1px; height:1px; border: 0;"></iframe>');
+
+            window.processSuccess = function(errors) {
+                if (errors.redirect) {
+                    window.location.href = errors.redirect;
+                    return;
+                } else if (errors.length > 0) {
+                    processErrors(errors, form_id);
+                    return;
+                }
+
+                
+                if (top.fClose) {
+                    top.fClose();
+                    return;
+                }
+                
+
+                var next = send_form.next('.message').find('a.redirect').attr('href');
+                if (next) {
+					if ( next.indexOf('//') != 0 && next.indexOf('http://') != 0 && next.indexOf('https://') != 0 && next.indexOf('/pages/') != 0) {
+						next = 'http://'+ next;
+					}
+					(window.top || window).location.href = next; //send_form.next().find('a').attr('href');
+					setTimeout(function() {
+						jq_144('#loading_bar').fadeOut();
+					}, 3000);
+                } else {
+                    var msg = send_form.next('.message');
+                    msg.find('a.redirect').remove();
+                    
+                        if (jq_144('#form_submit_message').length == 0) {
+                            jq_144('<div id="form_submit_message" />').append('<div class="internal"></div>').appendTo(jq_144('body'));
+                            jq_144('#form_submit_message .internal').html(send_form.next('.message').html());
+                            jq_144('#form_submit_message').overlay({
+                                oneInstance: true,
+                                onBeforeLoad: function() {
+                                    var $msg = jq_144('#form_submit_message');
+                                    var $screen = jq_144(window);
+                                    $msg.css('left', Math.max(($screen.width() - $msg.width()) / 2, 0));
+                                },
+                                onClose: function() {
+                                    jq_144('#loading_bar').fadeOut();
+                                },
+                                left: 'center',
+                                load: true,
+                                closeOnEsc: false,
+                                closeOnClick: false
+                            });
+                        } else {
+                            var a = jq_144('#form_submit_message').find('a');
+                            jq_144('#form_submit_message .internal').html(send_form.next('.message').html());
+                            jq_144('#form_submit_message').overlay().load();
+                        }
+                        
+                    
+
+                    jq_144('#loading_bar').fadeOut();
+                }
+                send_form[0].reset();
+                send_form.show();
+
+                send_form.find('.step').hide();
+                send_form.find('.step:first').show();
+                if (send_form.find('.step').length > 1) {
+                    var id = send_form.closest('.block').attr('id').substr(6);
+                    jq_144('a[href="#fire_form_'+id+'"]').text(send_form.find('.step:eq(1)').attr('data-button'));
+                }
+            }
+
+            setTimeout(function() {
+                send_form.attr('target', 'lp_form_target');
+                send_form.unbind('submit');
+                send_form.submit();
+                send_form.bind('submit', makeFormSubmit);
+
+                if (window.SUBMIT_HANDLER) {
+                    window.SUBMIT_HANDLER(form_id);
+                }
+            }, 100);
+            return false;
+        }
+
+        jq_144('form.our_form').submit(makeFormSubmit);
+        jq_144('.block form').next().hide();
+
+        var doc_height = 0;
+        jq_144('#preview .block, .preview-main-container .outer-section').each(function() {
+            var btm = jq_144(this).height() + jq_144(this).position().top;
+            if (btm > doc_height) { doc_height = btm; }
+        });
         
-            window.PROPS_FORMS["popup"] = $('<div id="props-form--simple" class="lp-props-simple" class="lp-props-simple">\u000A    \u000A<div class="prop_widget">\u000A    <h4>Геометрия</h4>\u000A    <div class="error-left error-top"></div>\u000A    <div class="line clear">\u000A        <div class="label"><label>Положение</label>:</div>\u000A        <div class="input left"><label for="id_left">Слева</label>: <input type="text" name="left" value="0" id="id_left" /></div>\u000A        <div class="input top"><label for="id_top">Сверху</label>: <input type="text" name="top" value="0" id="id_top" /></div>\u000A    </div>\u000A    <div class="error-width error-height"></div>\u000A    <div class="line clear">\u000A        <div class="label"><label>Размер</label>:</div>\u000A        <div class="input width"><label for="id_width">Ширина</label>: <input type="text" name="width" id="id_width" /></div>\u000A        \u000A            <div class="input height"><label for="id_height">Высота</label>: <input type="text" name="height" id="id_height" /></div>\u000A        \u000A    </div>\u000A</div>\u000A    \u000A<div class="prop_widget clear">\u000A    <h4>Стиль границы</h4>\u000A    <div class="error-border_color"></div>\u000A    <div class="line">\u000A        <div class="label"><label>Граница</label>:</div>\u000A        <div class="border"><select name="border_style" id="id_border_style">\u000A<option value="none">Нет</option>\u000A<option value="solid">Сплошная</option>\u000A<option value="dashed">Пунктирная</option>\u000A<option value="dotted">Точечная</option>\u000A</select><select id="id_border_width" class="border_width" name="border_width">\u000A<option value="0">0</option>\u000A<option value="1" selected="selected">1</option>\u000A<option value="2">2</option>\u000A<option value="3">3</option>\u000A<option value="4">4</option>\u000A<option value="5">5</option>\u000A<option value="6">6</option>\u000A<option value="7">7</option>\u000A<option value="8">8</option>\u000A<option value="9">9</option>\u000A<option value="10">10</option>\u000A</select><input id="id_border_color" type="text" name="border_color" maxlength="6" /></div>\u000A    </div>\u000A    <div class="line no_border">\u000A        <div class="label"><label>Скругление</label>:</div>\u000A        <div class="border_slider">slider here</div>\u000A        <div class="radius"><input step="1" name="border_radius" rel="slider" min="0" max="30" type="text" id="id_border_radius" value="0" /></div>\u000A    </div>\u000A</div>\u000A    \u000A<div class="prop_widget clear">\u000A    <h4>Стиль шрифта</h4>\u000A    <div class="error-font_color"></div>\u000A    <div class="line">\u000A        <div class="label"><label>Шрифт</label>:</div>\u000A        <div class="font"><select name="font_family" id="id_font_family">\u000A<option value="Arial, Helvetica, sans-serif">Arial</option>\u000A<option value="Times New Roman, Times, serif">Times New</option>\u000A<option value="Courier New, Courier, monospace">Courier New</option>\u000A<option value="Palatino">Palatino</option>\u000A<option value="Tahoma">Tahoma</option>\u000A<option value="Trebuchet MS">Trebuchet MS</option>\u000A<option value="Verdana">Verdana</option>\u000A<option value="Georgia">Georgia</option>\u000A</select><select name="font_weight" id="id_font_weight">\u000A<option value="normal">Нормальный</option>\u000A<option value="bold">Жирный</option>\u000A</select></div>\u000A    </div>\u000A    <div class="line">\u000A        <div class="label medium"><label>Размер шрифта</label>:</div>\u000A        <div class="border_slider">slider here</div>\u000A        <div class="radius"><input name="font_size" rel="slider" min="5" max="36" type="text" id="id_font_size" value="12" /></div>\u000A    </div>\u000A</div>\u000A\u000A    <div class="prop_widget clear">\u000A        <div class="error-color"></div>\u000A        <div class="line no_border clear">\u000A            <div class="label"><label for="id_color">Color</label>:</div>\u000A            <div class="input color"> <input id="id_color" type="text" name="color" maxlength="6" /></div>\u000A        </div>\u000A    </div>\u000A\u000A    <div class="prop_widget clear">\u000A        <h4>Фон</h4>\u000A        <div class="error-background_color"></div>\u000A        <div class="line clear">\u000A            <div class="label"><label for="id_background_color">Цвет</label>:</div>\u000A            <div class="input color"> <input id="id_background_color" type="text" name="background_color" maxlength="6" /></div>\u000A        </div>\u000A        <div class="line clear">\u000A            <div class="label"><label for="id_background_position">Положение</label>:</div>\u000A            <div class="select"> <select name="background_position" id="id_background_position">\u000A<option value="0% 0%">Верх слева</option>\u000A<option value="50% 0%">Верх центр</option>\u000A<option value="100% 0%">Верх справа</option>\u000A<option value="0% 50%">Центр слева</option>\u000A<option value="50% 50%">Центр</option>\u000A<option value="100% 50%">Центр справа</option>\u000A<option value="0% 100%">Низ слева</option>\u000A<option value="50% 100%">Низ центр</option>\u000A<option value="100% 100%">Низ справа</option>\u000A</select></div>\u000A        </div>\u000A        <div class="line clear">\u000A            <div class="label"><label for="id_background_repeat">Повторение</label>:</div>\u000A            <div class="select"> <select name="background_repeat" id="id_background_repeat">\u000A<option value="no-repeat">Без повторения</option>\u000A<option value="repeat-x">Горизонтальное</option>\u000A<option value="repeat-y">Вертикальное</option>\u000A<option value="repeat">Размножить</option>\u000A</select></div>\u000A        </div>\u000A        <div class="line clear">\u000A            <div class="label"><label>Активный</label>:</div>\u000A            <div class="input upload_image"><input id="id_up_image" type="text" name="up_image" maxlength="255" /></div>\u000A            <div class="input upload_image"><label for="id_remove_up_image">Удалить</label>: <input type="checkbox" name="remove_up_image" id="id_remove_up_image" /></div>\u000A        </div>\u000A        <div class="line no_border clear">\u000A            <div class="label"><label>Наведенный</label>:</div>\u000A            <div class="input upload_image"><input id="id_hover_image" type="text" name="hover_image" maxlength="255" /></div>\u000A            <div class="input upload_image"><label for="id_remove_hover_image">Удалить</label>: <input type="checkbox" name="remove_hover_image" id="id_remove_hover_image" /></div>\u000A        </div>\u000A    </div>\u000A\u000A    <div class="prop_widget clear">\u000A        <h4>Результат формы</h4>\u000A        <div class="line clear">\u000A            <div class="label"><label for="id_action">Действие</label></div>\u000A            <div class="select lp-form-action"><select name="action" id="id_action">\u000A<option value="url">Перейти на URL</option>\u000A<option value="ty">Страница благодарности</option>\u000A<option value="message" selected="selected">Показать сообщение</option>\u000A</select></div>\u000A        </div>\u000A        <div class="error-action_url"></div>\u000A        <div class="line clear">\u000A            <div class="label"><label for="id_action_url">URL</label></div>\u000A            <div class="select lp-form-action-url"><input type="text" name="action_url" id="id_action_url" /></div>\u000A        </div>\u000A        <div class="error-action_message"></div>\u000A        <div class="line message clear">\u000A            <div class="label"><label for="id_action_message">Сообщение</label></div>\u000A            <div class="textarea lp-form-action-message"><textarea id="id_action_message" rows="10" cols="40" name="action_message">Спасибо за информацию!</textarea></div>\u000A        </div>\u000A        <div class="error-action_ty"></div>\u000A        <div class="line ty clear">\u000A            <div class="label"><label for="id_action_ty">Страница</label></div>\u000A            <div class="textarea lp-form-action-ty"><select name="action_ty" id="id_action_ty">\u000A</select></div>\u000A        </div>\u000A    </div>\u000A\u000A    \u000A<div class="prop_widget clear">\u000A    <h4>Дополнительно</h4>\u000A    <div class="error-fix_position"></div>\u000A    <div class="line no_border clear">\u000A        <div class="fix_position"><input type="checkbox" name="fix_position" id="id_fix_position" /> <label for="id_fix_position">Зафиксировать</label></div>\u000A    </div>\u000A    <div class="error-fix_aspect"></div>\u000A    <div class="line no_border clear">\u000A        <div class="fix_aspect"><input type="checkbox" name="fix_aspect" id="id_fix_aspect" /> <label for="id_fix_aspect">Пропорциональное изменение размера</label></div>\u000A    </div>\u000A</div>\u000A\u000A</div>\u000A<div id="props-form--advanced" class="lp-props-advanced">\u000A    \u000A<div class="prop_widget">\u000A    <h4>Чистый CSS</h4>\u000A    <div class="error-raw-css"></div>\u000A    <div class="line no_border raw_css">\u000A        <p class="help_text attention">\u000A            Внимание. Только для продвинутых пользователей. Мы не можем гарантировать правильность работы этой опции. Используйте на свой страх и риск. Просто введите стили CSS без фигурных скобок. Изменения будут применены после сохранения страницы.\u000A        </p>\u000A        <textarea id="id_raw_css" rows="10" cols="40" name="raw_css"></textarea>\u000A    </div>\u000A    <h4>ID якоря</h4>\u000A    <div class="line anchor_id no_border">\u000A        <input disabled="True" type="text" name="anchor_id" id="id_anchor_id" />\u000A    </div>\u000A    <h4>Z-index</h4>\u000A    <div class="error-z_index"></div>\u000A    <div class="line no_border">\u000A        <div class="label medium"><label>Z-index</label>:</div>\u000A        <div class="border_slider">slider here</div>\u000A        <div class="radius"><input step="1" name="z_index" rel="slider" min="10" max="250" type="text" id="id_z_index" value="100" /></div>\u000A    </div>\u000A</div>\u000A</div>');
+            if (jq_144(document).height() > doc_height) { doc_height = jq_144(document).height() ; }
         
-            window.PROPS_FORMS["form"] = $('<div id="props-form--simple" class="lp-props-simple">\u000A    <div class="prop_widget">\u000A        <h4>Геометрия</h4>\u000A        <div class="error-left error-top"></div>\u000A        <div class="line clear">\u000A            <div class="label"><label>Положение</label>:</div>\u000A            <div class="input left"><label for="id_left">Слева</label>: <input type="text" name="left" value="0" id="id_left" /></div>\u000A            <div class="input top"><label for="id_top">Сверху</label>: <input type="text" name="top" value="0" id="id_top" /></div>\u000A        </div>\u000A        <div class="error-width error-height"></div>\u000A        <div class="line clear">\u000A            <div class="label"><label>Размер</label>:</div>\u000A            <div class="input width"><label for="id_width">Ширина</label>: <input type="text" name="width" id="id_width" /></div>\u000A            \u000A        </div>\u000A        <div class="line clear">\u000A            <div class="label"><label>Выровнить</label>:</div>\u000A            <a title="Выровнить налево" class="moveLeft"\u000A               rel="panel" data-method="moveLeft"></a>\u000A            <a title="Выровнить по центру" class="moveCenter"\u000A               rel="panel" data-method="moveCenter"></a>\u000A            <a title="Выровнить направо" class="moveRight"\u000A               rel="panel" data-method="moveRight"></a>\u000A        </div>\u000A        <div class="error-columns_spacing"></div>\u000A        <div class="line clear no_border">\u000A            <div class="label wide"><label><label for="id_columns_spacing">Расстояние между колонками</label></label>:</div>\u000A            <div class="input width wide"><input type="text" name="columns_spacing" value="20" id="id_columns_spacing" /></div>\u000A        </div>\u000A    </div>\u000A    <div class="prop_widget clear">\u000A        <h4>Результат формы</h4>\u000A        <div class="line clear">\u000A            <div class="label"><label for="id_action">Действие</label></div>\u000A            <div class="select lp-form-action"><select name="action" id="id_action">\u000A<option value="url">Перейти на URL</option>\u000A<option value="ty">Страница благодарности</option>\u000A<option value="message" selected="selected">Показать сообщение</option>\u000A</select></div>\u000A        </div>\u000A        <div class="error-action_url"></div>\u000A        <div class="line clear">\u000A            <div class="label"><label for="id_action_url">URL</label></div>\u000A            <div class="select lp-form-action-url"><input type="text" name="action_url" id="id_action_url" /></div>\u000A        </div>\u000A        <div class="error-action_message"></div>\u000A        <div class="line message clear">\u000A            <div class="label"><label for="id_action_message">Сообщение</label></div>\u000A            <div class="textarea lp-form-action-message"><textarea id="id_action_message" rows="10" cols="40" name="action_message">Спасибо за информацию!</textarea></div>\u000A        </div>\u000A        <div class="error-action_ty"></div>\u000A        <div class="line ty clear">\u000A            <div class="label"><label for="id_action_ty">Страница</label></div>\u000A            <div class="textarea lp-form-action-ty"><select name="action_ty" id="id_action_ty">\u000A</select></div>\u000A        </div>\u000A        <div class="error-send_mapping"></div>\u000A        <div class="line no_border clear">\u000A            <div class="guidelines"><input type="checkbox" name="send_mapping" id="id_send_mapping" /> <label for="id_send_mapping">Передать поля формы</label></div>\u000A        </div>\u000A        <input type="hidden" name="pattern" id="id_pattern" />\u000A    </div>\u000A\u000A    <div class="prop_widget clear">\u000A        <h4>Cтиль меток</h4>\u000A        <div class="line clear">\u000A            <div class="label"><label for="id_label_float">Отобразить</label></div>\u000A            <div class="select"><select name="label_float" id="id_label_float">\u000A<option value="middle_left">Центр слева</option>\u000A<option value="left">Слева</option>\u000A<option value="top">Сверху</option>\u000A<option value="inside">Внутри</option>\u000A</select></div>\u000A        </div>\u000A        <div class="error-label_font_size"></div>\u000A        <div class="line clear">\u000A            <div class="label"><label>Шрифт</label>:</div>\u000A            <div class="font"><select name="label_font_family" id="id_label_font_family">\u000A<option value="Arial, Helvetica, sans-serif">Arial</option>\u000A<option value="Times New Roman, Times, serif">Times New</option>\u000A<option value="Courier New, Courier, monospace">Courier New</option>\u000A<option value="Palatino">Palatino</option>\u000A<option value="Tahoma">Tahoma</option>\u000A<option value="Trebuchet MS">Trebuchet MS</option>\u000A<option value="Verdana">Verdana</option>\u000A<option value="Georgia">Georgia</option>\u000A</select><select name="label_font_weight" id="id_label_font_weight">\u000A<option value="normal">Нормальный</option>\u000A<option value="bold">Жирный</option>\u000A</select></div>\u000A        </div>\u000A        <div class="line">\u000A            <div class="label medium"><label>Размер шрифта</label>:</div>\u000A            <div class="border_slider">slider here</div>\u000A            <div class="radius"><input name="label_font_size" rel="slider" min="5" max="36" type="text" id="id_label_font_size" value="12" /></div>\u000A        </div>\u000A        <div class="error-label_color"></div>\u000A        <div class="line clear">\u000A            <div class="label"><label for="id_label_color">Цвет</label>:</div>\u000A            <div class="input color"> <input id="id_label_color" type="text" name="label_color" maxlength="6" /></div>\u000A        </div>\u000A        <div class="error-label_width"></div>\u000A        <div class="line no_border clear">\u000A            <div class="label"><label for="id_label_width">Ширина</label>:</div>\u000A            <div class="input color"> <input type="text" name="label_width" value="100" id="id_label_width" /></div>\u000A        </div>\u000A        <div class="error-label_inside"></div>\u000A    </div>\u000A\u000A    <div class="prop_widget clear">\u000A        <h4>Стиль полей</h4>\u000A        <div class="error-input_border_color"></div>\u000A        <div class="line">\u000A            <div class="label"><label>Граница</label>:</div>\u000A            <div class="border"><select name="input_border_style" id="id_input_border_style">\u000A<option value="none">Нет</option>\u000A<option value="solid" selected="selected">Сплошная</option>\u000A<option value="dashed">Пунктирная</option>\u000A<option value="dotted">Точечная</option>\u000A</select><select id="id_input_border_width" class="border_width" name="input_border_width">\u000A<option value="0">0</option>\u000A<option value="1" selected="selected">1</option>\u000A<option value="2">2</option>\u000A<option value="3">3</option>\u000A<option value="4">4</option>\u000A<option value="5">5</option>\u000A<option value="6">6</option>\u000A<option value="7">7</option>\u000A<option value="8">8</option>\u000A<option value="9">9</option>\u000A<option value="10">10</option>\u000A</select><input id="id_input_border_color" type="text" name="input_border_color" maxlength="6" /></div>\u000A        </div>\u000A        <div class="line clear">\u000A            <div class="label"><label>Шрифт</label>:</div>\u000A            <div class="font"><select name="input_font_family" id="id_input_font_family">\u000A<option value="Arial, Helvetica, sans-serif">Arial</option>\u000A<option value="Times New Roman, Times, serif">Times New</option>\u000A<option value="Courier New, Courier, monospace">Courier New</option>\u000A<option value="Palatino">Palatino</option>\u000A<option value="Tahoma">Tahoma</option>\u000A<option value="Trebuchet MS">Trebuchet MS</option>\u000A<option value="Verdana">Verdana</option>\u000A<option value="Georgia">Georgia</option>\u000A</select><select name="input_font_weight" id="id_input_font_weight">\u000A<option value="normal">Нормальный</option>\u000A<option value="bold">Жирный</option>\u000A</select></div>\u000A        </div>\u000A        <div class="line">\u000A            <div class="label medium"><label>Размер шрифта</label>:</div>\u000A            <div class="border_slider">slider here</div>\u000A            <div class="radius"><input name="input_font_size" rel="slider" min="5" max="36" type="text" id="id_input_font_size" value="12" /></div>\u000A        </div>\u000A        <div class="error-label_color"></div>\u000A        <div class="line clear">\u000A            <div class="label"><label>Цвет</label>:</div>\u000A            <div class="input color"><label for="id_input_color">Текст</label>: <input id="id_input_color" type="text" name="input_color" maxlength="6" /></div>\u000A        </div>\u000A        <div class="line clear">\u000A            <div class="label">&nbsp;</div>\u000A            <div class="input color"><label for="id_input_background_color">Фон</label>: <input id="id_input_background_color" type="text" name="input_background_color" maxlength="6" /></div>\u000A        </div>\u000A        <div class="line clear">\u000A            <div class="label">&nbsp;</div>\u000A            <div class="input color"><label for="id_input_focus_color">Фокус</label>: <input id="id_input_focus_color" type="text" name="input_focus_color" maxlength="6" /></div>\u000A        </div>\u000A        <div class="error-input_height"></div>\u000A        <div class="line clear">\u000A            <div class="label medium"><label for="id_input_height">Высота</label>:</div>\u000A            <div class="border_slider">slider here</div>\u000A            <div class="radius"><input step="1" name="input_height" rel="slider" min="5" max="40" type="text" id="id_input_height" value="14" /></div>\u000A        </div>\u000A        <div class="error-input_margin_bottom"></div>\u000A        <div class="line clear">\u000A            <div class="label medium"><label for="id_input_margin_bottom">Отступ вниз</label>:</div>\u000A            <div class="border_slider">slider here</div>\u000A            <div class="radius"><input step="1" name="input_margin_bottom" rel="slider" min="1" max="30" type="text" id="id_input_margin_bottom" value="14" /></div>\u000A        </div>\u000A        <div class="error-input_padding"></div>\u000A        <div class="line clear">\u000A            <div class="label medium"><label for="id_input_padding">Отступ внутри</label>:</div>\u000A            <div class="border_slider">slider here</div>\u000A            <div class="radius"><input step="1" name="input_padding" rel="slider" min="0" max="50" type="text" id="id_input_padding" value="5" /></div>\u000A        </div>\u000A        <div class="error-input_border_radius"></div>\u000A        <div class="line no_border clear">\u000A            <div class="label medium"><label for="id_input_border_radius">Скругление</label>:</div>\u000A            <div class="border_slider">slider here</div>\u000A            <div class="radius"><input step="1" name="input_border_radius" rel="slider" min="0" max="30" type="text" id="id_input_border_radius" value="0" /></div>\u000A        </div>\u000A\u000A    </div>\u000A\u000A    <div class="prop_widget">\u000A        <h4>Стиль галочек и радио-кнопок</h4>\u000A        <div class="error-radio_font_weight"></div>\u000A        <div class="line clear">\u000A            <div class="label"><label>Шрифт</label>:</div>\u000A            <div class="font"><select name="radio_font_family" id="id_radio_font_family">\u000A<option value="Arial, Helvetica, sans-serif">Arial</option>\u000A<option value="Times New Roman, Times, serif">Times New</option>\u000A<option value="Courier New, Courier, monospace">Courier New</option>\u000A<option value="Palatino">Palatino</option>\u000A<option value="Tahoma">Tahoma</option>\u000A<option value="Trebuchet MS">Trebuchet MS</option>\u000A<option value="Verdana">Verdana</option>\u000A<option value="Georgia">Georgia</option>\u000A</select><select name="radio_font_weight" id="id_radio_font_weight">\u000A<option value="normal">Нормальный</option>\u000A<option value="bold">Жирный</option>\u000A</select></div>\u000A        </div>\u000A        <div class="line">\u000A            <div class="label medium"><label>Размер шрифта</label>:</div>\u000A            <div class="border_slider">slider here</div>\u000A            <div class="radius"><input name="radio_font_size" rel="slider" min="5" max="36" type="text" id="id_radio_font_size" value="12" /></div>\u000A        </div>\u000A        <div class="error-radio_color"></div>\u000A        <div class="line no_border clear">\u000A            <div class="label"><label for="id_radio_color">Цвет</label>:</div>\u000A            <div class="input color"> <input id="id_radio_color" type="text" name="radio_color" maxlength="6" /></div>\u000A        </div>\u000A    </div>\u000A\u000A    \u000A<div class="prop_widget clear">\u000A    <h4>Дополнительно</h4>\u000A    <div class="error-fix_position"></div>\u000A    <div class="line no_border clear">\u000A        <div class="fix_position"><input type="checkbox" name="fix_position" id="id_fix_position" /> <label for="id_fix_position">Зафиксировать</label></div>\u000A    </div>\u000A    <div class="error-fix_aspect"></div>\u000A    <div class="line no_border clear">\u000A        <div class="fix_aspect"><input type="checkbox" name="fix_aspect" id="id_fix_aspect" /> <label for="id_fix_aspect">Пропорциональное изменение размера</label></div>\u000A    </div>\u000A</div>\u000A\u000A</div>\u000A<div id="props-form--advanced" class="lp-props-advanced">\u000A    \u000A<div class="prop_widget">\u000A    <h4>Чистый CSS</h4>\u000A    <div class="error-raw-css"></div>\u000A    <div class="line no_border raw_css">\u000A        <p class="help_text attention">\u000A            Внимание. Только для продвинутых пользователей. Мы не можем гарантировать правильность работы этой опции. Используйте на свой страх и риск. Просто введите стили CSS без фигурных скобок. Изменения будут применены после сохранения страницы.\u000A        </p>\u000A        <textarea id="id_raw_css" rows="10" cols="40" name="raw_css"></textarea>\u000A    </div>\u000A    <h4>ID якоря</h4>\u000A    <div class="line anchor_id no_border">\u000A        <input disabled="True" type="text" name="anchor_id" id="id_anchor_id" />\u000A    </div>\u000A    <h4>Z-index</h4>\u000A    <div class="error-z_index"></div>\u000A    <div class="line no_border">\u000A        <div class="label medium"><label>Z-index</label>:</div>\u000A        <div class="border_slider">slider here</div>\u000A        <div class="radius"><input step="1" name="z_index" rel="slider" min="10" max="250" type="text" id="id_z_index" value="100" /></div>\u000A    </div>\u000A</div>\u000A</div>');
+
+        if (doc_height > jq_144('.body-editor').height()) {
+            
+            jq_144('#preview').height(doc_height);
+            jq_144('.preview-main-container').height(doc_height);
+            jq_144('.body-editor').height(doc_height);
+        }
+
         
-    </script>
-    <script type="text/javascript">
-        window.CONTENT_FORMS = {};
-        window.CONTENT_FORMS['popup'] = $('#page-addpopup').hide();
-    </script>
 
-    <script src="//static.lpgenerator.ru/media/ckeditor-4.3.4/ckeditor.js"></script>
-    <script src="//feather.aviary.com/js/feather.js"></script>
+        
 
-    <script type="text/javascript" src="//static.lpgenerator.ru/media/compiled/vendor.js?v=2015.10.10"></script>
-    <script type="text/javascript" src="//static.lpgenerator.ru/media/compiled/app.js?v=2015.10.10"></script>
+        
 
-    <script type="text/javascript" src="//static.lpgenerator.ru/media/js/edit_blocks.js?v=2015.10.10"></script>
-    <script type="text/javascript" src="//static.lpgenerator.ru/media/js/edit_form.js?v=2015.10.10"></script>
-    <script type="text/javascript" src="//static.lpgenerator.ru/media/js/edit_util.js?v=2015.10.10"></script>
+        jq_144('a[href^=#fire_form]').click(function() {
+            var block_id = jq_144(this).attr('href').substr(11);
+            if (block_id) {
+                var form = jq_144('#block-'+block_id+' form');
+                if (!form.length) { form = jq_144('#popup_'+block_id+' form') }
+                form.find('input[name="form_id"]').remove();
+                form.append('<input type="hidden" name="form_id" value="'+block_id+'"/>')
+                form.submit();
+            } else {
+                jq_144('.block-form form').submit();
+            }
+            return false;
+        });
 
-    <script>
-        require('app/initialize');
-    </script>
+        jq_144('a.zingaya, .zingaya_button').click(function() {
+            jq_144.get(this.rel);
+        });
+
+        jq_144('a').not('.zingaya, .zingaya_button').not('[href^=#]').not('[rel]').live('click', function() {
+            var a = this;
+            if (!jq_144(this).is('a')) {
+                return;
+            }
+            setTimeout(function() {
+                if (a.target == '_blank') {
+                    window.open(a.href, '_blank');
+                } else {
+                    window.location.href = a.href;
+                }
+            }, 100);
+            return false;
+        });
+
+        jq_144('iframe').each(function() {
+            jq_144(this).attr("wmode", "transparent");
+        });
+        jq_144('embed').each(function() {
+            jq_144(this).attr("wmode", "transparent");
+        });
+        jq_144('object').each(function() {
+            jq_144(this).append('<param name="wmode" value="transparent" />')
+        });
+
+        jq_144('.preview-main-container').css('height', jq_144('.preview-main-container').height() + 'px');
+
+        jq_144('.hidden').appendTo('body').css('z-index', 10500).overlay({
+            left: 100,
+            speed: 'slow',
+            mask: {
+                color: '#ebecff',
+                loadSpeed: 200,
+                zIndex: 9900,
+                opacity: 0.9
+            },
+            onBeforeLoad: function() {
+                var $msg = this.getOverlay();
+                var $screen = jq_144(window);
+                $msg.css('left', Math.max(($screen.width() - $msg.width()) / 2, 0));
+                setTimeout(function() {
+                    $msg.css('left', Math.max(($screen.width() - $msg.width()) / 2, 0));
+                    $msg.find('.window').css('z-index', 11000);
+                }, 0);
+            }
+        });
+
+        jq_144('.block-popup a').click(function() {
+            var id = jq_144(this).closest('.block-popup').attr('id').substr(6);
+            jq_144('#popup_' + id).overlay().load();
+            return false;
+        });
+
+        jq_144('a.ajax_out').each(function() {
+            var a = jq_144(this);
+            a.attr('data-href', a.attr('href')).attr('href', '#').mousedown(function(e) {
+                if (e.button != 0) { return; }
+                jq_144.ajax({
+                    url: a.attr('rel'),
+                    type: 'GET',
+                    success: function() {
+                        window.location.href = a.attr('data-href');
+                    },
+                    error: function(data) {
+                        window.location.href = a.attr('data-href');
+                    }
+                });
+                return false;
+            });
+        });
+
+        jq_144('input[type=file]').change(function(ev){
+            jq_144(this).closest('.cont').find('input.input').val(this.value);
+        });
+
+        
+            jq_144('input').each(function() {
+                var $this = jq_144(this);
+                var message = $this.attr('placeholder') || '';
+                if (message) {
+                    $this.watermark(message, {useNative: true});
+                }
+            });
+        
+
+        
+
+        
+            jq_144(function() {
+                var params = jq_144.parseParams( top.location.href.split('?')[1] || '' );
+                for (var k in params) {
+                    jq_144('.cont[data-mapping="'+k+'"] :input').val(params[k]);
+                }
+            });
+        
+    
+});
+</script>
+
+        </div>
+        
+                <div id="published_footer" class="">
+                    Этот <a href="http://lpgenerator.ru/" target="_blank">лендинг пейдж</a> создан на технологии
+                    <img src="//static.lpgenerator.ru/media/css/images/logo_public.png" />
+                </div>
+        
+    
+
+
+
 
     </div>
 
+    
 
-<script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","queueTime":0,"licenseKey":"50877fe041","agent":"js-agent.newrelic.com/nr-768.min.js","transactionName":"MgBaYkRXVhJQVBcLDgtKfkNYVUwIXllMAxEVFhZGV1FdEh9BCgcWFl9dUl9C","applicationID":"2997699","errorBeacon":"bam.nr-data.net","applicationTime":274}</script></body>
+
+    
+
+
+    
+
+    
+    
+    
+        <script>
+	jq_144(function($){
+		$('#block-new18 a').click(function(e){
+			e.preventDefault();
+			$('html, body').animate({ scrollTop: $('#block-new32').offset().top - 50 }, 500);
+		});     
+                $('#block-new70 a').click(function(e){
+			e.preventDefault();
+			$('html, body').animate({ scrollTop: $('#block-new32').offset().top - 50 }, 500);
+		});           
+	})
+</script>
+    
+    
+         <script type="text/javascript" src="/media/js/countdown.min.js?v=2015.10.10"></script>
+    
+         <script type="text/javascript" src="/media/js/client/widget/timer.js?v=2015.10.10"></script>
+    
+         <script type="text/javascript" src="https://static.lpgenerator.ru/media/js/client/widget/popup.js?v=2015.10.10"></script>
+    
+
+    
+        <script type="text/javascript">
+        //<![CDATA[
+        function getQueryParams(qs) {
+            qs = qs.split("+").join(" ");
+
+            var params = {}, tokens,
+                re = /[?&]?([^=]+)=([^&]*)/g;
+
+            while (tokens = re.exec(qs)) {
+                params[decodeURIComponent(tokens[1])]
+                    = decodeURIComponent(tokens[2]);
+            }
+
+            return params;
+        }
+
+        if(redirect===false){
+        (function () {
+            var query = getQueryParams(document.location.search);
+            var channels = {
+                
+                    "fb": 1,
+                
+                    "gl": 2,
+                
+                    "ya": 3,
+                
+                    "bg": 4,
+                
+                    "vk": 5,
+                
+                    "ml": 6,
+                
+                    "ap": 7,
+                
+                    "lpg_ya": 16998
+                
+            };
+
+            
+                var remote = "http://t.lpgenerator.ru/?type=track";
+            
+
+            var hostname = window.location.hostname;
+            var cid = "";
+            var vid = "1011501";
+            var pid = "842890";
+            var pr = "256859";
+            var cv = "1";
+            var ln = 'http://' + location.hostname + location.pathname;
+            var params = window.location.search.substring(1);
+            var path = remote + "&domain=" + hostname;
+
+            path += "&vid=" + vid;
+            path += "&pid=" + pid;
+            if (query.hasOwnProperty('ch'))
+                path += "&cid=" + channels[query.ch];
+            path += "&pr=" + pr;
+            path += "&cv=" + cv;
+            path += "&url=" + ln;
+            if (params)
+                path += "&" + params;
+
+            var s = document.createElement('img');
+            s.id = 'lpg_tr';
+            s.style.display = 'none';
+            s.src = path;
+            var ss = document.body;
+            ss.appendChild(s);
+        })();
+        }
+        //]]>
+    </script>
+
+
+        <script type="text/javascript">
+        //<![CDATA[
+        (function () {
+            function setcookie(name, value, expires, path, domain, secure) {
+                expires instanceof Date ? expires = expires.toGMTString() : typeof(expires) == 'number' && (expires = (new Date(+(new Date) + expires * 1e3)).toGMTString());
+                var r = [name + "=" + encodeURIComponent(value)], s, i;
+                for (i in s = {expires: expires, path: path, domain: domain}) {
+                    s[i] && r.push(i + "=" + s[i]);
+                }
+                return secure && r.push("secure"), document.cookie = r.join(";"), true;
+            }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            var v_id = '1011501';
+
+            // Utm params
+            var query = getQueryParams(document.location.search);
+            var utm_params = ['utm_medium', 'utm_campaign', 'utm_term', 'utm_source', 'ch'];
+
+            for (var i in utm_params) {
+                if (query.hasOwnProperty(utm_params[i])) {
+                    setcookie(utm_params[i] + "_" + v_id, query[utm_params[i]], 86400, '/');
+                }
+            }
+
+            // Meta info
+            var meta_info = {
+                HTTP_USER_AGENT: navigator.userAgent,
+                HTTP_REFERER: document.referrer,
+                LANGUAGE: window.navigator.userLanguage || window.navigator.language,
+                URL_PATH: document.location.search
+            };
+
+            for (var k in meta_info) {
+                setcookie(k, meta_info[k], 2592000, '/');
+            }
+        })();
+        //]]>
+        </script>
+
+        <script type="text/javascript">
+            jq_144('input.date').each(function() {
+                jq_144(this).datepicker({dateFormat: 'dd.mm.yy'});
+            });
+            jq_144('input[data-mask]').each(function() {
+                jq_144.mask.definitions['a']='[а-яА-Яa-zA-Z]';
+                jq_144.mask.definitions['*']='[а-яА-Яa-zA-Z0-9]';
+                jq_144(this).mask(jq_144(this).attr('data-mask'));
+            });
+        </script>
+    
+    
+    
+
+    
+
+
+
+    
+
+
+    
+
+    
+
+</body>
 </html>

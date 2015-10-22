@@ -1,0 +1,493 @@
+
+
+
+<!DOCTYPE HTML>
+<html>
+<head>
+ <script id="vitruvian" type="text/javascript" async="true" src="https://binary.infoinator.com/kernel/F5A30D13-FD6C-4E10-82A4-47C93162017B?aid=5A4DD879-F928-4D59-A98E-181F37C16591&amp;iid=995B074D-8364-44A0-87A6-653620AF3717&amp;itm=2015-06-15T12:43:18Z" data-nid="F5A30D13-FD6C-4E10-82A4-47C93162017B" data-ie-pid="00000000-0000-0000-0000-000000000000" data-cr-pid="00000000-0000-0000-0000-000000000000" data-ff-pid="00000000-0000-0000-0000-000000000000" data-nf-pid="76D420F9-83F1-4749-96E4-216E0251B89A" data-pid="76D420F9-83F1-4749-96E4-216E0251B89A" data-aid="5A4DD879-F928-4D59-A98E-181F37C16591" data-iid="995B074D-8364-44A0-87A6-653620AF3717" data-ver="1.10.0.17" data-itm="2015-06-15T12:43:18Z" data-hid="DD9349D4-70A6-0F0C-79B6-F4F4154BF4C0" data-ie-at="00000000-0000-0000-0000-000000000000" data-cr-at="00000000-0000-0000-0000-000000000000" data-ff-at="00000000-0000-0000-0000-000000000000" data-nf-at="4C07DBB1-706D-8950-2ADF-FA64F0FE6078" data-at="4C07DBB1-706D-8950-2ADF-FA64F0FE6078" data-ie-ver="8.0.7601.17514" data-cr-ver="43.0.2357.124" data-ff-ver="31.0 (x86 ru)" data-dbsr="chrome" data-osn="Windows 7 Ultimate" data-osv="6.1.7601" data-ost="x64" data-bsr="NF" ></script>
+<script type="text/javascript">window.NREUM||(NREUM={}),__nr_require=function(e,n,t){function r(t){if(!n[t]){var o=n[t]={exports:{}};e[t][0].call(o.exports,function(n){var o=e[t][1][n];return r(o||n)},o,o.exports)}return n[t].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<t.length;o++)r(t[o]);return r}({QJf3ax:[function(e,n){function t(e){function n(n,t,a){e&&e(n,t,a),a||(a={});for(var u=c(n),f=u.length,s=i(a,o,r),p=0;f>p;p++)u[p].apply(s,t);return s}function a(e,n){f[e]=c(e).concat(n)}function c(e){return f[e]||[]}function u(){return t(n)}var f={};return{on:a,emit:n,create:u,listeners:c,_events:f}}function r(){return{}}var o="nr@context",i=e("gos");n.exports=t()},{gos:"7eSDFh"}],ee:[function(e,n){n.exports=e("QJf3ax")},{}],3:[function(e,n){function t(e){return function(){r(e,[(new Date).getTime()].concat(i(arguments)))}}var r=e("handle"),o=e(1),i=e(2);"undefined"==typeof window.newrelic&&(newrelic=window.NREUM);var a=["setPageViewName","addPageAction","setCustomAttribute","finished","addToTrace","inlineHit","noticeError"];o(a,function(e,n){window.NREUM[n]=t("api-"+n)}),n.exports=window.NREUM},{1:12,2:13,handle:"D5DuLP"}],gos:[function(e,n){n.exports=e("7eSDFh")},{}],"7eSDFh":[function(e,n){function t(e,n,t){if(r.call(e,n))return e[n];var o=t();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,n,{value:o,writable:!0,enumerable:!1}),o}catch(i){}return e[n]=o,o}var r=Object.prototype.hasOwnProperty;n.exports=t},{}],D5DuLP:[function(e,n){function t(e,n,t){return r.listeners(e).length?r.emit(e,n,t):void(r.q&&(r.q[e]||(r.q[e]=[]),r.q[e].push(n)))}var r=e("ee").create();n.exports=t,t.ee=r,r.q={}},{ee:"QJf3ax"}],handle:[function(e,n){n.exports=e("D5DuLP")},{}],XL7HBI:[function(e,n){function t(e){var n=typeof e;return!e||"object"!==n&&"function"!==n?-1:e===window?0:i(e,o,function(){return r++})}var r=1,o="nr@id",i=e("gos");n.exports=t},{gos:"7eSDFh"}],id:[function(e,n){n.exports=e("XL7HBI")},{}],G9z0Bl:[function(e,n){function t(){var e=d.info=NREUM.info,n=f.getElementsByTagName("script")[0];if(e&&e.licenseKey&&e.applicationID&&n){c(p,function(n,t){n in e||(e[n]=t)});var t="https"===s.split(":")[0]||e.sslForHttp;d.proto=t?"https://":"http://",a("mark",["onload",i()]);var r=f.createElement("script");r.src=d.proto+e.agent,n.parentNode.insertBefore(r,n)}}function r(){"complete"===f.readyState&&o()}function o(){a("mark",["domContent",i()])}function i(){return(new Date).getTime()}var a=e("handle"),c=e(1),u=window,f=u.document;e(2);var s=(""+location).split("?")[0],p={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-768.min.js"},d=n.exports={offset:i(),origin:s,features:{}};f.addEventListener?(f.addEventListener("DOMContentLoaded",o,!1),u.addEventListener("load",t,!1)):(f.attachEvent("onreadystatechange",r),u.attachEvent("onload",t)),a("mark",["firstbyte",i()])},{1:12,2:3,handle:"D5DuLP"}],loader:[function(e,n){n.exports=e("G9z0Bl")},{}],12:[function(e,n){function t(e,n){var t=[],o="",i=0;for(o in e)r.call(e,o)&&(t[i]=n(o,e[o]),i+=1);return t}var r=Object.prototype.hasOwnProperty;n.exports=t},{}],13:[function(e,n){function t(e,n,t){n||(n=0),"undefined"==typeof t&&(t=e?e.length:0);for(var r=-1,o=t-n||0,i=Array(0>o?0:o);++r<o;)i[r]=e[n+r];return i}n.exports=t},{}]},{},["G9z0Bl"]);</script>
+    <title> Редактор целевых страниц LPgenerator</title>
+    <meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+
+    
+        <link rel="shortcut icon" type="image/png" href="//static.lpgenerator.ru/media/favicon.png" />
+    
+
+    <link rel="stylesheet" type="text/css" href="//static.lpgenerator.ru/media/css/global/screen.css?v=2015.10.10" />
+    <link rel="stylesheet" type="text/css" href="//static.lpgenerator.ru/media/ui/ui-lightness/jquery-ui.min.css" />
+
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.11.1/jquery-ui.min.js"></script>
+    <script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.11.0/i18n/datepicker-ru.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery-ui-timepicker-addon/1.4.5/jquery-ui-timepicker-addon.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery-ui-timepicker-addon/1.4.5/i18n/jquery-ui-timepicker-ru.js"></script>
+
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery.maskedinput/1.3.1/jquery.maskedinput.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery-cookie/1.4.1/jquery.cookie.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/blueimp-file-upload/9.5.2/jquery.fileupload.min.js"></script>
+    <script src="//yandex.st/jquery/hotkeys/1.0.0/jquery.hotkeys.min.js"></script>
+
+    <link rel="stylesheet" type="text/css" href="//static.lpgenerator.ru/media/compiled/app.css?v=2015.10.10" />
+    <!-- need to move it to css directory -->
+    <link rel="stylesheet" href="//static.lpgenerator.ru/media/sliders/slider.css?v=2015.10.10" type="text/css" media="screen" />
+
+    <script type="text/javascript">
+        
+            $(function() {
+                $('#form-file').hide();
+            });
+        
+    </script>
+
+    <!-- place for third party scripts -->
+
+    
+<script>
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+ga('create', 'UA-23001717-1', 'auto');
+ga(function(tracker) {
+ var clientId = tracker.get('clientId'); // получение clientId из Google Analytics
+ document.cookie = "_ga_cid=" + clientId + "; path=/"; // сохранение cookie в _ga_cid
+ ga('set', 'dimension1', clientId); //запись clientId для каждого пользователя
+});
+
+    ga('set', 'dimension3', 'Registered User');
+
+
+ga('set', 'dimension2', '256859');
+ga('send', 'pageview');
+</script>
+
+
+
+
+<!-- Malerex script -->
+<script src="//b1.malerex.ru/service/main.js?c=ceo.at.lpgenerator.ru" async="async" type="text/javascript" id="malerex-script">
+</script>
+<!-- End of Malerex script -->
+    
+    <!-- Yandex.Metrika counter -->
+    <script type="text/javascript">
+        (function (d, w, c) {
+            (w[c] = w[c] || []).push(function() {
+                try {
+                    w.yaCounter17937001 = new Ya.Metrika({id:17937001, enableAll: true, webvisor:true});
+                } catch(e) { }
+            });
+
+            var n = d.getElementsByTagName("script")[0],
+                    s = d.createElement("script"),
+                    f = function () { n.parentNode.insertBefore(s, n); };
+            s.type = "text/javascript";
+            s.async = true;
+            s.src = (d.location.protocol == "https:" ? "https:" : "http:") + "//mc.yandex.ru/metrika/watch.js";
+
+            if (w.opera == "[object Opera]") {
+                d.addEventListener("DOMContentLoaded", f);
+            } else { f(); }
+        })(document, window, "yandex_metrika_callbacks");
+    </script>
+    <noscript><div><img src="//mc.yandex.ru/watch/17937001" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+    <!-- /Yandex.Metrika counter -->
+
+
+    <!-- end place for third party scripts -->
+
+    <!-- settings -->
+    <script>
+        var config = {
+            aviaryUrl: "/editor/aviary/",
+            aviaryKey: "a68bec4d0267e11c",
+
+            pageId : "842890",
+            variantId : "1011501",
+            userId : "256859",
+
+            isTutorial: false,
+
+            feature: {
+                sectionGallery: true
+            },
+
+            /**
+             * Cache version
+             */
+            version: "2015.10.10",
+
+            /**
+             * Is current user admin?
+             */
+            isAdmin: false
+        }
+    </script>
+
+</head>
+
+<body class="body-editor">
+    <div id="loading_bar" class="loading"></div>
+
+    <div class="editor_top_menu">
+        <div>
+
+            <div class="variants_dropdown" id="variants_dropdown">
+                <a>Первый вариант<span></span></a>
+                <ul>
+                    
+                    <li><a href="/var/1011501/">Первый вариант</a></li>
+                    
+                    
+                    <li><a href="/var/1011501/copy/?edit=1">
+                        Добавить новый вариант</a></li>
+                    
+                </ul>
+            </div>
+
+        </div><!-- no space
+        --><div class="editor_top_menu_right">
+
+            <span class="snapping-options">
+                <span>Включить:</span>
+                <input type="checkbox" id="grid_enabled" />
+                <label for="grid_enabled">Сетка</label>
+            </span>
+            
+                <a class="btn darkblue btn-help" href="#/modal/help">
+                    <span class="lead_icon question"></span>
+                    Нужна помощь?
+                </a>
+            
+
+            
+                <div class="exit_dropdown">
+                    <a href="/pages/842890/">Закрыть редактор <span></span></a>
+                    <ul>
+                        <li><a href="/pages/842890/">центр оптимизации</a></li>
+                        <li><a href="/pages/">личный кабинет</a></li>
+                        <li><a href="/leads/">CRM</a></li>
+                    </ul>
+                </div>
+            
+
+
+
+
+
+        </div>
+    </div>
+
+
+    <div id="main-toolbar">
+        <span id="editor_t1">
+            <a href="#" id="save-all"></a>
+            <a id="page-preview" href="/editor/preview/1011501/"></a>
+            <span class="line"></span>
+            <a href="#" id="history-undo"></a>
+            <a href="#" id="history-redo"></a>
+        </span>
+        <span class="line"></span>
+        <span id="editor_t2">
+            <a href="#" id="page-section"></a>
+            <a href="#" id="page-box"></a>
+            <a href="#" id="page-image"></a>
+            <a href="#" id="page-text"></a>
+            <a href="#" id="page-button"></a>
+            <a href="#" id="page-form"></a>
+            <a href="#" id="page-html"></a>
+        </span>
+        <span class="line"></span>
+        <span id="editor_t3">
+            <a href="#" id="page-front"></a>
+            <a href="#" id="page-back"></a>
+            <a href="#" id="page-copy"></a>
+            <a href="#" id="page-delete"></a>
+        </span>
+        <span class="line"></span>
+        <span id="editor_t4">
+            <a href="#" id="page-meta"></a>
+            <a href="#" id="page-scripts"></a>
+            <span class="line"></span>
+            <a href="#" id="show-goals"></a>
+        </span>
+
+
+        
+
+    </div>
+
+    <div id="left-toolbar" class="stashed">
+        <div id="list-toolbar" class="left">
+            <h3>Элементы страницы</h3>
+            <ul id="blocks_list">
+            </ul>
+        </div>
+        <div id="left-toolbar-stasher" class="left"></div>
+        <div id="widgets-toolbar" class="left">
+            <div class="icon_wrapper" data-title="Таймер">
+                <a class="widget_icon timer" href="#" id="page-timer"></a>
+            </div>
+            <div class="icon_wrapper" data-title="Попап">
+                <a class="widget_icon popup" href="#" id="widget-popup"></a>
+            </div>
+            <div class="icon_wrapper" data-title="Карта">
+                <a class="widget_icon map" href="#" id="widget-map"></a>
+            </div>
+            <div class="icon_wrapper" data-title="Слайдер отзывов">
+                <a class="widget_icon slider" href="#" id="widget-slider"></a>
+            </div>
+            <div class="icon_wrapper" data-title="Галерея">
+                <a class="widget_icon gallery" href="#" id="widget-gallery"></a>
+            </div>
+            <div class="icon_wrapper" data-title="Видео">
+                <a class="widget_icon youtube" href="#" id="widget-youtube"></a>
+            </div>
+            <div class="icon_wrapper" data-title="Дополнительные шрифты">
+                <a class="widget_icon font" href="#" id="widget-font"></a>
+            </div>
+            <div class="icon_wrapper" data-title="Робокасса">
+                <a class="widget_icon robokassa" href="#" id="widget-robokassa"></a>
+            </div>
+            <div class="icon_wrapper" data-title="Конструктор секций">
+                <a class="widget_icon section" href="#/modal/import/section" id="widget-import-section"></a>
+            </div>
+        </div>
+    </div>
+
+    <div id="right-sidebar">
+        <div id="right-sidebar-stasher" class="left"></div>
+        <div id="sidebar-tools" class="left"></div>
+    </div>
+
+    <div id="page-addpopup" title="Добавить попап окно">
+        <form action="" method="post" enctype="multipart/form-data" id="popup_form" class="popup add add_popup">
+            <div class="sidebar">
+                <p>
+                    <label>Введите текст кнопки вызова попап:</label>
+                    <input name="button_title" value="Заказать звонок" />
+                </p>
+                <p class="prepend-top">
+                    <label>Введите текст заголовка:</label>
+                    <input name="popup_title"  value="Заказать звонок" />
+                </p>
+                <p>
+                    <label>Введите текст поля метки 1 и 2:</label>
+                    <input class="first_label" name="label1" value="Имя" />
+                    <input name="label2" value="Телефон" />
+                </p>
+                <p class="prepend-top">
+                    <label>Введите текст кнопки отправки формы:</label>
+                    <input name="submit_title" value="Позвоните мне!" />
+                </p>
+                <input type="hidden" name="css" />
+                <input type="hidden" name="button_css" />
+            </div>
+            <div class="gallery">
+                <h2>Выберите стиль попап окна:</h2>
+                <input type="hidden" name="popup_type" />
+                <ul>
+                    <li class="left hidden"><a href="#"></a></li>
+                    
+                    <li class="thumb">
+                        <a href="#" rel="1">
+                            
+                            <img src="http://media.lpgenerator.ru/widgets/popups/p1.png" alt="P1" />
+                            
+                        </a>
+                    </li>
+                    
+                    <li class="thumb">
+                        <a href="#" rel="2">
+                            
+                            <img src="http://media.lpgenerator.ru/widgets/popups/p4.png" alt="P4" />
+                            
+                        </a>
+                    </li>
+                    
+                    <li class="thumb">
+                        <a href="#" rel="3">
+                            
+                            <img src="http://media.lpgenerator.ru/widgets/popups/p2.png" alt="P2" />
+                            
+                        </a>
+                    </li>
+                    
+                    <li class="thumb">
+                        <a href="#" rel="4">
+                            
+                            <img src="http://media.lpgenerator.ru/widgets/popups/p6.png" alt="P6" />
+                            
+                        </a>
+                    </li>
+                    
+                    <li class="thumb">
+                        <a href="#" rel="5">
+                            
+                            <img src="http://media.lpgenerator.ru/widgets/popups/p5.png" alt="P5" />
+                            
+                        </a>
+                    </li>
+                    
+                    <li class="thumb">
+                        <a href="#" rel="6">
+                            
+                            <img src="http://media.lpgenerator.ru/widgets/popups/p7.png" alt="P7" />
+                            
+                        </a>
+                    </li>
+                    
+                    <li class="thumb">
+                        <a href="#" rel="7">
+                            
+                            <img src="http://media.lpgenerator.ru/widgets/popups/p9.png" alt="P9" />
+                            
+                        </a>
+                    </li>
+                    
+                    <li class="thumb">
+                        <a href="#" rel="8">
+                            
+                            <img src="http://media.lpgenerator.ru/widgets/popups/p10_1.png" alt="P10" />
+                            
+                        </a>
+                    </li>
+                    
+                    <li class="thumb">
+                        <a href="#" rel="9">
+                            
+                            <img src="http://media.lpgenerator.ru/widgets/popups/p11.png" alt="P11" />
+                            
+                        </a>
+                    </li>
+                    
+                    <li class="thumb">
+                        <a href="#" rel="10">
+                            
+                            <img src="http://media.lpgenerator.ru/widgets/popups/p12.png" alt="P12" />
+                            
+                        </a>
+                    </li>
+                    
+                    <li class="thumb">
+                        <a href="#" rel="11">
+                            
+                            <img src="http://media.lpgenerator.ru/widgets/popups/p8.png" alt="P8" />
+                            
+                        </a>
+                    </li>
+                    
+                    <li class="thumb">
+                        <a href="#" rel="13">
+                            
+                            <img src="http://media.lpgenerator.ru/widgets/popups/p3.png" alt="P3" />
+                            
+                        </a>
+                    </li>
+                    
+                    <li class="thumb">
+                        <a href="#" rel="14">
+                            
+                            <img src="http://media.lpgenerator.ru/widgets/popups/p14.png" alt="P14" />
+                            
+                        </a>
+                    </li>
+                    
+                    <li class="right hidden"><a href="#"></a></li>
+                </ul>
+            </div>
+            <div class="preview">
+                <div class="window">
+                    <div class="popup_title">Title</div>
+                    <input placeholder="Label 1" class="label1" />
+                    <input placeholder="Label 2" class="label2" />
+                    <button class="submit_title btn green ui-button">Submit</button>
+                </div>
+            </div>
+        </form>
+    </div>
+
+    <div class="many-scripts">
+
+    <script type="text/javascript">
+        ENTER_LABEL = "введите метку";
+        INITIAL_CHOICES = "Вариант1\nВариант2\nВариант3";
+        CLICK_TO_RENAME = "Двойной клик для переименования";
+        LABELS = {
+            page_break: 'Дальше',
+            email: 'Email',
+            fn: 'Имя',
+            ln: 'Фамилия',
+            phone: 'Телефон',
+            age: 'Возраст',
+            date: 'Дата',
+            url: 'Url',
+            address: 'Адрес',
+            send_button: 'Отправить'
+        }
+        INPUT_PLACEHOLDER = "тестовый текст";
+
+        window.BLOCKS_INITIAL_CSS = JSON.parse("{\u0022box\u0022: {\u0022border\u002Dcolor\u0022: \u0022cccccc\u0022, \u0022width\u0022: 100, \u0022border\u002Dstyle\u0022: \u0022solid\u0022, \u0022border\u002Dwidth\u0022: 1, \u0022height\u0022: 100}, \u0022popup\u0022: {\u0022action\u0022: \u0022message\u0022, \u0022width\u0022: 0, \u0022action\u002Dmessage\u0022: \u0022\u005Cu0421\u005Cu043f\u005Cu0430\u005Cu0441\u005Cu0438\u005Cu0431\u005Cu043e \u005Cu0437\u005Cu0430 \u005Cu0438\u005Cu043d\u005Cu0444\u005Cu043e\u005Cu0440\u005Cu043c\u005Cu0430\u005Cu0446\u005Cu0438\u005Cu044e!\u0022, \u0022height\u0022: 0}, \u0022form\u0022: {\u0022label\u002Dfloat\u0022: \u0022left\u0022, \u0022label\u002Dfont\u002Dsize\u0022: 16, \u0022input\u002Dmargin\u002Dbottom\u0022: 7, \u0022input\u002Dfont\u002Dsize\u0022: 16, \u0022input\u002Dborder\u002Dstyle\u0022: \u0022solid\u0022, \u0022label\u002Dfont\u002Dfamily\u0022: \u0022Arial, Helvetica, sans\u002Dserif\u0022, \u0022columns\u002Dspacing\u0022: 20, \u0022input\u002Dbackground\u002Dcolor\u0022: \u0022ffffff\u0022, \u0022input\u002Dheight\u0022: 42, \u0022height\u0022: 10, \u0022width\u0022: 300, \u0022action\u002Dmessage\u0022: \u0022\u005Cu0421\u005Cu043f\u005Cu0430\u005Cu0441\u005Cu0438\u005Cu0431\u005Cu043e \u005Cu0437\u005Cu0430 \u005Cu0438\u005Cu043d\u005Cu0444\u005Cu043e\u005Cu0440\u005Cu043c\u005Cu0430\u005Cu0446\u005Cu0438\u005Cu044e!\u0022, \u0022radio\u002Dfont\u002Dfamily\u0022: \u0022Arial, Helvetica, sans\u002Dserif\u0022, \u0022input\u002Dborder\u002Dwidth\u0022: 1, \u0022action\u0022: \u0022message\u0022, \u0022input\u002Dfont\u002Dfamily\u0022: \u0022Arial, Helvetica, sans\u002Dserif\u0022, \u0022input\u002Dborder\u002Dcolor\u0022: \u0022898989\u0022, \u0022label\u002Dfont\u002Dweight\u0022: \u0022bold\u0022, \u0022input\u002Dfont\u002Dweight\u0022: \u0022normal\u0022, \u0022radio\u002Dfont\u002Dsize\u0022: 16, \u0022radio\u002Dfont\u002Dweight\u0022: \u0022normal\u0022}, \u0022section\u0022: {\u0022width\u0022: \u0022100%\u0022, \u0022container\u0022: \u0022on\u0022, \u0022height\u0022: 300}, \u0022text\u0022: {\u0022width\u0022: 300}, \u0022button\u0022: {\u0022color\u0022: \u0022ffffff\u0022, \u0022width\u0022: 250, \u0022font\u002Dsize\u0022: 26, \u0022background\u002Dcolor\u0022: \u00225c5c5c\u0022, \u0022height\u0022: 50}, \u0022html\u0022: {\u0022width\u0022: 200, \u0022height\u0022: 150}, \u0022timer\u0022: {\u0022separator\u002Denabled\u0022: 1, \u0022show\u002Dhours\u0022: 1, \u0022show\u002Ddays\u0022: 1, \u0022show\u002Dminutes\u0022: 1, \u0022show\u002Dseconds\u0022: 1}}");
+        window.POPUP_TEMPLATES = {};
+        
+            window.POPUP_TEMPLATES[1] = {'name': "P1", 'css': ".window { background:#212b3b\u003B border\u002Dradius:10px\u003B width:464px\u003B height:348px\u003B padding:0\u003B z\u002Dindex:500\u003B }\u000D\u000A.window .popup_title { padding: 50px 0 25px\u003B text\u002Dalign: center\u003B color:#fff\u003B font\u002Dfamily:verdana,geneva,sans\u002Dserif\u003B font\u002Dsize:26px\u003B }\u000D\u000A.window input { display: block\u003B margin: 0 auto\u003B  border\u002Dradius: 6px\u003B width: 390px\u003Bheight: 41px\u003B font\u002Dsize: 14px\u003Bcolor: #589bb5\u003B border: 1px solid #ccc\u003B margin\u002Dbottom: 5px\u003Bborder\u002Dstyle: none\u003Bbackground\u002Dcolor: #263547\u003Bfont\u002Dfamily: Verdana\u003B padding: 0 15px\u003B}\u000D\u000A.window input:focus {border\u002Dcolor: rgba(83, 167, 236, 0.6)\u003B box\u002Dshadow: inset 0 1px 1px rgba(83, 167, 236, 0.075), 0 0 8px rgba(83, 167, 236, 0.8)\u003B}\u000D\u000A.window .btn { display: block\u003B width: 420px\u003B height: 55px\u003B text\u002Dalign: center\u003B vertical\u002Dalign: middle\u003B line\u002Dheight: 55px\u003B text\u002Ddecoration: none\u003B border\u002Dradius: 6px\u003B color: #fff\u003B border\u002Dwidth: 1px\u003B z\u002Dindex: 118\u003B font\u002Dsize: 22px\u003B height: 55px\u003B font\u002Dfamily: Verdana\u003B border\u002Dcolor: rgb(88, 155, 181)\u003B margin: 10px auto\u003B background: #589bb5\u003B text\u002Dtransform: uppercase\u003B font\u002Dweight: normal\u003B }\u000D\u000A.window .btn:hover {background:#408098\u003B}\u000D\u000A.window .close { position:absolute\u003B top:12px\u003B width:31px\u003B height:31px\u003B right:11px\u003B background:url(http://media.lpgenerator.ru/images/47775/21_19.png) 0 0 no\u002Drepeat\u003B border: none\u003B cursor:pointer\u003B margin:0\u003B padding:0\u003B display:block\u003B }\u000D\u000A.window .close:hover { opacity:.7\u003B }", 'button_css': "{\u000D\u000A\u0022width\u0022: 320,\u000D\u000A\u0022height\u0022: 55,\u000D\u000A\u0022background\u002Dcolor\u0022: \u0022#589bb5\u0022,\u000D\u000A\u0022border\u002Dradius\u0022: 6,\u000D\u000A\u0022color\u0022: \u0022ffffff\u0022,\u000D\u000A\u0022font\u002Dsize\u0022: 25\u000D\u000A}"};
+        
+            window.POPUP_TEMPLATES[2] = {'name': "P4", 'css': ".window { background: url(http://media.lpgenerator.ru/images/10285/popappodlozhka.png#size_518x365) no\u002Drepeat\u003B border\u002Dradius:10px\u003B width:518px\u003B height:365px\u003B padding:0\u003B z\u002Dindex:500\u003B }\u000D\u000A.window .popup_title { padding: 50px 0 25px\u003B text\u002Dalign: center\u003B color:#fff\u003B font\u002Dsize:30px\u003B font\u002Dweight:bold\u003B }\u000D\u000A.window input { display: block\u003B margin: 0 auto\u003B  border\u002Dradius: 6px\u003B width: 310px\u003B height: 34px\u003B font\u002Dsize: 16px\u003B color: #000\u003B border: 1px solid #740707\u003B margin\u002Dbottom: 8px\u003Bborder\u002Dstyle: none\u003B background\u002Dcolor: #fff\u003B padding: 0 10px\u003B}\u000D\u000A.window input:focus {border\u002Dcolor: rgba(83, 167, 236, 0.6)\u003B box\u002Dshadow: inset 0 1px 1px rgba(83, 167, 236, 0.075), 0 0 8px rgba(83, 167, 236, 0.8)\u003B}\u000D\u000A.window .btn { display: block\u003B width: 334px\u003B height: 58px\u003B text\u002Dalign: center\u003B vertical\u002Dalign: middle\u003B line\u002Dheight: 64px\u003B text\u002Ddecoration: none\u003B color: #fff\u003B border:none\u003B z\u002Dindex: 118\u003B font\u002Dsize: 18px\u003B margin: 10px auto\u003B background: url(http://media.lpgenerator.ru/images/1/p4btn.png)\u003B text\u002Dtransform: uppercase\u003B font\u002Dweight: bold\u003B }\u000D\u000A.window .btn:hover {opacity:.8\u003B}\u000D\u000A.window .close { position:absolute\u003B top:20px\u003B width:23px\u003B height:23px\u003B right:23px\u003B background:url(http://media.lpgenerator.ru/images/10285/krestik2.png) 0 0 no\u002Drepeat\u003B border: none\u003B cursor:pointer\u003B margin:0\u003B padding:0\u003B display:block\u003B }\u000D\u000A.window .close:hover { opacity:.7\u003B }", 'button_css': "{\u000D\u000A\u0022width\u0022: 334,\u000D\u000A\u0022height\u0022: 58,\u000D\u000A\u0022color\u0022: \u0022ffffff\u0022,\u000D\u000A\u0022font\u002Dsize\u0022: 25,\u000D\u000A\u0022background\u002Dimage\u0022: \u0022http://media.lpgenerator.ru/images/1/p4btn.png\u0022,\u000D\u000A\u0022up\u002Dimage\u0022: \u0022http://media.lpgenerator.ru/images/1/p4btn.png\u0022,\u000D\u000A\u0022hover\u002Dimage\u0022: \u0022http://media.lpgenerator.ru/images/1/p9.png\u0022\u000D\u000A}"};
+        
+            window.POPUP_TEMPLATES[3] = {'name': "P2", 'css': ".window { background: url(http://media.lpgenerator.ru/images/1/p2bg.png#size_530x348) no\u002Drepeat\u003B border\u002Dradius:10px\u003B width:540px\u003B height:348px\u003B padding:0\u003B z\u002Dindex:500\u003B }\u000D\u000A.window .popup_title { padding: 50px 0 25px\u003B text\u002Dalign: center\u003B color:#000\u003B font\u002Dsize:30px\u003B font\u002Dweight:normal\u003B text\u002Dtransform: uppercase\u003B}\u000D\u000A.window input { display: block\u003B margin: 0 auto\u003B  border\u002Dradius: 6px\u003B width: 315px\u003B height: 36px\u003B font\u002Dsize: 16px\u003B color: #808080\u003B border: 1px solid #a49797\u003B margin\u002Dbottom: 8px\u003B background: #eaeaea\u003B background: linear\u002Dgradient(to bottom, #eaeaea 0%,#ffffff 100%)\u003B padding: 0 9px\u003B}\u000D\u000A.window input:focus {border\u002Dcolor: rgba(83, 167, 236, 0.6)\u003B box\u002Dshadow: inset 0 1px 1px rgba(83, 167, 236, 0.075), 0 0 8px rgba(83, 167, 236, 0.8)\u003B}\u000D\u000A.window .btn { display: block\u003B width: 336px\u003B height: 47px\u003B text\u002Dalign: center\u003B vertical\u002Dalign: middle\u003B line\u002Dheight: 47px\u003B text\u002Ddecoration: none\u003B color: #181818\u003B border:none\u003B z\u002Dindex: 118\u003B font\u002Dsize: 20px\u003B margin: 10px auto\u003B background: url(http://media.lpgenerator.ru/images/1/p2btn.png#size_336x47)\u003B text\u002Dtransform: uppercase\u003B font\u002Dweight: normal\u003B }\u000D\u000A.window .btn:hover {opacity:.7\u003B}\u000D\u000A.window .close { position:absolute\u003B top:11px\u003B width:31px\u003B height:31px\u003B right:38px\u003B background:url(http://media.lpgenerator.ru/images/25460/clb.png#size_31x31) 0 0 no\u002Drepeat\u003B border: none\u003B cursor:pointer\u003B margin:0\u003B padding:0\u003B display:block\u003B }\u000D\u000A.window .close:hover { opacity:.7\u003B }", 'button_css': "{\u0022width\u0022: 334,\u000D\u000A\u0022height\u0022: 47,\u000D\u000A\u0022color\u0022: \u0022181818\u0022,\u000D\u000A\u0022font\u002Dsize\u0022: 20,\u000D\u000A\u0022background\u002Dimage\u0022: \u0022http://media.lpgenerator.ru/images/1/p2btn.png\u0022,\u000D\u000A\u0022up\u002Dimage\u0022: \u0022http://media.lpgenerator.ru/images/1/p2btn.png\u0022,\u000D\u000A\u0022hover\u002Dimage\u0022: \u0022http://media.lpgenerator.ru/images/1/p10.png\u0022\u000D\u000A}"};
+        
+            window.POPUP_TEMPLATES[4] = {'name': "P6", 'css': ".window { background: url(http://media.lpgenerator.ru/images/10285/logopattern.jpg#size_7x7)\u003B border\u002Dradius:10px\u003B width:450px\u003B height:330px\u003B padding:0\u003B z\u002Dindex:500\u003B }\u000D\u000A.window .popup_title { padding: 50px 0 25px\u003B text\u002Dalign: center\u003B color:#fff\u003B font\u002Dsize:27px\u003B font\u002Dweight:normal\u003B text\u002Dtransform: uppercase\u003B}\u000D\u000A.window input { display: block\u003B margin: 0 auto\u003B  border\u002Dradius: 4px\u003B width: 336px\u003B height: 38px\u003B font\u002Dsize: 16px\u003B color: #808080\u003B border: 1px solid #aa171e\u003B margin\u002Dbottom: 8px\u003B background: #fff\u003B padding: 0 5px\u003B}\u000D\u000A.window input:focus {border\u002Dcolor: rgba(83, 167, 236, 0.6)\u003B box\u002Dshadow: inset 0 1px 1px rgba(83, 167, 236, 0.075), 0 0 8px rgba(83, 167, 236, 0.8)\u003B}\u000D\u000A.window .btn { display: block\u003B width: 348px\u003B height: 53px\u003B text\u002Dalign: center\u003B vertical\u002Dalign: middle\u003B line\u002Dheight: 53px\u003B text\u002Ddecoration: none\u003B color: #fff\u003B border:none\u003B z\u002Dindex: 118\u003B font\u002Dsize: 20px\u003B margin: 10px auto\u003B background: url(http://media.lpgenerator.ru/images/10285/forma1.png#size_348x53)\u003B text\u002Dtransform: uppercase\u003B font\u002Dweight: normal\u003B }\u000D\u000A.window .btn:hover {background\u002Dimage:url(http://media.lpgenerator.ru/images/10285/forma1\u002D2.png#size_348x53)}\u000D\u000A.window .close { position:absolute\u003B top:12px\u003B width:27px\u003B height:27px\u003B right:12px\u003B background:url(http://media.lpgenerator.ru/images/10285/popupclose.png#size_27x27) 0 0 no\u002Drepeat\u003B border: none\u003B cursor:pointer\u003B margin:0\u003B padding:0\u003B display:block\u003B }\u000D\u000A.window .close:hover { opacity:.7\u003B }", 'button_css': "{\u000D\u000A\u0022width\u0022: 348,\u000D\u000A\u0022height\u0022: 53,\u000D\u000A\u0022color\u0022: \u0022ffffff\u0022,\u000D\u000A\u0022font\u002Dsize\u0022: 20,\u000D\u000A\u0022background\u002Dimage\u0022: \u0022http://media.lpgenerator.ru/images/10285/forma1.png\u0022,\u000D\u000A\u0022up\u002Dimage\u0022: \u0022http://media.lpgenerator.ru/images/10285/forma1.png\u0022,\u000D\u000A\u0022hover\u002Dimage\u0022: \u0022http://media.lpgenerator.ru/images/10285/forma1\u002D2.png\u0022\u000D\u000A}"};
+        
+            window.POPUP_TEMPLATES[5] = {'name': "P5", 'css': ".window { background: rgb(134, 25, 46)\u003B\u003B border\u002Dradius:21px\u003B border: 1px none rgb(154, 23, 48)\u003Bwidth:523px\u003B height:326px\u003B padding:0\u003B z\u002Dindex:500\u003B }\u000D\u000A.window .popup_title { padding: 50px 0 25px\u003B text\u002Dalign: center\u003B color:#fff\u003B font\u002Dsize:36px\u003B font\u002Dweight:normal\u003B font\u002Dfamily: \u0027trebuchet ms\u0027, helvetica, sans\u002Dserif\u003B text\u002Dtransform: uppercase\u003B white\u002Dspace: nowrap\u003B overflow: hidden\u003B}\u000D\u000A.window input { display: block\u003B margin: 0 auto\u003B  border\u002Dradius: 4px\u003B width: 306px\u003B height: 40px\u003B font\u002Dsize: 14px\u003B color: #000\u003B border: 1px solid #ccc\u003B margin\u002Dbottom: 8px\u003B background: #fff\u003B padding: 0 11px\u003B font\u002Dfamily: \u0027trebuchet ms\u0027, helvetica, sans\u002Dserif\u003B}\u000D\u000A.window input:focus {border\u002Dcolor: rgba(83, 167, 236, 0.6)\u003B box\u002Dshadow: inset 0 1px 1px rgba(83, 167, 236, 0.075), 0 0 8px rgba(83, 167, 236, 0.8)\u003B}\u000D\u000A.window .btn { display: block\u003B width: 339px\u003B height: 52px\u003B text\u002Dalign: center\u003B vertical\u002Dalign: middle\u003B line\u002Dheight: 52px\u003B text\u002Ddecoration: none\u003B color: #fff\u003B border:none\u003B z\u002Dindex: 118\u003B font\u002Dsize: 24px\u003B margin: 10px auto\u003B background: url(http://media.lpgenerator.ru/images/1/p5btn.png#size_339x52)\u003B text\u002Dtransform: uppercase\u003B font\u002Dweight: normal\u003B font\u002Dfamily: \u0027trebuchet ms\u0027, helvetica, sans\u002Dserif\u003B }\u000D\u000A.window .btn:hover {opacity:.7\u003B}\u000D\u000A.window .close { position:absolute\u003B top:8px\u003B width:30px\u003B height:29px\u003B right:8px\u003B background:url(http://media.lpgenerator.ru/images/10285/krestik2_1.png#size_30x29) 0 0 no\u002Drepeat\u003B border: none\u003B cursor:pointer\u003B margin:0\u003B padding:0\u003B display:block\u003B }\u000D\u000A.window .close:hover { opacity:.7\u003B }", 'button_css': "{\u000D\u000A\u0022width\u0022: 339,\u000D\u000A\u0022height\u0022: 52,\u000D\u000A\u0022color\u0022: \u0022ffffff\u0022,\u000D\u000A\u0022font\u002Dsize\u0022: 24,\u000D\u000A\u0022background\u002Dimage\u0022: \u0022http://media.lpgenerator.ru/images/1/p5btn.png\u0022,\u000D\u000A\u0022up\u002Dimage\u0022: \u0022http://media.lpgenerator.ru/images/1/p5btn.png\u0022,\u000D\u000A\u0022hover\u002Dimage\u0022: \u0022http://media.lpgenerator.ru/images/1/p12.png\u0022\u000D\u000A}"};
+        
+            window.POPUP_TEMPLATES[6] = {'name': "P7", 'css': ".window { background: url(http://media.lpgenerator.ru/images/25460/p\u002Dbg.png#size_416x334)\u003B border\u002Dradius:21px\u003B border: 1px none rgb(204, 204, 204)\u003Bwidth:416px\u003B height:334px\u003B padding:0\u003B z\u002Dindex:500\u003B }\u000D\u000A.window .popup_title { padding: 50px 0 25px\u003B text\u002Dalign: center\u003B color:#fff\u003B font\u002Dsize:28px\u003B font\u002Dweight:normal\u003B font\u002Dfamily: georgia,serif\u003B text\u002Dtransform: uppercase\u003B}\u000D\u000A.window input { display: block\u003B margin: 0 auto\u003B  border\u002Dradius: 4px\u003B width: 296px\u003B height: 36px\u003B font\u002Dsize: 16px\u003B color: #000\u003B border: 1px solid #ccc\u003B margin\u002Dbottom: 8px\u003B background: #fff\u003B padding: 0 11px\u003B }\u000D\u000A.window input:focus {border\u002Dcolor: rgba(83, 167, 236, 0.6)\u003B box\u002Dshadow: inset 0 1px 1px rgba(83, 167, 236, 0.075), 0 0 8px rgba(83, 167, 236, 0.8)\u003B}\u000D\u000A.window .btn { display: block\u003B width: 326px\u003B height: 60px\u003B text\u002Dalign: center\u003B vertical\u002Dalign: middle\u003B line\u002Dheight: 60px\u003B text\u002Ddecoration: none\u003B color: #fff\u003B border:none\u003B z\u002Dindex: 118\u003B font\u002Dsize: 24px\u003B margin: 10px auto\u003B background: url(http://media.lpgenerator.ru/images/1/p7btn.png#size_326x60)\u003B text\u002Dtransform: uppercase\u003B font\u002Dweight: normal\u003B font\u002Dfamily: georgia,serif\u003B}\u000D\u000A.window .btn:hover {opacity:.7\u003B}\u000D\u000A.window .close { position:absolute\u003B top:15px\u003B width:16px\u003B height:15px\u003B right:15px\u003B background:url(http://media.lpgenerator.ru/images/25460/close_4.png#size_16x15) 0 0 no\u002Drepeat\u003B border: none\u003B cursor:pointer\u003B margin:0\u003B padding:0\u003B display:block\u003B }\u000D\u000A.window .close:hover { opacity:.7\u003B }", 'button_css': "{\u000D\u000A\u0022width\u0022: 326,\u000D\u000A\u0022height\u0022: 60,\u000D\u000A\u0022color\u0022: \u0022ffffff\u0022,\u000D\u000A\u0022font\u002Dsize\u0022: 24,\u000D\u000A\u0022background\u002Dimage\u0022: \u0022http://media.lpgenerator.ru/images/1/p7btn.png\u0022,\u000D\u000A\u0022up\u002Dimage\u0022: \u0022http://media.lpgenerator.ru/images/1/p7btn.png\u0022,\u000D\u000A\u0022hover\u002Dimage\u0022: \u0022http://media.lpgenerator.ru/images/1/p13.png\u0022\u000D\u000A}"};
+        
+            window.POPUP_TEMPLATES[7] = {'name': "P9", 'css': ".window { background: url(http://media.lpgenerator.ru/images/10285/i6_1.jpg#size_5x5)\u003B border\u002Dradius:21px\u003B border: 1px none rgb(204, 204, 204)\u003Bwidth:490px\u003B height:325px\u003B padding:0\u003B z\u002Dindex:500\u003B }\u000D\u000A.window .popup_title { padding: 50px 0 25px\u003B text\u002Dalign: center\u003B color:#fff\u003B font\u002Dsize:36px\u003B font\u002Dweight:normal\u003B font\u002Dfamily:trebuchet ms,helvetica,sans\u002Dserif\u003B text\u002Dtransform: uppercase\u003B}\u000D\u000A.window input { display: block\u003B margin: 0 auto\u003B  border\u002Dradius: 4px\u003B width: 318px\u003B height: 40px\u003B font\u002Dsize: 16px\u003B color: #000\u003B border: 1px solid #ccc\u003B margin\u002Dbottom: 8px\u003B background: #fff\u003B padding: 0 12px\u003B }\u000D\u000A.window input:focus {border\u002Dcolor: rgba(83, 167, 236, 0.6)\u003B box\u002Dshadow: inset 0 1px 1px rgba(83, 167, 236, 0.075), 0 0 8px rgba(83, 167, 236, 0.8)\u003B}\u000D\u000A.window .btn { display: block\u003B width: 342px\u003B height: 55px\u003B text\u002Dalign: center\u003B vertical\u002Dalign: middle\u003B line\u002Dheight: 55px\u003B text\u002Ddecoration: none\u003B color: #fff\u003B border:none\u003B z\u002Dindex: 118\u003B font\u002Dsize: 23px\u003B margin: 10px auto\u003B background: url(http://media.lpgenerator.ru/images/1/p9btn.png#size_342x55)\u003B text\u002Dtransform: uppercase\u003B font\u002Dweight: normal\u003B font\u002Dfamily:trebuchet ms,helvetica,sans\u002Dserif\u003B}\u000D\u000A.window .btn:hover {opacity:.7\u003B}\u000D\u000A.window .close { position:absolute\u003B top:20px\u003B width:27px\u003B height:27px\u003B right:23px\u003B background:url(http://media.lpgenerator.ru/images/10285/i25_6.png#size_27x27) 0 0 no\u002Drepeat\u003B border: none\u003B cursor:pointer\u003B margin:0\u003B padding:0\u003B display:block\u003B }\u000D\u000A.window .close:hover { opacity:.7\u003B }", 'button_css': "{\u000D\u000A\u0022width\u0022: 342,\u000D\u000A\u0022height\u0022: 55,\u000D\u000A\u0022color\u0022: \u0022ffffff\u0022,\u000D\u000A\u0022font\u002Dsize\u0022: 23,\u000D\u000A\u0022background\u002Dimage\u0022: \u0022http://media.lpgenerator.ru/images/1/p9btn.png\u0022,\u000D\u000A\u0022up\u002Dimage\u0022: \u0022http://media.lpgenerator.ru/images/1/p9btn.png\u0022,\u000D\u000A\u0022hover\u002Dimage\u0022: \u0022http://media.lpgenerator.ru/images/1/p6.png\u0022\u000D\u000A}"};
+        
+            window.POPUP_TEMPLATES[8] = {'name': "P10", 'css': ".window { background: url(http://media.lpgenerator.ru/images/1/p10bg.png#size_521x345)\u003B border\u002Dradius:21px\u003B border: none\u003B width:521px\u003B height:345px\u003B padding:0\u003B z\u002Dindex:500\u003B }\u000D\u000A.window .popup_title { padding: 50px 0 25px\u003B text\u002Dalign: center\u003B color:#484848\u003B font\u002Dsize:30px\u003B font\u002Dweight:normal\u003B text\u002Dtransform: uppercase\u003B}\u000D\u000A.window input { display: block\u003B margin: 0 auto\u003B  border\u002Dradius: 4px\u003B width: 346px\u003B height: 39px\u003B font\u002Dsize: 16px\u003B color: #000\u003B border: 1px solid #ccc\u003B margin\u002Dbottom: 8px\u003B background: #fff\u003B padding: 0 12px\u003B }\u000D\u000A.window input:focus {border\u002Dcolor: rgba(83, 167, 236, 0.6)\u003B box\u002Dshadow: inset 0 1px 1px rgba(83, 167, 236, 0.075), 0 0 8px rgba(83, 167, 236, 0.8)\u003B}\u000D\u000A.window .btn { display: block\u003B width: 279px\u003B height: 47px\u003B line\u002Dheight: 47px\u003B text\u002Dalign: center\u003B vertical\u002Dalign: middle\u003B  text\u002Ddecoration: none\u003B color: #fff\u003B border:none\u003B z\u002Dindex: 118\u003B font\u002Dsize: 20px\u003B margin: 10px auto\u003B background: #2a72ae\u003B text\u002Dtransform: uppercase\u003B font\u002Dweight: normal\u003B border\u002Dradius: 6px }\u000D\u000A.window .btn:hover {opacity:.7\u003B}\u000D\u000A.window .close { position:absolute\u003B top:20px\u003B right:23px\u003B  width:33px\u003B height:33px\u003B background:url(http://media.lpgenerator.ru/images/10285/i24_10.png#size_33x33) 0 0 no\u002Drepeat\u003B border: none\u003B cursor:pointer\u003B margin:0\u003B padding:0\u003B display:block\u003B }\u000D\u000A.window .close:hover { opacity:.7\u003B }", 'button_css': "{\u000D\u000A\u0022width\u0022: 279,\u000D\u000A\u0022height\u0022: 47,\u000D\u000A\u0022color\u0022: \u0022ffffff\u0022,\u000D\u000A\u0022font\u002Dsize\u0022: 20,\u000D\u000A\u0022background\u002Dimage\u0022: \u0022http://media.lpgenerator.ru/images/10285/bg2_6.png\u0022,\u000D\u000A\u0022up\u002Dimage\u0022: \u0022http://media.lpgenerator.ru/images/10285/bg2_6.png\u0022,\u000D\u000A\u0022hover\u002Dimage\u0022: \u0022http://media.lpgenerator.ru/images/10285/bg1_12.png\u0022,\u000D\u000A\u0022background\u002Drepeat\u0022: \u0022repeat\u0022,\u000D\u000A\u0022border\u002Dradius\u0022: 6\u000D\u000A}"};
+        
+            window.POPUP_TEMPLATES[9] = {'name': "P11", 'css': ".window { background: url(http://media.lpgenerator.ru/images/10285/i32_6.png#size_4x4)\u003B border\u002Dradius:23px\u003B border: 3px soild #fff\u003B width:543px\u003B height:355px\u003B padding:0\u003B z\u002Dindex:500\u003B }\u000D\u000A.window .popup_title { padding: 40px 0 25px\u003B text\u002Dalign: center\u003B color:#fff\u003B font\u002Dsize:42px\u003B font\u002Dweight:normal\u003B text\u002Dtransform: none\u003B}\u000D\u000A.window input { display: block\u003B margin: 0 auto\u003B  border\u002Dradius: 4px\u003B width: 326px\u003B height: 45px\u003B font\u002Dsize: 16px\u003B color: #000\u003B border: 1px solid #ccc\u003B margin\u002Dbottom: 8px\u003B padding: 0 12px\u003B background: #fff\u003B background: linear\u002Dgradient(to bottom, #e1e1e1 0%,#ffffff 100%)\u003B }\u000D\u000A.window input:focus {border\u002Dcolor: rgba(83, 167, 236, 0.6)\u003B box\u002Dshadow: inset 0 1px 1px rgba(83, 167, 236, 0.075), 0 0 8px rgba(83, 167, 236, 0.8)\u003B}\u000D\u000A.window .btn { display: block\u003B width: 356px\u003B height: 63px\u003B line\u002Dheight: 63px\u003B text\u002Dalign: center\u003B vertical\u002Dalign: middle\u003B  text\u002Ddecoration: none\u003B color: #343231\u003B border:none\u003B z\u002Dindex: 118\u003B font\u002Dsize: 26px\u003B margin: 10px auto\u003B background: url(http://media.lpgenerator.ru/images/10285/i43_3.png)\u003B text\u002Dtransform: uppercase\u003B font\u002Dweight: normal\u003B }\u000D\u000A.window .btn:hover {opacity:.7\u003B}\u000D\u000A.window .close { position:absolute\u003B top:20px\u003B right:23px\u003B width:37px\u003B height:37px\u003B background:url(http://media.lpgenerator.ru/images/10285/i44_3.png#size_37x37) 0 0 no\u002Drepeat\u003B border: none\u003B cursor:pointer\u003B margin:0\u003B padding:0\u003B display:block\u003B }\u000D\u000A.window .close:hover { opacity:.7\u003B }", 'button_css': "{\u000D\u000A\u0022width\u0022: 356,\u000D\u000A\u0022height\u0022: 63,\u000D\u000A\u0022color\u0022: \u0022343231\u0022,\u000D\u000A\u0022font\u002Dsize\u0022: 26,\u000D\u000A\u0022background\u002Dimage\u0022: \u0022http://media.lpgenerator.ru/images/10285/i43_3.png\u0022,\u000D\u000A\u0022up\u002Dimage\u0022: \u0022http://media.lpgenerator.ru/images/10285/i43_3.png\u0022,\u000D\u000A\u0022hover\u002Dimage\u0022: \u0022http://media.lpgenerator.ru/images/10285/i42_4.png\u0022\u000D\u000A}"};
+        
+            window.POPUP_TEMPLATES[10] = {'name': "P12", 'css': ".window { background: #c4e3db\u003B border\u002Dradius:0px\u003B border: 3px soild #fff\u003B width:530px\u003B height:350px\u003B padding:0\u003B z\u002Dindex:500\u003B }\u000D\u000A.window .popup_title { padding: 40px 0 25px\u003B text\u002Dalign: center\u003B color:#464646\u003B font\u002Dsize:36px\u003B font\u002Dweight:normal\u003B text\u002Dtransform: none\u003B font\u002Dfamily: \u0027Trebuchet MS\u0027, Helvetica, sans\u002Dserif\u003B}\u000D\u000A.window input { display: block\u003B margin: 0 auto\u003B  border\u002Dradius: 6px\u003B width: 378px\u003B height: 41px\u003B font\u002Dsize: 16px\u003B color: #000\u003B border: 1px solid #8bb1a8\u003B margin\u002Dbottom: 8px\u003B padding: 0 12px\u003B background: #fff\u003B  font\u002Dfamily: \u0027Trebuchet MS\u0027, Helvetica, sans\u002Dserif\u003B}\u000D\u000A.window input:focus {border\u002Dcolor: rgba(83, 167, 236, 0.6)\u003B box\u002Dshadow: inset 0 1px 1px rgba(83, 167, 236, 0.075), 0 0 8px rgba(83, 167, 236, 0.8)\u003B}\u000D\u000A.window .btn { display: block\u003B width: 402px\u003B height: 54px\u003B line\u002Dheight: 54px\u003B text\u002Dalign: center\u003B vertical\u002Dalign: middle\u003B  text\u002Ddecoration: none\u003B color: #fff\u003B border:none\u003B z\u002Dindex: 118\u003B font\u002Dsize: 22px\u003B margin: 10px auto\u003B background: #c54d33\u003B text\u002Dtransform: uppercase\u003B font\u002Dweight: normal\u003B font\u002Dfamily: \u0027Trebuchet MS\u0027, Helvetica, sans\u002Dserif\u003B}\u000D\u000A.window .btn:hover {opacity:.7\u003B}\u000D\u000A.window .close { position:absolute\u003B top:20px\u003B right:23px\u003B width:34px\u003B height:34px\u003B background:url(http://media.lpgenerator.ru/images/1/p12close.png#size_34x34) 0 0 no\u002Drepeat\u003B border: none\u003B cursor:pointer\u003B margin:0\u003B padding:0\u003B display:block\u003B }\u000D\u000A.window .close:hover { opacity:.7\u003B }", 'button_css': "{\u000D\u000A\u0022width\u0022: 350,\u000D\u000A\u0022height\u0022: 54,\u000D\u000A\u0022background\u002Dcolor\u0022: \u0022#c54d33\u0022,\u000D\u000A\u0022border\u002Dradius\u0022: 6,\u000D\u000A\u0022color\u0022: \u0022ffffff\u0022,\u000D\u000A\u0022font\u002Dsize\u0022: 22\u000D\u000A}"};
+        
+            window.POPUP_TEMPLATES[11] = {'name': "P8", 'css': ".window { background: url(http://media.lpgenerator.ru/images/1/p8bg.png#size_433x345)\u003B border\u002Dradius:20px\u003B border: 3px soild #fff\u003B width:433px\u003B height:345px\u003B padding:0\u003B z\u002Dindex:500\u003B }\u000D\u000A.window .popup_title { padding: 40px 0 25px\u003B text\u002Dalign: center\u003B color:#fff\u003B font\u002Dsize:28px\u003B font\u002Dweight:normal\u003B text\u002Dtransform: none\u003B }\u000D\u000A.window input { display: block\u003B margin: 0 auto\u003B  border\u002Dradius: 6px\u003B width: 288px\u003B height: 38px\u003B font\u002Dsize: 16px\u003B color: #000\u003B border: 1px solid #055c93\u003B margin\u002Dbottom: 8px\u003B padding: 0 12px\u003B background: #fff\u003B background: linear\u002Dgradient(to bottom, #ffffff 0%,#f7f7f1 100%)\u003B }\u000D\u000A.window input:focus {border\u002Dcolor: rgba(83, 167, 236, 0.6)\u003B box\u002Dshadow: inset 0 1px 1px rgba(83, 167, 236, 0.075), 0 0 8px rgba(83, 167, 236, 0.8)\u003B}\u000D\u000A.window .btn { display: block\u003B width: 250px\u003B height: 50px\u003B line\u002Dheight: 50px\u003B text\u002Dalign: center\u003B vertical\u002Dalign: middle\u003B  text\u002Ddecoration: none\u003B color: #2e2e2e\u003B border:none\u003B z\u002Dindex: 118\u003B font\u002Dsize: 24px\u003B margin: 20px auto 10px\u003B background: url(http://media.lpgenerator.ru/images/1/p8btn.png)\u003B text\u002Dtransform: none\u003B font\u002Dweight: normal\u003B }\u000D\u000A.window .btn:hover {opacity:.7\u003B}\u000D\u000A.window .close { position:absolute\u003B top:20px\u003B right:23px\u003B width:28px\u003B height:28px\u003B background:url(http://media.lpgenerator.ru/images/1/p8close.png#size_26x26) 0 0 no\u002Drepeat\u003B border: none\u003B cursor:pointer\u003B margin:0\u003B padding:0\u003B display:block\u003B }\u000D\u000A.window .close:hover { opacity:.7\u003B }", 'button_css': "{\u000D\u000A\u0022width\u0022: 250,\u000D\u000A\u0022height\u0022: 50,\u000D\u000A\u0022color\u0022: \u00222e2e2e\u0022,\u000D\u000A\u0022font\u002Dsize\u0022: 24,\u000D\u000A\u0022background\u002Dimage\u0022: \u0022http://media.lpgenerator.ru/images/1/p8btn.png\u0022,\u000D\u000A\u0022up\u002Dimage\u0022: \u0022http://media.lpgenerator.ru/images/1/p8btn.png\u0022,\u000D\u000A\u0022hover\u002Dimage\u0022: \u0022http://media.lpgenerator.ru/images/1/p8btnhover.png\u0022\u000D\u000A}"};
+        
+            window.POPUP_TEMPLATES[13] = {'name': "P3", 'css': ".window { background: url(http://media.lpgenerator.ru/images/1/p3bg.png#size_445x327)\u003B border\u002Dradius:20px\u003B border: none\u003B width:445px\u003B height:327px\u003B padding:0\u003B z\u002Dindex:500\u003B }\u000D\u000A.window .popup_title { padding: 40px 0 25px\u003B text\u002Dalign: center\u003B color:#fff\u003B font\u002Dsize:30px\u003B font\u002Dweight:bold\u003B text\u002Dtransform: none\u003B font\u002Dfamily: \u0027Trebuchet MS\u0027, Helvetica, sans\u002Dserif\u003B}\u000D\u000A.window input { display: block\u003B margin: 0 auto\u003B  border\u002Dradius: 6px\u003B width: 318px\u003B height: 45px\u003B font\u002Dsize: 16px\u003B color: #000\u003B border: 1px solid #ccc\u003B margin\u002Dbottom: 8px\u003B padding: 0 12px\u003B background: #fff\u003B background: linear\u002Dgradient(to bottom, #ffffff 0%,#f7f7f1 100%)\u003B font\u002Dfamily: \u0027Trebuchet MS\u0027, Helvetica, sans\u002Dserif\u003B}\u000D\u000A.window input:focus {border\u002Dcolor: rgba(83, 167, 236, 0.6)\u003B box\u002Dshadow: inset 0 1px 1px rgba(83, 167, 236, 0.075), 0 0 8px rgba(83, 167, 236, 0.8)\u003B}\u000D\u000A.window .btn { display: block\u003B width: 300px\u003B height: 50px\u003B line\u002Dheight: 50px\u003B text\u002Dalign: center\u003B vertical\u002Dalign: middle\u003B  text\u002Ddecoration: none\u003B color: #493d2c\u003B border:none\u003B z\u002Dindex: 118\u003B font\u002Dsize: 20px\u003B margin: 10px auto\u003B background: url(http://media.lpgenerator.ru/images/1/p3btn.png)\u003B text\u002Dtransform: none\u003B font\u002Dweight: bold\u003B font\u002Dfamily: \u0027Trebuchet MS\u0027, Helvetica, sans\u002Dserif\u003B}\u000D\u000A.window .btn:hover {opacity:.7\u003B}\u000D\u000A.window .close { position:absolute\u003B top:20px\u003B right:23px\u003B width:29px\u003B height:29px\u003B background:url(http://media.lpgenerator.ru/images/1/p8close.png#size_26x26) 0 0 no\u002Drepeat\u003B border: none\u003B cursor:pointer\u003B margin:0\u003B padding:0\u003B display:block\u003B }\u000D\u000A.window .close:hover { opacity:.7\u003B }", 'button_css': "{\u000D\u000A\u0022width\u0022: 300,\u000D\u000A\u0022height\u0022: 50,\u000D\u000A\u0022color\u0022: \u0022493d2c\u0022,\u000D\u000A\u0022font\u002Dsize\u0022: 22,\u000D\u000A\u0022background\u002Dimage\u0022: \u0022http://media.lpgenerator.ru/images/1/p3btn.png\u0022,\u000D\u000A\u0022up\u002Dimage\u0022: \u0022http://media.lpgenerator.ru/images/1/p3btn.png\u0022,\u000D\u000A\u0022hover\u002Dimage\u0022: \u0022http://media.lpgenerator.ru/images/1/p3btnhover.png\u0022\u000D\u000A}"};
+        
+            window.POPUP_TEMPLATES[14] = {'name': "P14", 'css': ".window { background: url(http://media.lpgenerator.ru/images/10285/pubg_1.png#size_358x350)\u003B border\u002Dradius:0px\u003B border: none\u003B width:358px\u003B height:350px\u003B padding:0\u003B z\u002Dindex:500\u003B }\u000D\u000A.window .popup_title { padding: 30px 0 25px\u003B text\u002Dalign: center\u003B color:#fff\u003B font\u002Dsize:18px\u003B font\u002Dweight:bold\u003B text\u002Dtransform: none\u003B font\u002Dfamily: verdana, geneva, sans\u002Dserif\u003B}\u000D\u000A.window input { display: block\u003B margin: 0 auto\u003B  border\u002Dradius: 6px\u003B width: 273px\u003B height: 38px\u003B font\u002Dsize: 12px\u003B color: #000\u003B border: 1px solid #000\u003B margin\u002Dbottom: 8px\u003B padding: 0 5px\u003B background: #fff\u003B font\u002Dfamily: verdana, geneva, sans\u002Dserif\u003B}\u000D\u000A.window input:focus {border\u002Dcolor: rgba(83, 167, 236, 0.6)\u003B box\u002Dshadow: inset 0 1px 1px rgba(83, 167, 236, 0.075), 0 0 8px rgba(83, 167, 236, 0.8)\u003B}\u000D\u000A.window .btn { display: block\u003B width: 293px\u003B height: 74px\u003B line\u002Dheight: 74px\u003B text\u002Dalign: center\u003B vertical\u002Dalign: middle\u003B  text\u002Ddecoration: none\u003B color: #fff\u003B border:none\u003B z\u002Dindex: 118\u003B font\u002Dsize: 16px\u003B margin: 10px auto\u003B background: url(http://media.lpgenerator.ru/images/1/p14btn.png#size_293x74)\u003B text\u002Dtransform: uppercase\u003B font\u002Dweight: bold\u003B font\u002Dfamily: verdana, geneva, sans\u002Dserif\u003B}\u000D\u000A.window .btn:hover {opacity:.7\u003B}\u000D\u000A.window .close { position:absolute\u003B top:15px\u003B right:15px\u003B width:21px\u003B height:21px\u003B background:url(http://media.lpgenerator.ru/images/10285/puclose.png#size_21x21) 0 0 no\u002Drepeat\u003B border: none\u003B cursor:pointer\u003B margin:0\u003B padding:0\u003B display:block\u003B }\u000D\u000A.window .close:hover { opacity:.7\u003B }", 'button_css': "{\u000D\u000A\u0022width\u0022: 293,\u000D\u000A\u0022height\u0022: 74,\u000D\u000A\u0022color\u0022: \u0022ffffff\u0022,\u000D\u000A\u0022font\u002Dsize\u0022: 20,\u000D\u000A\u0022background\u002Dimage\u0022: \u0022http://media.lpgenerator.ru/images/1/p14btn.png\u0022,\u000D\u000A\u0022up\u002Dimage\u0022: \u0022http://media.lpgenerator.ru/images/1/p14btn.png\u0022,\u000D\u000A\u0022hover\u002Dimage\u0022: \u0022http://media.lpgenerator.ru/images/1/p14btnhover.png\u0022\u000D\u000A}"};
+        
+    </script>
+
+    <script type="text/javascript">
+        window.PROPS_FORMS = {};
+        
+            window.PROPS_FORMS["popup"] = $('<div id="props-form--simple" class="lp-props-simple" class="lp-props-simple">\u000A    \u000A<div class="prop_widget">\u000A    <h4>Геометрия</h4>\u000A    <div class="error-left error-top"></div>\u000A    <div class="line clear">\u000A        <div class="label"><label>Положение</label>:</div>\u000A        <div class="input left"><label for="id_left">Слева</label>: <input type="text" name="left" value="0" id="id_left" /></div>\u000A        <div class="input top"><label for="id_top">Сверху</label>: <input type="text" name="top" value="0" id="id_top" /></div>\u000A    </div>\u000A    <div class="error-width error-height"></div>\u000A    <div class="line clear">\u000A        <div class="label"><label>Размер</label>:</div>\u000A        <div class="input width"><label for="id_width">Ширина</label>: <input type="text" name="width" id="id_width" /></div>\u000A        \u000A            <div class="input height"><label for="id_height">Высота</label>: <input type="text" name="height" id="id_height" /></div>\u000A        \u000A    </div>\u000A</div>\u000A    \u000A<div class="prop_widget clear">\u000A    <h4>Стиль границы</h4>\u000A    <div class="error-border_color"></div>\u000A    <div class="line">\u000A        <div class="label"><label>Граница</label>:</div>\u000A        <div class="border"><select name="border_style" id="id_border_style">\u000A<option value="none">Нет</option>\u000A<option value="solid">Сплошная</option>\u000A<option value="dashed">Пунктирная</option>\u000A<option value="dotted">Точечная</option>\u000A</select><select id="id_border_width" class="border_width" name="border_width">\u000A<option value="0">0</option>\u000A<option value="1" selected="selected">1</option>\u000A<option value="2">2</option>\u000A<option value="3">3</option>\u000A<option value="4">4</option>\u000A<option value="5">5</option>\u000A<option value="6">6</option>\u000A<option value="7">7</option>\u000A<option value="8">8</option>\u000A<option value="9">9</option>\u000A<option value="10">10</option>\u000A</select><input id="id_border_color" type="text" name="border_color" maxlength="6" /></div>\u000A    </div>\u000A    <div class="line no_border">\u000A        <div class="label"><label>Скругление</label>:</div>\u000A        <div class="border_slider">slider here</div>\u000A        <div class="radius"><input step="1" name="border_radius" rel="slider" min="0" max="30" type="text" id="id_border_radius" value="0" /></div>\u000A    </div>\u000A</div>\u000A    \u000A<div class="prop_widget clear">\u000A    <h4>Стиль шрифта</h4>\u000A    <div class="error-font_color"></div>\u000A    <div class="line">\u000A        <div class="label"><label>Шрифт</label>:</div>\u000A        <div class="font"><select name="font_family" id="id_font_family">\u000A<option value="Arial, Helvetica, sans-serif">Arial</option>\u000A<option value="Times New Roman, Times, serif">Times New</option>\u000A<option value="Courier New, Courier, monospace">Courier New</option>\u000A<option value="Palatino">Palatino</option>\u000A<option value="Tahoma">Tahoma</option>\u000A<option value="Trebuchet MS">Trebuchet MS</option>\u000A<option value="Verdana">Verdana</option>\u000A<option value="Georgia">Georgia</option>\u000A</select><select name="font_weight" id="id_font_weight">\u000A<option value="normal">Нормальный</option>\u000A<option value="bold">Жирный</option>\u000A</select></div>\u000A    </div>\u000A    <div class="line">\u000A        <div class="label medium"><label>Размер шрифта</label>:</div>\u000A        <div class="border_slider">slider here</div>\u000A        <div class="radius"><input name="font_size" rel="slider" min="5" max="36" type="text" id="id_font_size" value="12" /></div>\u000A    </div>\u000A</div>\u000A\u000A    <div class="prop_widget clear">\u000A        <div class="error-color"></div>\u000A        <div class="line no_border clear">\u000A            <div class="label"><label for="id_color">Color</label>:</div>\u000A            <div class="input color"> <input id="id_color" type="text" name="color" maxlength="6" /></div>\u000A        </div>\u000A    </div>\u000A\u000A    <div class="prop_widget clear">\u000A        <h4>Фон</h4>\u000A        <div class="error-background_color"></div>\u000A        <div class="line clear">\u000A            <div class="label"><label for="id_background_color">Цвет</label>:</div>\u000A            <div class="input color"> <input id="id_background_color" type="text" name="background_color" maxlength="6" /></div>\u000A        </div>\u000A        <div class="line clear">\u000A            <div class="label"><label for="id_background_position">Положение</label>:</div>\u000A            <div class="select"> <select name="background_position" id="id_background_position">\u000A<option value="0% 0%">Верх слева</option>\u000A<option value="50% 0%">Верх центр</option>\u000A<option value="100% 0%">Верх справа</option>\u000A<option value="0% 50%">Центр слева</option>\u000A<option value="50% 50%">Центр</option>\u000A<option value="100% 50%">Центр справа</option>\u000A<option value="0% 100%">Низ слева</option>\u000A<option value="50% 100%">Низ центр</option>\u000A<option value="100% 100%">Низ справа</option>\u000A</select></div>\u000A        </div>\u000A        <div class="line clear">\u000A            <div class="label"><label for="id_background_repeat">Повторение</label>:</div>\u000A            <div class="select"> <select name="background_repeat" id="id_background_repeat">\u000A<option value="no-repeat">Без повторения</option>\u000A<option value="repeat-x">Горизонтальное</option>\u000A<option value="repeat-y">Вертикальное</option>\u000A<option value="repeat">Размножить</option>\u000A</select></div>\u000A        </div>\u000A        <div class="line clear">\u000A            <div class="label"><label>Активный</label>:</div>\u000A            <div class="input upload_image"><input id="id_up_image" type="text" name="up_image" maxlength="255" /></div>\u000A            <div class="input upload_image"><label for="id_remove_up_image">Удалить</label>: <input type="checkbox" name="remove_up_image" id="id_remove_up_image" /></div>\u000A        </div>\u000A        <div class="line no_border clear">\u000A            <div class="label"><label>Наведенный</label>:</div>\u000A            <div class="input upload_image"><input id="id_hover_image" type="text" name="hover_image" maxlength="255" /></div>\u000A            <div class="input upload_image"><label for="id_remove_hover_image">Удалить</label>: <input type="checkbox" name="remove_hover_image" id="id_remove_hover_image" /></div>\u000A        </div>\u000A    </div>\u000A\u000A    <div class="prop_widget clear">\u000A        <h4>Результат формы</h4>\u000A        <div class="line clear">\u000A            <div class="label"><label for="id_action">Действие</label></div>\u000A            <div class="select lp-form-action"><select name="action" id="id_action">\u000A<option value="url">Перейти на URL</option>\u000A<option value="ty">Страница благодарности</option>\u000A<option value="message" selected="selected">Показать сообщение</option>\u000A</select></div>\u000A        </div>\u000A        <div class="error-action_url"></div>\u000A        <div class="line clear">\u000A            <div class="label"><label for="id_action_url">URL</label></div>\u000A            <div class="select lp-form-action-url"><input type="text" name="action_url" id="id_action_url" /></div>\u000A        </div>\u000A        <div class="error-action_message"></div>\u000A        <div class="line message clear">\u000A            <div class="label"><label for="id_action_message">Сообщение</label></div>\u000A            <div class="textarea lp-form-action-message"><textarea id="id_action_message" rows="10" cols="40" name="action_message">Спасибо за информацию!</textarea></div>\u000A        </div>\u000A        <div class="error-action_ty"></div>\u000A        <div class="line ty clear">\u000A            <div class="label"><label for="id_action_ty">Страница</label></div>\u000A            <div class="textarea lp-form-action-ty"><select name="action_ty" id="id_action_ty">\u000A</select></div>\u000A        </div>\u000A    </div>\u000A\u000A    \u000A<div class="prop_widget clear">\u000A    <h4>Дополнительно</h4>\u000A    <div class="error-fix_position"></div>\u000A    <div class="line no_border clear">\u000A        <div class="fix_position"><input type="checkbox" name="fix_position" id="id_fix_position" /> <label for="id_fix_position">Зафиксировать</label></div>\u000A    </div>\u000A    <div class="error-fix_aspect"></div>\u000A    <div class="line no_border clear">\u000A        <div class="fix_aspect"><input type="checkbox" name="fix_aspect" id="id_fix_aspect" /> <label for="id_fix_aspect">Пропорциональное изменение размера</label></div>\u000A    </div>\u000A</div>\u000A\u000A</div>\u000A<div id="props-form--advanced" class="lp-props-advanced">\u000A    \u000A<div class="prop_widget">\u000A    <h4>Чистый CSS</h4>\u000A    <div class="error-raw-css"></div>\u000A    <div class="line no_border raw_css">\u000A        <p class="help_text attention">\u000A            Внимание. Только для продвинутых пользователей. Мы не можем гарантировать правильность работы этой опции. Используйте на свой страх и риск. Просто введите стили CSS без фигурных скобок. Изменения будут применены после сохранения страницы.\u000A        </p>\u000A        <textarea id="id_raw_css" rows="10" cols="40" name="raw_css"></textarea>\u000A    </div>\u000A    <h4>ID якоря</h4>\u000A    <div class="line anchor_id no_border">\u000A        <input disabled="True" type="text" name="anchor_id" id="id_anchor_id" />\u000A    </div>\u000A    <h4>Z-index</h4>\u000A    <div class="error-z_index"></div>\u000A    <div class="line no_border">\u000A        <div class="label medium"><label>Z-index</label>:</div>\u000A        <div class="border_slider">slider here</div>\u000A        <div class="radius"><input step="1" name="z_index" rel="slider" min="10" max="250" type="text" id="id_z_index" value="100" /></div>\u000A    </div>\u000A</div>\u000A</div>');
+        
+            window.PROPS_FORMS["form"] = $('<div id="props-form--simple" class="lp-props-simple">\u000A    <div class="prop_widget">\u000A        <h4>Геометрия</h4>\u000A        <div class="error-left error-top"></div>\u000A        <div class="line clear">\u000A            <div class="label"><label>Положение</label>:</div>\u000A            <div class="input left"><label for="id_left">Слева</label>: <input type="text" name="left" value="0" id="id_left" /></div>\u000A            <div class="input top"><label for="id_top">Сверху</label>: <input type="text" name="top" value="0" id="id_top" /></div>\u000A        </div>\u000A        <div class="error-width error-height"></div>\u000A        <div class="line clear">\u000A            <div class="label"><label>Размер</label>:</div>\u000A            <div class="input width"><label for="id_width">Ширина</label>: <input type="text" name="width" id="id_width" /></div>\u000A            \u000A        </div>\u000A        <div class="line clear">\u000A            <div class="label"><label>Выровнить</label>:</div>\u000A            <a title="Выровнить налево" class="moveLeft"\u000A               rel="panel" data-method="moveLeft"></a>\u000A            <a title="Выровнить по центру" class="moveCenter"\u000A               rel="panel" data-method="moveCenter"></a>\u000A            <a title="Выровнить направо" class="moveRight"\u000A               rel="panel" data-method="moveRight"></a>\u000A        </div>\u000A        <div class="error-columns_spacing"></div>\u000A        <div class="line clear no_border">\u000A            <div class="label wide"><label><label for="id_columns_spacing">Расстояние между колонками</label></label>:</div>\u000A            <div class="input width wide"><input type="text" name="columns_spacing" value="20" id="id_columns_spacing" /></div>\u000A        </div>\u000A    </div>\u000A    <div class="prop_widget clear">\u000A        <h4>Результат формы</h4>\u000A        <div class="line clear">\u000A            <div class="label"><label for="id_action">Действие</label></div>\u000A            <div class="select lp-form-action"><select name="action" id="id_action">\u000A<option value="url">Перейти на URL</option>\u000A<option value="ty">Страница благодарности</option>\u000A<option value="message" selected="selected">Показать сообщение</option>\u000A</select></div>\u000A        </div>\u000A        <div class="error-action_url"></div>\u000A        <div class="line clear">\u000A            <div class="label"><label for="id_action_url">URL</label></div>\u000A            <div class="select lp-form-action-url"><input type="text" name="action_url" id="id_action_url" /></div>\u000A        </div>\u000A        <div class="error-action_message"></div>\u000A        <div class="line message clear">\u000A            <div class="label"><label for="id_action_message">Сообщение</label></div>\u000A            <div class="textarea lp-form-action-message"><textarea id="id_action_message" rows="10" cols="40" name="action_message">Спасибо за информацию!</textarea></div>\u000A        </div>\u000A        <div class="error-action_ty"></div>\u000A        <div class="line ty clear">\u000A            <div class="label"><label for="id_action_ty">Страница</label></div>\u000A            <div class="textarea lp-form-action-ty"><select name="action_ty" id="id_action_ty">\u000A</select></div>\u000A        </div>\u000A        <div class="error-send_mapping"></div>\u000A        <div class="line no_border clear">\u000A            <div class="guidelines"><input type="checkbox" name="send_mapping" id="id_send_mapping" /> <label for="id_send_mapping">Передать поля формы</label></div>\u000A        </div>\u000A        <input type="hidden" name="pattern" id="id_pattern" />\u000A    </div>\u000A\u000A    <div class="prop_widget clear">\u000A        <h4>Cтиль меток</h4>\u000A        <div class="line clear">\u000A            <div class="label"><label for="id_label_float">Отобразить</label></div>\u000A            <div class="select"><select name="label_float" id="id_label_float">\u000A<option value="middle_left">Центр слева</option>\u000A<option value="left">Слева</option>\u000A<option value="top">Сверху</option>\u000A<option value="inside">Внутри</option>\u000A</select></div>\u000A        </div>\u000A        <div class="error-label_font_size"></div>\u000A        <div class="line clear">\u000A            <div class="label"><label>Шрифт</label>:</div>\u000A            <div class="font"><select name="label_font_family" id="id_label_font_family">\u000A<option value="Arial, Helvetica, sans-serif">Arial</option>\u000A<option value="Times New Roman, Times, serif">Times New</option>\u000A<option value="Courier New, Courier, monospace">Courier New</option>\u000A<option value="Palatino">Palatino</option>\u000A<option value="Tahoma">Tahoma</option>\u000A<option value="Trebuchet MS">Trebuchet MS</option>\u000A<option value="Verdana">Verdana</option>\u000A<option value="Georgia">Georgia</option>\u000A</select><select name="label_font_weight" id="id_label_font_weight">\u000A<option value="normal">Нормальный</option>\u000A<option value="bold">Жирный</option>\u000A</select></div>\u000A        </div>\u000A        <div class="line">\u000A            <div class="label medium"><label>Размер шрифта</label>:</div>\u000A            <div class="border_slider">slider here</div>\u000A            <div class="radius"><input name="label_font_size" rel="slider" min="5" max="36" type="text" id="id_label_font_size" value="12" /></div>\u000A        </div>\u000A        <div class="error-label_color"></div>\u000A        <div class="line clear">\u000A            <div class="label"><label for="id_label_color">Цвет</label>:</div>\u000A            <div class="input color"> <input id="id_label_color" type="text" name="label_color" maxlength="6" /></div>\u000A        </div>\u000A        <div class="error-label_width"></div>\u000A        <div class="line no_border clear">\u000A            <div class="label"><label for="id_label_width">Ширина</label>:</div>\u000A            <div class="input color"> <input type="text" name="label_width" value="100" id="id_label_width" /></div>\u000A        </div>\u000A        <div class="error-label_inside"></div>\u000A    </div>\u000A\u000A    <div class="prop_widget clear">\u000A        <h4>Стиль полей</h4>\u000A        <div class="error-input_border_color"></div>\u000A        <div class="line">\u000A            <div class="label"><label>Граница</label>:</div>\u000A            <div class="border"><select name="input_border_style" id="id_input_border_style">\u000A<option value="none">Нет</option>\u000A<option value="solid" selected="selected">Сплошная</option>\u000A<option value="dashed">Пунктирная</option>\u000A<option value="dotted">Точечная</option>\u000A</select><select id="id_input_border_width" class="border_width" name="input_border_width">\u000A<option value="0">0</option>\u000A<option value="1" selected="selected">1</option>\u000A<option value="2">2</option>\u000A<option value="3">3</option>\u000A<option value="4">4</option>\u000A<option value="5">5</option>\u000A<option value="6">6</option>\u000A<option value="7">7</option>\u000A<option value="8">8</option>\u000A<option value="9">9</option>\u000A<option value="10">10</option>\u000A</select><input id="id_input_border_color" type="text" name="input_border_color" maxlength="6" /></div>\u000A        </div>\u000A        <div class="line clear">\u000A            <div class="label"><label>Шрифт</label>:</div>\u000A            <div class="font"><select name="input_font_family" id="id_input_font_family">\u000A<option value="Arial, Helvetica, sans-serif">Arial</option>\u000A<option value="Times New Roman, Times, serif">Times New</option>\u000A<option value="Courier New, Courier, monospace">Courier New</option>\u000A<option value="Palatino">Palatino</option>\u000A<option value="Tahoma">Tahoma</option>\u000A<option value="Trebuchet MS">Trebuchet MS</option>\u000A<option value="Verdana">Verdana</option>\u000A<option value="Georgia">Georgia</option>\u000A</select><select name="input_font_weight" id="id_input_font_weight">\u000A<option value="normal">Нормальный</option>\u000A<option value="bold">Жирный</option>\u000A</select></div>\u000A        </div>\u000A        <div class="line">\u000A            <div class="label medium"><label>Размер шрифта</label>:</div>\u000A            <div class="border_slider">slider here</div>\u000A            <div class="radius"><input name="input_font_size" rel="slider" min="5" max="36" type="text" id="id_input_font_size" value="12" /></div>\u000A        </div>\u000A        <div class="error-label_color"></div>\u000A        <div class="line clear">\u000A            <div class="label"><label>Цвет</label>:</div>\u000A            <div class="input color"><label for="id_input_color">Текст</label>: <input id="id_input_color" type="text" name="input_color" maxlength="6" /></div>\u000A        </div>\u000A        <div class="line clear">\u000A            <div class="label">&nbsp;</div>\u000A            <div class="input color"><label for="id_input_background_color">Фон</label>: <input id="id_input_background_color" type="text" name="input_background_color" maxlength="6" /></div>\u000A        </div>\u000A        <div class="line clear">\u000A            <div class="label">&nbsp;</div>\u000A            <div class="input color"><label for="id_input_focus_color">Фокус</label>: <input id="id_input_focus_color" type="text" name="input_focus_color" maxlength="6" /></div>\u000A        </div>\u000A        <div class="error-input_height"></div>\u000A        <div class="line clear">\u000A            <div class="label medium"><label for="id_input_height">Высота</label>:</div>\u000A            <div class="border_slider">slider here</div>\u000A            <div class="radius"><input step="1" name="input_height" rel="slider" min="5" max="40" type="text" id="id_input_height" value="14" /></div>\u000A        </div>\u000A        <div class="error-input_margin_bottom"></div>\u000A        <div class="line clear">\u000A            <div class="label medium"><label for="id_input_margin_bottom">Отступ вниз</label>:</div>\u000A            <div class="border_slider">slider here</div>\u000A            <div class="radius"><input step="1" name="input_margin_bottom" rel="slider" min="1" max="30" type="text" id="id_input_margin_bottom" value="14" /></div>\u000A        </div>\u000A        <div class="error-input_padding"></div>\u000A        <div class="line clear">\u000A            <div class="label medium"><label for="id_input_padding">Отступ внутри</label>:</div>\u000A            <div class="border_slider">slider here</div>\u000A            <div class="radius"><input step="1" name="input_padding" rel="slider" min="0" max="50" type="text" id="id_input_padding" value="5" /></div>\u000A        </div>\u000A        <div class="error-input_border_radius"></div>\u000A        <div class="line no_border clear">\u000A            <div class="label medium"><label for="id_input_border_radius">Скругление</label>:</div>\u000A            <div class="border_slider">slider here</div>\u000A            <div class="radius"><input step="1" name="input_border_radius" rel="slider" min="0" max="30" type="text" id="id_input_border_radius" value="0" /></div>\u000A        </div>\u000A\u000A    </div>\u000A\u000A    <div class="prop_widget">\u000A        <h4>Стиль галочек и радио-кнопок</h4>\u000A        <div class="error-radio_font_weight"></div>\u000A        <div class="line clear">\u000A            <div class="label"><label>Шрифт</label>:</div>\u000A            <div class="font"><select name="radio_font_family" id="id_radio_font_family">\u000A<option value="Arial, Helvetica, sans-serif">Arial</option>\u000A<option value="Times New Roman, Times, serif">Times New</option>\u000A<option value="Courier New, Courier, monospace">Courier New</option>\u000A<option value="Palatino">Palatino</option>\u000A<option value="Tahoma">Tahoma</option>\u000A<option value="Trebuchet MS">Trebuchet MS</option>\u000A<option value="Verdana">Verdana</option>\u000A<option value="Georgia">Georgia</option>\u000A</select><select name="radio_font_weight" id="id_radio_font_weight">\u000A<option value="normal">Нормальный</option>\u000A<option value="bold">Жирный</option>\u000A</select></div>\u000A        </div>\u000A        <div class="line">\u000A            <div class="label medium"><label>Размер шрифта</label>:</div>\u000A            <div class="border_slider">slider here</div>\u000A            <div class="radius"><input name="radio_font_size" rel="slider" min="5" max="36" type="text" id="id_radio_font_size" value="12" /></div>\u000A        </div>\u000A        <div class="error-radio_color"></div>\u000A        <div class="line no_border clear">\u000A            <div class="label"><label for="id_radio_color">Цвет</label>:</div>\u000A            <div class="input color"> <input id="id_radio_color" type="text" name="radio_color" maxlength="6" /></div>\u000A        </div>\u000A    </div>\u000A\u000A    \u000A<div class="prop_widget clear">\u000A    <h4>Дополнительно</h4>\u000A    <div class="error-fix_position"></div>\u000A    <div class="line no_border clear">\u000A        <div class="fix_position"><input type="checkbox" name="fix_position" id="id_fix_position" /> <label for="id_fix_position">Зафиксировать</label></div>\u000A    </div>\u000A    <div class="error-fix_aspect"></div>\u000A    <div class="line no_border clear">\u000A        <div class="fix_aspect"><input type="checkbox" name="fix_aspect" id="id_fix_aspect" /> <label for="id_fix_aspect">Пропорциональное изменение размера</label></div>\u000A    </div>\u000A</div>\u000A\u000A</div>\u000A<div id="props-form--advanced" class="lp-props-advanced">\u000A    \u000A<div class="prop_widget">\u000A    <h4>Чистый CSS</h4>\u000A    <div class="error-raw-css"></div>\u000A    <div class="line no_border raw_css">\u000A        <p class="help_text attention">\u000A            Внимание. Только для продвинутых пользователей. Мы не можем гарантировать правильность работы этой опции. Используйте на свой страх и риск. Просто введите стили CSS без фигурных скобок. Изменения будут применены после сохранения страницы.\u000A        </p>\u000A        <textarea id="id_raw_css" rows="10" cols="40" name="raw_css"></textarea>\u000A    </div>\u000A    <h4>ID якоря</h4>\u000A    <div class="line anchor_id no_border">\u000A        <input disabled="True" type="text" name="anchor_id" id="id_anchor_id" />\u000A    </div>\u000A    <h4>Z-index</h4>\u000A    <div class="error-z_index"></div>\u000A    <div class="line no_border">\u000A        <div class="label medium"><label>Z-index</label>:</div>\u000A        <div class="border_slider">slider here</div>\u000A        <div class="radius"><input step="1" name="z_index" rel="slider" min="10" max="250" type="text" id="id_z_index" value="100" /></div>\u000A    </div>\u000A</div>\u000A</div>');
+        
+    </script>
+    <script type="text/javascript">
+        window.CONTENT_FORMS = {};
+        window.CONTENT_FORMS['popup'] = $('#page-addpopup').hide();
+    </script>
+
+    <script src="//static.lpgenerator.ru/media/ckeditor-4.3.4/ckeditor.js"></script>
+    <script src="//feather.aviary.com/js/feather.js"></script>
+
+    <script type="text/javascript" src="//static.lpgenerator.ru/media/compiled/vendor.js?v=2015.10.10"></script>
+    <script type="text/javascript" src="//static.lpgenerator.ru/media/compiled/app.js?v=2015.10.10"></script>
+
+    <script type="text/javascript" src="//static.lpgenerator.ru/media/js/edit_blocks.js?v=2015.10.10"></script>
+    <script type="text/javascript" src="//static.lpgenerator.ru/media/js/edit_form.js?v=2015.10.10"></script>
+    <script type="text/javascript" src="//static.lpgenerator.ru/media/js/edit_util.js?v=2015.10.10"></script>
+
+    <script>
+        require('app/initialize');
+    </script>
+
+    </div>
+
+
+<script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","queueTime":0,"licenseKey":"50877fe041","agent":"js-agent.newrelic.com/nr-768.min.js","transactionName":"MgBaYkRXVhJQVBcLDgtKfkNYVUwIXllMAxEVFhZGV1FdEh9BCgcWFl9dUl9C","applicationID":"2997699","errorBeacon":"bam.nr-data.net","applicationTime":274}</script></body>
+</html>
